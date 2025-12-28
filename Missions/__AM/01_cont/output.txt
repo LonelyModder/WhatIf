@@ -1,0 +1,33 @@
+// export amer , you , rus , amer2 , arab ; starting begin amer := 1 ;
+   0: LD_ADDR_EXP 1
+   4: PUSH
+   5: LD_INT 1
+   7: ST_TO_ADDR
+// you := 2 ;
+   8: LD_ADDR_EXP 2
+  12: PUSH
+  13: LD_INT 2
+  15: ST_TO_ADDR
+// rus := 3 ;
+  16: LD_ADDR_EXP 3
+  20: PUSH
+  21: LD_INT 3
+  23: ST_TO_ADDR
+// amer2 := 4 ;
+  24: LD_ADDR_EXP 4
+  28: PUSH
+  29: LD_INT 4
+  31: ST_TO_ADDR
+// arab := 5 ;
+  32: LD_ADDR_EXP 5
+  36: PUSH
+  37: LD_INT 5
+  39: ST_TO_ADDR
+// end ; end_of_file
+  40: END
+// function american_base ; begin
+  41: LD_INT 0
+  43: PPUSH
+// end ;
+  44: LD_VAR 0 1
+  48: RET
