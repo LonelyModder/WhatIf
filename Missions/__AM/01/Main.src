@@ -1,4 +1,9 @@
 starting
 begin
    InGameOn;
+   PrepareHero;
+   PrepareBuildings;
+
+   CenterOnUnits(PeterVanHeuten);
+   InGameOff;
 end;

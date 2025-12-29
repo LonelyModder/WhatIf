@@ -1,23 +1,33 @@
-Export PeterVanHeuten;
+Export PeterVanHeuten,Roth,Simms;
 
 Export Function PrepareHero;
 begin
 
-    uc_nation := nation_american
-    uc_side := 1;
-    uc_direciont := 5;
+     PeterVanHeuten := NewCharacter('PeterVanHeuten');
+     Roth := NewCharacter('Roth');
+     Simms := NewCharacter('Simms');
 
-    hc_class := class_soldier;
-    hc_sex := sex_male;
-    hc_importance := 110;
-    hc_basic_skills := [4,2,3,1];
-    hc_skills := [4,2,3,1];
-    hc_name := 'Peter Van Heuten';
-    hc_gallery := 'MyGallery';
-    hc_face_number := 1;
+     PlaceUnitXY(PeterVanHeuten,51,41,false);
+     PlaceUnitXY(Simms,20,21,false);
+     PlaceUnitXY(Roth,24,25,false);
+end;
 
-    PeterVanHeuten := CreateHuman;
+Export Function PrepareBuildings;
+var armories,i,sol;
+begin
+     armories := FilterAllUnits([ [f_side,1],[f_btype,b_armoury]]);
+
+     for i=1 to armories do
+      begin
+          uc_side := 5;
+          uc_nation := 1;
+
+          PrepareSoldier(1,2);
+          sol := CreateHuman;
+          PlaceHumanInUnit(sol,armories[i]);
+      end;
 
 
-    PlaceUnitXY(PeterVanHeuten,51,41,false);
+
+
 end;
