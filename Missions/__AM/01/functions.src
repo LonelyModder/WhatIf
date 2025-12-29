@@ -1,23 +1,23 @@
-Export PVN;
+Export PeterVanHeuten;
 
 Export Function PrepareHero;
 begin
 
-    uc_nation:=nation_american
-    uc_side:=1;
-    uc_direciont:=5;
+    uc_nation := nation_american
+    uc_side := 1;
+    uc_direciont := 5;
 
-    hc_class:=class_soldier;
-    hc_sex:=sex_male;
-    hc_importance:=110;
-    hc_basic_skills:=[4,2,3,1];
-    hc_skills:=[4,2,3,1];
-    hc_name:='Peter Van Heuten';
-    hc_gallery:='MyGallery';
-    hc_face_number:=1;
+    hc_class := class_soldier;
+    hc_sex := sex_male;
+    hc_importance := 110;
+    hc_basic_skills := [4,2,3,1];
+    hc_skills := [4,2,3,1];
+    hc_name := 'Peter Van Heuten';
+    hc_gallery := 'MyGallery';
+    hc_face_number := 1;
 
-    PVN:=CreateHuman;
+    PeterVanHeuten := CreateHuman;
 
 
-    PlaceUnitXY(PVC,51,41,false);
+    PlaceUnitXY(PeterVanHeuten,51,41,false);
 end;
