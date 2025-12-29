@@ -1,5 +1,5 @@
 VARIABLES 0
-CHARACTERS 89
+CHARACTERS 88
   Abdul 1
     DEFINE
       NAME Abdul
@@ -1231,16 +1231,5 @@ CHARACTERS 89
       CHAR @ 20 0
       RANDSEED 0
       VOICE 2 GALLERY sandar 41
-    END_OF_DEFINE
-  PeterVanHeuten 1
-    DEFINE
-      NAME PeterVanHeuten
-      HUMAN 1 1 1
-      ATTR 12 10
-      SKILLS 4 15000 1 15000 2 15000 2 15000
-      LAST_MISSION 1
-      CHAR @ 100 0
-      RANDSEED 0
-      VOICE 1 GALLERY MyGallery 1
     END_OF_DEFINE
 END
