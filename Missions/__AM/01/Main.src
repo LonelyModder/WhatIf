@@ -5,5 +5,12 @@ begin
    PrepareBuildings;
 
    CenterOnUnits(VanHouten);
+   Wait(0$2);
+   Say(VanHouten,'DIntro-1');
+   Say(VanHouten,'DIntro-2');
+   SayRadio(Truman,'DIntro-3');
+   Say(VanHouten,'DIntro-4');
    InGameOff;
+   ChangeMissionObjectives('C1');
+   SaveForQuickRestart;
 end;
