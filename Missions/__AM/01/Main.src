@@ -4,6 +4,6 @@ begin
    PrepareHero;
    PrepareBuildings;
 
-   CenterOnUnits(PeterVanHeuten);
+   CenterOnUnits(VanHouten);
    InGameOff;
 end;

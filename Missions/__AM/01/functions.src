@@ -1,15 +1,17 @@
-Export PeterVanHeuten,Roth,Simms;
+Export VanHouten,Roth,Simms;
 
 Export Function PrepareHero;
 begin
 
-     PeterVanHeuten := NewCharacter('PeterVanHeuten');
+     uc_side := 1;
+     VanHouten := NewCharacter('VanHouten');
+     uc_side := 4;
      Roth := NewCharacter('Roth');
      Simms := NewCharacter('Simms');
 
-     PlaceUnitXY(PeterVanHeuten,51,41,false);
-     PlaceUnitXY(Simms,20,21,false);
-     PlaceUnitXY(Roth,24,25,false);
+     PlaceUnitXY(VanHouten,51,41,false);
+     PlaceUnitXY(Simms,19,20,false);
+     PlaceUnitXY(Roth,20,23,false);
 end;
 
 Export Function PrepareBuildings;
@@ -26,8 +28,5 @@ begin
           sol := CreateHuman;
           PlaceHumanInUnit(sol,armories[i]);
       end;
-
-
-
 
 end;

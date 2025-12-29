@@ -47,59 +47,59 @@ HEXES
   LINE 16 8 77
     t4r2vR t2r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR vR vR vR vR vR vRsP vU vRsT r6vPsj vPsL vPsL vPsL vPsL vPsL vPsL vPsL vPsL vPsL vPsL vMsT vLsb vLsW vLsW vLsW vMsO vPsG vR vR vR vR vR vR vR vR vR rBvQsChQ r5vPsChQ r5vPhQ rBvPsG vR vR vR vQs8 vQsG vSsX vWs9 vXsP va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
   LINE 17 9 78
-    t4r2vR t2r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vRS vRS vRS vRS vR vR vRsP vU r6vPsj vPsL vMsT vMsT vMsT vMsT vMsT vMsT vMsT vMsT vMsT vMsT vLsb vJsT vHsb vHsW vHsW vKsG vLsW r6vLsm vR vR vR vR vR vR vR rBvR rBvQsDhQ r5vPsChQ r5vPhQ rBvPsG vR vR vR vR vQs8 vQsP vTsP vWsP vZs9 va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+    t4r2vR t2r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR vR vR vR vR vR vRsP vU r6vPsj vPsL vMsT vMsT vMsT vMsT vMsT vMsT vMsT vMsT vMsT vMsT vLsb vJsT vHsb vHsW vHsW vKsG vLsW r6vLsm vR vR vR vR vR vR vR rBvR rBvQsDhQ r5vPsChQ r5vPhQ rBvPsG vR vR vR vR vQs8 vQsP vTsP vWsP vZs9 va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
   LINE 18 9 78
-    t4r2vR t2r2vR r2vR r2vR r2vR r2vRS r2vRS r2vRS r2vRS r2vRS r2vRS vRS vRS vRS vRS vRS vR vRsO r6vPsj vMsT vMsT r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr vHsb vFsb vEsT vEsO vGsW vHsW vKs8 r6vLsm vPsG vPsG vPsG vPsG vPsG vR rBvQsD r5vPsLhQ r5vPsDhQ r5vPhQ rBvPsH vR vR vR vR vQs8 vQs9 vRsf vWsP vZs9 va va va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+    t4r2vR t2r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR vR vR vR vR vR vR vRsO r6vPsj vMsT vMsT r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr vHsb vFsb vEsT vEsO vGsW vHsW vKs8 r6vLsm vPsG vPsG vPsG vPsG vPsG vR rBvQsD r5vPsLhQ r5vPsDhQ r5vPhQ rBvPsH vR vR vR vR vQs8 vQs9 vRsf vWsP vZs9 va va va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
   LINE 19 10 79
-    t4vR t2r2vR r2vR r2vR r2vRS r2vRS r2vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vR vPsL vMsT r6vGsr r6vGsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsm vFsG vDsb vBsb vBsO vCsW vDsW vGsW r6vHse vMsO vMsO vMsO vMsO vMsO vPsG rBvPsL r5vPsDhQ r5vOsDhQ r5vOs8hQ rBvPsH vR vR vR vR vR vQs9 vQsP vTsX vXsH vZs8 va va va va r2va r2va r2va r2va r2va t2r2va t4r2va
+    t4vR t2r2vR r2vR r2vR r2vR r2vR r2vR vR vR vR vR vR vR vR vR vR vR vPsL vMsT r6vGsr r6vGsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsm vFsG vDsb vBsb vBsO vCsW vDsW vGsW r6vHse vMsO vMsO vMsO vMsO vMsO vPsG rBvPsL r5vPsDhQ r5vOsDhQ r5vOs8hQ rBvPsH vR vR vR vR vR vQs9 vQsP vTsX vXsH vZs8 va va va va r2va r2va r2va r2va r2va t2r2va t4r2va
   LINE 20 10 79
-    t4vR t2vR vR vR vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vR vPsL vMsT r6vGsr r6vAsr r6vAsr r6v5sj r6v5sj r6v5sj r6v5sj r6v5sj r6v5sj r6v5sj r6v5se r6vAse r6v9sr v9sb v8sT v8sW v9sW vCsW vDsW r6vGsm r6vGsm r6vGsm r6vGsm r6vGsm vLsW vLsW r5vOs8hQ r5vOsDhQ r5vOhQ rBvOsP vR vR vR vR vR vQsC vQ vQsX vUsP vXsG vXsO vXsO vXsO vXsO r2vXsO r2va r2va r2va r2va t2r2va t4r2va
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR vPsL vMsT r6vGsr r6vAsr r6vAsr r6v5sj r6v5sj r6v5sj r6v5sj r6v5sj r6v5sj r6v5sj r6v5se r6vAse r6v9sr v9sb v8sT v8sW v9sW vCsW vDsW r6vGsm r6vGsm r6vGsm r6vGsm r6vGsm vLsW vLsW r5vOs8hQ r5vOsDhQ r5vOhQ rBvOsP vR vR vR vR vR vQsC vQ vQsX vUsP vXsG vXsO vXsO vXsO vXsO r2vXsO r2va r2va r2va r2va t2r2va t4r2va
   LINE 21 11 80
-    t4vR t2vR vR vR vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vPsK vMsT r6vGsr r6vAsr r6v5sj r6v5sj v2sT v2sT v2sT v2sT v2sT v2sT v2sO r6v5se r6v5se v6sO v7sL v7s8 v7sG v8sW v9sW r6vAsm r6vAsm r6vAsm r6vAsm r6vAsm r6vFsm vJsG rBvLsO r5vMsGhQ r5vNs8hV rBvOsH vQs9 vR vR vR vR vR vQsB vQsP vTsP vWs8 vX vX vWsD vWs8 vWs8 r2vXsO r2va r2va r2va r2va t2r2va t4r2va
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR vPsK vMsT r6vGsr r6vAsr r6v5sj r6v5sj v2sT v2sT v2sT v2sT v2sT v2sT v2sO r6v5se r6v5se v6sO v7sL v7s8 v7sG v8sW v9sW r6vAsm r6vAsm r6vAsm r6vAsm r6vAsm r6vFsm vJsG rBvLsO r5vMsGhQ r5vNs8hV rBvOsH vQs9 vR vR vR vRS vRS vQsBS vQsP vTsP vWs8 vX vX vWsD vWs8 vWs8 r2vXsO r2va r2va r2va r2va t2r2va t4r2va
   LINE 22 11 80
-    t4vR t2vR vR vR vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vPsK vMsS r6vGsq r6vAsq r6v5si r7v5 r7v2sT v2 v2 v2 v2 v2 v2 v2sO v2sO v5s8 v6s8 v6s8 v6s8 v5sO v5sW r6v5se r6v5se r6v5se r6v5se v7sO r6vAsf vFsX rBvJsG r5vKsGhN r5vLsGhN rBvNsH vPsH vR vR vR vR vR vR vRs9 vSsH vUsG vWs8 vWs8 vWsD vUsL vUsG r2vWs8 r2vXsO r2va r2va r2va t2r2va t4r2va
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR vPsK vMsS r6vGsq r6vAsq r6v5si r7v5 r7v2sT v2 v2 v2 v2 v2 v2 v2sO v2sO v5s8 v6s8 v6s8 v6s8 v5sO v5sW r6v5se r6v5se r6v5se r6v5se v7sO r6vAsf vFsX rBvJsG r5vKsGhN r5vLsGhN rBvNsH vPsH vR vRS vRS vRS vR vR vRs9 vSsH vUsG vWs8 vWs8 vWsD vUsL vUsG r2vWs8 r2vXsO r2va r2va r2va t2r2va t4r2va
   LINE 23 12 81
-    t4vR t2vR vR vR vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS r6vMsi r6vGsq r6vBsi r7v8sS r7v4sa r7v2sT v2 v2 v2 v2 v2 v2 v2 v2 v2sP v5s8 v5s8 v5s8 v4sL v4sD v2sT v2sO v5 v5 v5sH r6v7sn vDsX rBvHsG r5vIsGhK r5vJsGhM rBvLsG vNsG vPsG vR vR vR vR vR vR vRs8 vRsO vUsG vUsG vW vUsL vU vUsG r2vWs8 r2vXsO r2vXsO r2va r2va t2r2va t4r2va
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR r6vMsi r6vGsq r6vBsi r7v8sS r7v4sa r7v2sT v2 v2 v2 v2 v2 v2 v2 v2 v2sP v5s8 v5s8 v5s8 v4sL v4sD v2sT v2sO v5 v5 v5sH r6v7sn vDsX rBvHsG r5vIsGhK r5vJsGhM rBvLsG vNsG vPsG vRS vR vR vR vR vR vRs8 vRsO vUsG vUsG vW vUsL vU vUsG r2vWs8 r2vXsO r2vXsO r2va r2va t2r2va t4r2va
   LINE 24 12 81
-    t4vR t2vR vR vR vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS r6vMsi r6vGsq r6vBsi r7v8sS r7v4sa r7v2sK v2 v2 v2 v2 v2 v2 v2 v2 v2sH v4s8 v5 v5 v4sD v3sD v2sL v2 v2sO v3sG v5sH r6v7sn vDsH rBvFsG r5vGsGhI r5vHsGhK rBvIsO r6vIse vMsO vPsH vR vR vR vR vR vR vR vRsO vRsO vUsG vUsL vRsT vRsO r2vUsG r2vWs8 r2vWs8 r2vXsO r2va t2r2va t4r2va
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR r6vMsi r6vGsq r6vBsi r7v8sS r7v4sa r7v2sK v2 v2 v2 v2 v2 v2 v2 v2 v2sH v4s8 v5 v5 v4sD v3sD v2sL v2 v2sO v3sG v5sH r6v7sn vDsH rBvFsG r5vGsGhI r5vHsGhK rBvIsO r6vIse vMsO vPsHS vR vR vR vR vR vR vR vRsO vRsO vUsG vUsL vRsT vRsO r2vUsG r2vWs8 r2vWs8 r2vXsO r2va t2r2va t4r2va
   LINE 25 13 82
-    t4vR t2vR vR vR vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS vOsS r6vIsq r7vEsa r7vBsS r6v5sq r7v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2sG v3sG v4s8 v4sD v3sD v2sD v2 v2 v2s8 v3sH r6v5sn vBsH rBvDsG r5vEsGhH r5vFsGhI rBvFsO vFsO r6vGsm r6vMsf vR vR vR vR vR vR vR vR vR vRsO vRsO vRsT vR vRsO r2vUsG r2vUsG r2vWs8 r2vXsO r2vXsO t2r2vXsO t4r2va
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR vR vR vR vOsS r6vIsq r7vEsa r7vBsS r6v5sq r7v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2sG v3sG v4s8 v4sD v3sD v2sD v2 v2 v2s8 v3sH r6v5sn vBsH rBvDsG r5vEsGhH r5vFsGhI rBvFsO vFsO r6vGsm r6vMsf vRS vR vR vR vR vR vR vR vR vRsO vRsO vRsT vR vRsO r2vUsG r2vUsG r2vWs8 r2vXsO r2vXsO t2r2vXsO t4r2va
   LINE 26 13 82
-    t4vR t2vR vR vR vR vRS vRS vRS vRS vRS vRS vRS vRS vRS vRS r7vQsC r7vMsa r7vIsa r6vEsa r6v8sq r7v4sa v2sK v2 v2 v2 v2 v2 v2 v2 v2 v2 v2s8 v3s8 v3s8 v3sD v2sD v2 v2 v2 v2sP v5 v5sn rBvBsG r5vCsGhF r5vDsGhF rBvCsT r6vAsj r6vAsm r6vGsn r6vMsf vR vR vR vR vR vR vR vR vR vR vR vR vR r2vRsO r2vRsO r2vUsG r2vWs8 r2vWs8 t2r2vWs8 t4r2vXsO
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR vR vR vR r7vQsC r7vMsa r7vIsa r6vEsa r6v8sq r7v4sa v2sK v2 v2 v2 v2 v2 v2 v2 v2 v2 v2s8 v3s8 v3s8 v3sD v2sD v2 v2 v2 v2sP v5 v5sn rBvBsG r5vCsGhF r5vDsGhF rBvCsT r6vAsj r6vAsm r6vGsn r6vMsf vRS vR vR vR vR vR vR vR vR vR vR vR vR r2vRsO r2vRsO r2vUsG r2vWs8 r2vWs8 t2r2vWs8 t4r2vXsO
   LINE 27 14 83
-    t4vR t2vR vR vR vR vRS vRS vRS vRS vRS vRS vRS vRS vRS r7vPsL r7vNsS r7vLsK r6vGsi r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2s8 v2s8 v2s8 v2sD v2 v2 v2 v2sP v5 v5sP rBv8sO r5vAsGhE r5vBsGhE rBvCsD r6vAsL r6vA r6vAsn r6vGsn r6vMsf vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vRsO r2vUsG r2vUsG r2vUsG t2r2vWs8 t4r2vX
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR vR vR r7vPsL r7vNsS r7vLsK r6vGsi r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2s8 v2s8 v2s8 v2sD v2 v2 v2 v2sP v5 v5sP rBv8sO r5vAsGhE r5vBsGhE rBvCsD r6vAsL r6vA r6vAsn r6vGsn r6vMsf vRS vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vRsO r2vUsG r2vUsG r2vUsG t2r2vWs8 t4r2vX
   LINE 28 14 83
-    t4vR t2vR vR vR vR vR vR vR vR vRS vRS vRS vRS r7vQsDS r7vPsL r7vOsC r7vNsC r7vLsK r6vGsi r6vAsq r6v5si r6v2sS v2 v2 v2 v2fI v2 v2fG v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 r6v2sg v5sJ v5s8 rBv6sG r5v8sGhB r5v9sGhB rBvAsG v8sb v8sG r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vRsO r2vRsO r2vRsO t2r2vUsG t4r2vWs8
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR vR r7vQsD r7vPsL r7vOsC r7vNsC r7vLsK r6vGsi r6vAsq r6v5si r6v2sS v2 v2 v2 v2fI v2 v2fG v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 r6v2sg v5sJ v5s8 rBv6sG r5v8sGhB r5v9sGhB rBvAsG v8sb v8sG r6vAsn r6vGsn r6vMsP vPsHS vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vRsO r2vRsO r2vRsO t2r2vUsG t4r2vWs8
   LINE 29 15 84
-    t4vR t2vR vR vR vR vR vR vR vR vRS vRS vRS r7vQsC r7vPsC r7vOsC r7vO r7vMsK r6vGsq r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2f2 v2fG v2 v2 v2 v2 v2fG v2 v2 v2 v2 r6v2sf v7 v4sO rBv4sG r5v6sGh9 r5v8s8h9 rBv8sG v8sL v8 v8sH r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR r2vR r2vRsO t2r2vUsG t4r2vUsL
+    t4vR t2vR vR vR vR vR vR vR vR vR vR vR r7vQsC r7vPsC r7vOsC r7vO r7vMsK r6vGsq r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2f2 v2fG v2 v2 v2 v2 v2fG v2 v2 v2 v2 r6v2sf v7 v4sO rBv4sG r5v6sGh9 r5v8s8h9 rBv8sG v8sL v8 v8sH r6vAsn r6vGsn r6vMsP vPsHS vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR r2vR r2vRsO t2r2vUsG t4r2vUsL
   LINE 30 15 84
-    t4vRsY t2vRsZ vR vR vR vR vR vR vR vR vR vR vR r7vQsB r6vPsJ r7vOsB r6vMsS r6vGsq r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2fG v2 v2 v2 v2 v2 v2 v2fI v2 v2 v2 r6v2sf v7 v4sS v4 rBv4sG r5v6sGh7 r5v6sGh7 rBv5sT v5sTh4 r6v5sf r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR r2vR t2r2vRsO t4r2vRsO
+    t4vRsY t2vRsZ vR vR vR vR vR vR vR vR vR vR vR r7vQsB r6vPsJ r7vOsB r6vMsS r6vGsq r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2fG v2 v2 v2 v2 v2 v2 v2fI v2 v2 v2 r6v2sf v7 v4sS v4 rBv4sG r5v6sGh7 r5v6sGh7 rBv5sT v5sTh4 r6v5sf r6vAsn r6vGsn r6vMsP vPsH vRS vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR r2vR t2r2vRsO t4r2vRsO
   LINE 31 16 85
-    t4vV t2vRsZ vRsY vRsZ vRsZ vR vR vR vR vR vR vR vR vR r6vPsK r7vP r6vMsS r6vGsq r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2 v2 v2f2 v2 v2 v2 v2 r6v2sf v7 v4sS v4 r5v4sGh6 r5v4sGh6 rBv4sL v3sL v3sG r6v5sf r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR r2vR t2r2vR t4r2vR
+    t4vV t2vRsZ vRsY vRsZ vRsZ vR vR vR vR vR vR vR vR vR r6vPsK r7vP r6vMsS r6vGsq r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2 v2 v2f2 v2 v2 v2 v2 r6v2sf v7 v4sS v4 r5v4sGh6 r5v4sGh6 rBv4sL v3sL v3sG r6v5sf r6vAsn r6vGsn r6vMsP vPsH vRS vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR r2vR t2r2vR t4r2vR
   LINE 32 16 85
-    t4vRsX t2vV r6vVsg r6vVsg r6vVsh vRsZ vRsZ vR vR vR vR vR r6vPsL r6vPsL r6vPsL r6vMsT r6vMsT r6vGsq r6vAsq r6v5si r6v2sS v2 v2f2 v2 v2 v2 v2 v2 v2 v2fG v2 v2 v2 v2 v2 v2 v2 v2 r6v2se v7 v2sj rBv2sL r5v2sGh4 r5v2sGh4 rBv2sL v2s8 v3sH r6v5sf r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR t2r2vR t4r2vR
+    t4vRsX t2vV r6vVsg r6vVsg r6vVsh vRsZ vRsZ vR vR vR vR vR r6vPsL r6vPsL r6vPsL r6vMsT r6vMsT r6vGsq r6vAsq r6v5si r6v2sS v2 v2f2 v2 v2 v2 v2 v2 v2 v2fG v2 v2 v2 v2 v2 v2 v2 v2 r6v2se v7 v2sj rBv2sL r5v2sGh4 r5v2sGh4 rBv2sL v2s8 v3sH r6v5sf r6vAsn r6vGsn r6vMsP vPsHS vR vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR t2r2vR t4r2vR
   LINE 33 17 86
-    t4vRsX t2r6vVsf va va r6vVsi vV vRsa vR vR r6vPsL r6vPsL r6vPsL r6vMsT r6vMsT r6vMsT r6vGsr r6vGsr r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 r6v2se v2sj rBv1sD r5sLh2 r5sGh2 rBsG v1s8 v2sP r6v5sf r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vRfI vR vR vR vR vR vR vR r2vR t2r2vR t4r2vR
+    t4vRsX t2r6vVsf va va r6vVsi vV vRsa vR vR r6vPsL r6vPsL r6vPsL r6vMsT r6vMsT r6vMsT r6vGsr r6vGsr r6vAsq r6v5si r6v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 r6v2se v2sj rBv1sD r5sLh2 r5sGh2 rBsG v1s8 v2sP r6v5sf r6vAsn r6vGsn r6vMsP vPsH vRS vR vR vR vR vR vR vR vRfI vR vR vR vR vR vR vR r2vR t2r2vR t4r2vR
   LINE 34 17 86
-    t4vR t2vRsW r6vVse r6vVse r6vVsj r6vPsr r6vPsr r6vPsL r6vPsL r6vPsL r6vMsT r6vMsT r6vMsT r6vGsr r6vGsr r6vGsr r6vAsr r6vAsr r6vA r6v5si r6v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2 v2 v2 v2 v2 v2 v2 v1sC r5sCh2 r5h2 r5h2 rBs9 v1sXh2 v5s9 r6v6sX r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR t2r2vR t4vR
+    t4vR t2vRsW r6vVse r6vVse r6vVsj r6vPsr r6vPsr r6vPsL r6vPsL r6vPsL r6vMsT r6vMsT r6vMsT r6vGsr r6vGsr r6vGsr r6vAsr r6vAsr r6vA r6v5si r6v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2 v2 v2 v2 v2 v2 v2 v1sC r5sCh2 r5h2 r5h2 rBs9 v1sXh2 v5s9 r6v6sX r6vAsn r6vGsn r6vMsP vPsHS vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR t2r2vR t4vR
   LINE 35 18 87
-    t4r6vPsG t2r6vPsm r6vPsm r6vPsm r6vPsr r6vMsT r6vMsT r6vMsT r6vMsT r6vMsT r6vGsr r6vGsr r6vGsr r6vAsr r6vAsr r6vAsr r6v5sj r6v5sj r6v5sj r6v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v1sC r5sCh2 r5h2 r5h2 rBs9 v1sXh2 v5s9 v6 r6v6sW r6vAsm r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR t2vR t4vR
+    t4r6vPsG t2r6vPsm r6vPsm r6vPsm r6vPsr r6vMsT r6vMsT r6vMsT r6vMsT r6vMsT r6vGsr r6vGsr r6vGsr r6vAsr r6vAsr r6vAsr r6v5sj r6v5sj r6v5sj r6v2sS v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v1sC r5sCh2 r5h2 r5h2 rBs9 v1sXh2 v5s9 v6 r6v6sW r6vAsm r6vGsn r6vMsP vPsHS vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR t2vR t4vR
   LINE 36 18 87
-    t4r6vMsO t2r6vMsO r6vMsO r6vMsO r6vMsO r6vMsT r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vAsr r6vAsr r6vAsr r6v5sj r6v5sj r6v5sj r6v2sT r6v2sT r6v2sT v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2f2 v2fI v2 v2 v2 rBv1sC r5sCh2 r5h2 rBs9 v1s9 v2sO v2sW v2sW r6v5se r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR t2vR t4vR
+    t4r6vMsO t2r6vMsO r6vMsO r6vMsO r6vMsO r6vMsT r6vGsr r6vGsr r6vGsr r6vGsr r6vGsr r6vAsr r6vAsr r6vAsr r6v5sj r6v5sj r6v5sj r6v2sT r6v2sT r6v2sT v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2f2 v2fI v2 v2 v2 rBv1sC r5sCh2 r5h2 rBs9 v1s9 v2sO v2sW v2sW r6v5se r6vAsn r6vGsn r6vMsP vPsHS vR vR vR vR vR vR vR vR vR vR vR vR vR vR vR t2vR t4vR
   LINE 37 19 88
-    t4r6vGsm t2r6vGsm r6vGsm r6vGsm r6vGsm r6vGsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6v5sj r6v5sj r6v5sj r6v2sT r6v2sT r6v2sT v2 v2 v2 v2 v2fI v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2f2 v2fI v2 v2 v2 rBv1sC r5sCh2 r5h2 r5s9h2 rBv1s9 v2 v2 v2 r6v2sP r6v5sf r6vAsn r6vGsn r6vMsP vPsG vPsG vR vR vR vR vR vR vR vR vR vR vR vR vR vR t2vR t4vR
+    t4r6vGsm t2r6vGsm r6vGsm r6vGsm r6vGsm r6vGsr r6vAsr r6vAsr r6vAsr r6vAsr r6vAsr r6v5sj r6v5sj r6v5sj r6v2sT r6v2sT r6v2sT v2 v2 v2 v2 v2fI v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2f2 v2fI v2 v2 v2 rBv1sC r5sCh2 r5h2 r5s9h2 rBv1s9 v2 v2 v2 r6v2sP r6v5sf r6vAsn r6vGsn r6vMsP vPsGS vPsG vR vR vR vR vR vR vR vR vR vR vR vR vR vR t2vR t4vR
   LINE 38 19 88
-    t4r6vAsm t2r6vAsm r6vAsm r6vAsm r6vAsm r6vAsm r6vAsr r6v5sj r6v5sj r6v5sj r6v5sj r6v5sj r6v2sT r6v2sT r6v2sT v2 v2 v2 v2 v2 v2 v2fI v2fI v2 v2f2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2 v2 v2 r5v1sCh2 r5sCh2 r5s9h2 rBv1s9 v2 v2 v2 r6v2sP r6v5sf r6vAsn r6vG r6vGsm r7vMsO r7vMsO r7vPsG vPsG vPsG vR vR vR vR vR vR vR vR vR vR vR t2vR t4vR
+    t4r6vAsm t2r6vAsm r6vAsm r6vAsm r6vAsm r6vAsm r6vAsr r6v5sj r6v5sj r6v5sj r6v5sj r6v5sj r6v2sT r6v2sT r6v2sT v2 v2 v2 v2 v2 v2 v2fI v2fI v2 v2f2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2 v2 v2 r5v1sCh2 r5sCh2 r5s9h2 rBv1s9 v2 v2 v2 r6v2sP r6v5sf r6vAsn r6vG r6vGsm r7vMsO r7vMsOS r7vPsGS vPsGS vPsGS vR vR vR vR vR vR vR vR vR vR vR t2vR t4vR
   LINE 39 20 89
-    t4r6v5se t2r6v5se r6v5se r6v5se r6v5se r6v5se r6v5sj r6v2sT r6v2sT r6v2sT r6v2sT r6v2sT v2 v2 v2 v2 v2 v2 v2 v2 v2fI v2 v2 v2 v2f2 v2 v2 v2f2 v2 v2 v2 v2 v2 v2 v2 v2fG v2 v2 v2 rBv1sC r5sCh2 r5h2 r5s9h2 v1s9 v2 v2 v2 r6v2sP r6v5sf r6vAsm r6vAsm r6vGsm r7vIsW r7vMsO r7vMsO r6vMsO vPsG vPsG vPsG vR vR vR vR vR vR vR vR vR t2vR t4vR
+    t4r6v5se t2r6v5se r6v5se r6v5se r6v5se r6v5se r6v5sj r6v2sT r6v2sT r6v2sT r6v2sT r6v2sT v2 v2 v2 v2 v2 v2 v2 v2 v2fI v2 v2 v2 v2f2 v2 v2 v2f2 v2 v2 v2 v2 v2 v2 v2 v2fG v2 v2 v2 rBv1sC r5sCh2 r5h2 r5s9h2 v1s9 v2 v2 v2 r6v2sP r6v5sf r6vAsm r6vAsm r6vGsm r7vIsW r7vMsO r7vMsO r6vMsO vPsGS vPsGS vPsGS vR vR vR vR vR vR vR vR vR t2vR t4vR
   LINE 40 20 89
-    t4r6v2sO t2r6v2sO r6v2sO r6v2sO r6v2sO r6v2sO r6v2sO r6v2sT v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2f2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 r5v1sCh2 r5sCh2 r5s9h2 v1s9 v2 v2 v2 v2 r6v2sO r6v5se r6v5se r6vAsm r7vEsW r7vIsW r6vGsr r6vGsm r6vMsO r6vMsO r6vMsO vPsG vPsG vPsG vR vR vR vR vR vR t2vR t4vR
+    t4r6v2sO t2r6v2sO r6v2sO r6v2sO r6v2sO r6v2sO r6v2sO r6v2sT v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2f2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 r5v1sCh2 r5sCh2 r5s9h2 v1s9 v2 v2 v2 v2 r6v2sO r6v5se r6v5se r6vAsm r7vEsW r7vIsW r6vGsr r6vGsm r6vMsO r6vMsO r6vMsO vPsGS vPsGS vPsGS vR vR vR vR vR vR t2vR t4vR
   LINE 41 21 90
-    t4v2 t2v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fI v2 v2 v2f2 v2f2 v2 v2f2 v2 v2 v2f2 v2 v2 v2 v2 v2 v2 rBv1sC r5sCh2 r5h2 rBs9 v1s9 v2 v2 v2 v2 r6v2sO r6v2sO r6v5se r7vAsW r7vEsW r6vCsr r6vCsW r6vGsm r6vGsm r6vGsm r6vMsO r6vMsO r6vMsO vPsG r7vPsG vR vR vR vR vR t2vR t4vR
+    t4v2 t2v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fI v2 v2 v2f2 v2f2 v2 v2f2 v2 v2 v2f2 v2 v2 v2 v2 v2 v2 rBv1sC r5sCh2 r5h2 rBs9 v1s9 v2 v2 v2 v2 r6v2sO r6v2sO r6v5se r7vAsW r7vEsW r6vCsr r6vCsW r6vGsm r6vGsm r6vGsm r6vMsO r6vMsO r6vMsO vPsGS r7vPsG vR vR vR vR vR t2vR t4vR
   LINE 42 21 90
-    t4v2 t2v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2 v2 v2 v2fI v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 r5v1sCh2 r5sBh2 r5sAh2 v1s9 v2 v2 v2 v2 v2 v2 r6v2sO r6v5sf r7vAsW r6v8sr r6v8sW r6vAsm r6vAsm r6vAsm r6vGsm r6vGsm r6vGsm r7vMsO r7vMsO vPsG vR vR vR vR t2vR t4vR
+    t4v2 t2v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2 v2 v2 v2fI v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 r5v1sCh2 r5sBh2 r5sAh2 v1s9 v2 v2 v2 v2 v2 v2 r6v2sO r6v5sf r7vAsW r6v8sr r6v8sW r6vAsm r6vAsm r6vAsm r6vGsm r6vGsm r6vGsm r7vMsO r7vMsOS vPsGS vR vR vR vR t2vR t4vR
   LINE 43 22 91
-    t4v2 t2v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fI v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 rBv1sC r5v1h2 r5v1h2 rBv1s9 v2 v2 v2 v2 v2 v2 v2 r7v2sX r7v6sW r6v4sr r6v4sW r6v5se r6v5se r6v5se r6vAsm r6vAsm r6vAsm r6vGsm r7vIsW r7vMsO vPsG vPsG vPsG vR vR t2vR t4vR
+    t4v2 t2v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fI v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 rBv1sC r5v1h2 r5v1h2 rBv1s9 v2 v2 v2 v2 v2 v2 v2 r7v2sX r7v6sW r6v4sr r6v4sW r6v5se r6v5se r6v5se r6vAsm r6vAsm r6vAsm r6vGsm r7vIsW r7vMsO vPsGS vPsG vPsG vR vR t2vR t4vR
   LINE 44 22 91
     t4v2 t2v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fI v2 v2 v2fI v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 r4v1sCh2 r5v1h2 r5v1h2 v1s9 v2 v2 v2 v2 v2 v2 v2 r7v2sW r7v2sb v2sG r6v2sO r6v2sO r6v2sO r6v5se r6v5se r6v5se r6vAsm r7vEsW r6vGsm r6vMsO r6vMsO r6vMsO vPsG vR t2vR t4vR
   LINE 45 23 92
@@ -1286,15 +1286,15 @@ END_OF_BASES
 RANDOMS
   MICROLOGIC 2 0 1
   RANDOM_SEED 1 805652794
-  RANDOM_SEED 2 1671229103
-  RANDOM_SEED 3 -1060807591
+  RANDOM_SEED 2 1588734749
+  RANDOM_SEED 3 1590485591
   RANDOM_SEED 4 898151057
   RANDOM_SEED 5 -18222789
   RANDOM_SEED 6 1882865670
   RANDOM_SEED 7 -1515174943
   RANDOM_SEED 8 1751026996
   RANDOM_SEED 9 -1051396069
-  RANDOM_SEED 10 -159058494
+  RANDOM_SEED 10 -1180362682
   RANDOM_SEED 11 -443074555
   RANDOM_SEED 12 911650
   RANDOM_SEED 13 364498371
@@ -1527,7 +1527,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW 190 196 1540 780 1
+  VIEW 462 384 1540 780 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -1557,7 +1557,7 @@ END_OF_DEBRIEFING
 
 AREAS
   ACTIVE 3
-  LAST 11
+  LAST 13
   AREA 1
     NAME #SND#potok\potucek.wav
     COLOR FF4013
@@ -1611,50 +1611,53 @@ AREAS
     ---------
     --------+
   AREA 2
-    NAME Area10
-    COLOR 99E3FF
+    NAME Area12
+    COLOR FFE4B9
     VISIBLE
     SHORTCUT 1
-    LINES 65 24 22 20
-    -++++++---------------
-    -+++++++++------------
-    ++++++++++++----------
-    +++++++++++++---------
-    ++++++++++++++--------
-    ++++++++++++++--------
-    -++++++++++++++-------
-    --++++++++++++++------
-    --+++++++++++++++-----
-    ---++++++++++++++-----
-    ----++++++++++++++----
-    ----++++++++++++++----
-    -----++++++++++++++---
-    ------+++++++++++++---
-    -------+++++++++++++--
-    --------++-+++++++++--
-    --------------+++++++-
-    ----------------+++++-
-    -----------------++++-
-    -------------------+++
+    LINES 26 17 6 13
+    +-----
+    ++----
+    +++---
+    +++---
+    +++---
+    ++----
+    ++----
+    ++-+--
+    -+-++-
+    -++++-
+    --++++
+    ---+++
+    ----+-
   AREA 3
-    NAME Area11
-    COLOR 53FFD8
+    NAME Area13
+    COLOR 33FFD8
     VISIBLE
     SHORTCUT 3
-    LINES 14 17 14 13
-    -----++++-----
-    +++++++++++---
-    ++++++++++++--
-    ++++++++++++--
-    -++++++++++++-
-    -++++++++++++-
-    --++++++++++++
-    --++++++++++++
-    ---+++++++++++
-    ----++++++++++
-    -----+++++++++
-    ---------+++++
-    ----------+++-
+    LINES 61 21 25 23
+    --+++--------------------
+    +++----------------------
+    +------------------------
+    +------------------------
+    -+-----------------------
+    --+----------------------
+    ---+---------------------
+    ---+---------------------
+    ----+--------------------
+    -----+-------------------
+    ------+------------------
+    ------+------------------
+    -------+-----------------
+    -------+-----------------
+    --------+----------------
+    ---------+---------------
+    ----------+--------------
+    -----------++++----------
+    ---------------+++-------
+    ------------------+++----
+    ---------------------+---
+    ----------------------++-
+    ------------------------+
 END_OF_AREAS
 
 SEXTRA

@@ -3,8 +3,8 @@
 // PrepareHero ;
    4: CALL 26 0 0
 // PrepareBuildings ;
-   8: CALL 127 0 0
-// CenterOnUnits ( PeterVanHeuten ) ;
+   8: CALL 143 0 0
+// CenterOnUnits ( VanHouten ) ;
   12: LD_EXP 1
   16: PPUSH
   17: CALL_OW 85
@@ -12,139 +12,149 @@
   21: CALL_OW 9
 // end ; end_of_file
   25: END
-// export PeterVanHeuten , Roth , Simms ; export function PrepareHero ; begin
+// export VanHouten , Roth , Simms ; export function PrepareHero ; begin
   26: LD_INT 0
   28: PPUSH
-// PeterVanHeuten := NewCharacter ( PeterVanHeuten ) ;
-  29: LD_ADDR_EXP 1
+// uc_side := 1 ;
+  29: LD_ADDR_OWVAR 20
   33: PUSH
-  34: LD_STRING PeterVanHeuten
-  36: PPUSH
-  37: CALL_OW 25
-  41: ST_TO_ADDR
+  34: LD_INT 1
+  36: ST_TO_ADDR
+// VanHouten := NewCharacter ( VanHouten ) ;
+  37: LD_ADDR_EXP 1
+  41: PUSH
+  42: LD_STRING VanHouten
+  44: PPUSH
+  45: CALL_OW 25
+  49: ST_TO_ADDR
+// uc_side := 4 ;
+  50: LD_ADDR_OWVAR 20
+  54: PUSH
+  55: LD_INT 4
+  57: ST_TO_ADDR
 // Roth := NewCharacter ( Roth ) ;
-  42: LD_ADDR_EXP 2
-  46: PUSH
-  47: LD_STRING Roth
-  49: PPUSH
-  50: CALL_OW 25
-  54: ST_TO_ADDR
+  58: LD_ADDR_EXP 2
+  62: PUSH
+  63: LD_STRING Roth
+  65: PPUSH
+  66: CALL_OW 25
+  70: ST_TO_ADDR
 // Simms := NewCharacter ( Simms ) ;
-  55: LD_ADDR_EXP 3
-  59: PUSH
-  60: LD_STRING Simms
-  62: PPUSH
-  63: CALL_OW 25
-  67: ST_TO_ADDR
-// PlaceUnitXY ( PeterVanHeuten , 51 , 41 , false ) ;
-  68: LD_EXP 1
-  72: PPUSH
-  73: LD_INT 51
-  75: PPUSH
-  76: LD_INT 41
+  71: LD_ADDR_EXP 3
+  75: PUSH
+  76: LD_STRING Simms
   78: PPUSH
-  79: LD_INT 0
-  81: PPUSH
-  82: CALL_OW 48
-// PlaceUnitXY ( Simms , 20 , 21 , false ) ;
-  86: LD_EXP 3
-  90: PPUSH
-  91: LD_INT 20
-  93: PPUSH
-  94: LD_INT 21
-  96: PPUSH
-  97: LD_INT 0
-  99: PPUSH
- 100: CALL_OW 48
-// PlaceUnitXY ( Roth , 24 , 25 , false ) ;
- 104: LD_EXP 2
- 108: PPUSH
- 109: LD_INT 24
- 111: PPUSH
- 112: LD_INT 25
- 114: PPUSH
- 115: LD_INT 0
- 117: PPUSH
- 118: CALL_OW 48
-// end ;
- 122: LD_VAR 0 1
- 126: RET
-// export function PrepareBuildings ; var armories , i , sol ; begin
- 127: LD_INT 0
- 129: PPUSH
+  79: CALL_OW 25
+  83: ST_TO_ADDR
+// PlaceUnitXY ( VanHouten , 51 , 41 , false ) ;
+  84: LD_EXP 1
+  88: PPUSH
+  89: LD_INT 51
+  91: PPUSH
+  92: LD_INT 41
+  94: PPUSH
+  95: LD_INT 0
+  97: PPUSH
+  98: CALL_OW 48
+// PlaceUnitXY ( Simms , 19 , 20 , false ) ;
+ 102: LD_EXP 3
+ 106: PPUSH
+ 107: LD_INT 19
+ 109: PPUSH
+ 110: LD_INT 20
+ 112: PPUSH
+ 113: LD_INT 0
+ 115: PPUSH
+ 116: CALL_OW 48
+// PlaceUnitXY ( Roth , 20 , 23 , false ) ;
+ 120: LD_EXP 2
+ 124: PPUSH
+ 125: LD_INT 20
+ 127: PPUSH
+ 128: LD_INT 23
  130: PPUSH
- 131: PPUSH
- 132: PPUSH
+ 131: LD_INT 0
+ 133: PPUSH
+ 134: CALL_OW 48
+// end ;
+ 138: LD_VAR 0 1
+ 142: RET
+// export function PrepareBuildings ; var armories , i , sol ; begin
+ 143: LD_INT 0
+ 145: PPUSH
+ 146: PPUSH
+ 147: PPUSH
+ 148: PPUSH
 // armories := FilterAllUnits ( [ [ f_side , 1 ] , [ f_btype , b_armoury ] ] ) ;
- 133: LD_ADDR_VAR 0 2
- 137: PUSH
- 138: LD_INT 22
- 140: PUSH
- 141: LD_INT 1
- 143: PUSH
- 144: EMPTY
- 145: LIST
- 146: LIST
- 147: PUSH
- 148: LD_INT 30
- 150: PUSH
- 151: LD_INT 4
+ 149: LD_ADDR_VAR 0 2
  153: PUSH
- 154: EMPTY
- 155: LIST
- 156: LIST
- 157: PUSH
- 158: EMPTY
- 159: LIST
- 160: LIST
- 161: PPUSH
- 162: CALL_OW 69
- 166: ST_TO_ADDR
+ 154: LD_INT 22
+ 156: PUSH
+ 157: LD_INT 1
+ 159: PUSH
+ 160: EMPTY
+ 161: LIST
+ 162: LIST
+ 163: PUSH
+ 164: LD_INT 30
+ 166: PUSH
+ 167: LD_INT 4
+ 169: PUSH
+ 170: EMPTY
+ 171: LIST
+ 172: LIST
+ 173: PUSH
+ 174: EMPTY
+ 175: LIST
+ 176: LIST
+ 177: PPUSH
+ 178: CALL_OW 69
+ 182: ST_TO_ADDR
 // for i = 1 to armories do
- 167: LD_ADDR_VAR 0 3
- 171: PUSH
- 172: DOUBLE
- 173: LD_INT 1
- 175: DEC
- 176: ST_TO_ADDR
- 177: LD_VAR 0 2
- 181: PUSH
- 182: FOR_TO
- 183: IFFALSE 243
-// begin uc_side := 5 ;
- 185: LD_ADDR_OWVAR 20
- 189: PUSH
- 190: LD_INT 5
+ 183: LD_ADDR_VAR 0 3
+ 187: PUSH
+ 188: DOUBLE
+ 189: LD_INT 1
+ 191: DEC
  192: ST_TO_ADDR
-// uc_nation := 1 ;
- 193: LD_ADDR_OWVAR 21
+ 193: LD_VAR 0 2
  197: PUSH
- 198: LD_INT 1
- 200: ST_TO_ADDR
+ 198: FOR_TO
+ 199: IFFALSE 259
+// begin uc_side := 5 ;
+ 201: LD_ADDR_OWVAR 20
+ 205: PUSH
+ 206: LD_INT 5
+ 208: ST_TO_ADDR
+// uc_nation := 1 ;
+ 209: LD_ADDR_OWVAR 21
+ 213: PUSH
+ 214: LD_INT 1
+ 216: ST_TO_ADDR
 // PrepareSoldier ( 1 , 2 ) ;
- 201: LD_INT 1
- 203: PPUSH
- 204: LD_INT 2
- 206: PPUSH
- 207: CALL_OW 381
+ 217: LD_INT 1
+ 219: PPUSH
+ 220: LD_INT 2
+ 222: PPUSH
+ 223: CALL_OW 381
 // sol := CreateHuman ;
- 211: LD_ADDR_VAR 0 4
- 215: PUSH
- 216: CALL_OW 44
- 220: ST_TO_ADDR
+ 227: LD_ADDR_VAR 0 4
+ 231: PUSH
+ 232: CALL_OW 44
+ 236: ST_TO_ADDR
 // PlaceHumanInUnit ( sol , armories [ i ] ) ;
- 221: LD_VAR 0 4
- 225: PPUSH
- 226: LD_VAR 0 2
- 230: PUSH
- 231: LD_VAR 0 3
- 235: ARRAY
- 236: PPUSH
- 237: CALL_OW 52
+ 237: LD_VAR 0 4
+ 241: PPUSH
+ 242: LD_VAR 0 2
+ 246: PUSH
+ 247: LD_VAR 0 3
+ 251: ARRAY
+ 252: PPUSH
+ 253: CALL_OW 52
 // end ;
- 241: GO 182
- 243: POP
- 244: POP
+ 257: GO 198
+ 259: POP
+ 260: POP
 // end ;
- 245: LD_VAR 0 1
- 249: RET
+ 261: LD_VAR 0 1
+ 265: RET
