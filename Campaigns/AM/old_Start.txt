@@ -1,5 +1,5 @@
 VARIABLES 0
-CHARACTERS 88
+CHARACTERS 90
   Abdul 1
     DEFINE
       NAME Abdul
@@ -1050,7 +1050,7 @@ CHARACTERS 88
       NAME Yamoko
       HUMAN 2 1 1
       ATTR 9 12
-      SKILLS 2 151050 0 92910 2 63600 0 50760
+      SKILLS 3 15000 0 15000 2 15000 0 15000
       LAST_MISSION 7
       CHAR @ 30 0
       RANDSEED 0
@@ -1231,5 +1231,27 @@ CHARACTERS 88
       CHAR @ 20 0
       RANDSEED 0
       VOICE 2 GALLERY sandar 41
+    END_OF_DEFINE
+  JohnAdams 1
+    DEFINE
+      NAME JohnAdams
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 2 15000 0 15000 1 15000 0 15000
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY E3galery 5
+    END_OF_DEFINE
+  DougIrons 1
+    DEFINE
+      NAME DougIrons
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 3 15000 1 15000 0 15000 0 15000
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY E3galery 7
     END_OF_DEFINE
 END

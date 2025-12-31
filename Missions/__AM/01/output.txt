@@ -1,228 +1,504 @@
-// starting begin InGameOn ;
-   0: CALL_OW 8
+// var budovy ; starting begin budovy = [ depot1 , depot2 , depot3 , lab1 , arm1 , arm2 , eon ] ;
+   0: LD_ADDR_LOC 1
+   4: PUSH
+   5: LD_INT 9
+   7: PUSH
+   8: LD_INT 10
+  10: PUSH
+  11: LD_INT 11
+  13: PUSH
+  14: LD_INT 8
+  16: PUSH
+  17: LD_INT 12
+  19: PUSH
+  20: LD_INT 13
+  22: PUSH
+  23: LD_INT 14
+  25: PUSH
+  26: EMPTY
+  27: LIST
+  28: LIST
+  29: LIST
+  30: LIST
+  31: LIST
+  32: LIST
+  33: LIST
+  34: ST_TO_ADDR
+// InGameOn ;
+  35: CALL_OW 8
 // PrepareHero ;
-   4: CALL 92 0 0
+  39: CALL 588 0 0
 // PrepareBuildings ;
-   8: CALL 271 0 0
+  43: CALL 767 0 0
 // CenterOnUnits ( VanHouten ) ;
-  12: LD_EXP 1
-  16: PPUSH
-  17: CALL_OW 85
+  47: LD_EXP 1
+  51: PPUSH
+  52: CALL_OW 85
 // Wait ( 0 0$2 ) ;
-  21: LD_INT 70
-  23: PPUSH
-  24: CALL_OW 67
-// Say ( VanHouten , DIntro-1 ) ;
-  28: LD_EXP 1
-  32: PPUSH
-  33: LD_STRING DIntro-1
-  35: PPUSH
-  36: CALL_OW 88
-// Say ( VanHouten , DIntro-2 ) ;
-  40: LD_EXP 1
-  44: PPUSH
-  45: LD_STRING DIntro-2
-  47: PPUSH
-  48: CALL_OW 88
-// SayRadio ( Truman , DIntro-3 ) ;
-  52: LD_EXP 5
-  56: PPUSH
-  57: LD_STRING DIntro-3
-  59: PPUSH
-  60: CALL_OW 94
-// Say ( VanHouten , DIntro-4 ) ;
-  64: LD_EXP 1
-  68: PPUSH
-  69: LD_STRING DIntro-4
-  71: PPUSH
-  72: CALL_OW 88
-// InGameOff ;
-  76: CALL_OW 9
-// ChangeMissionObjectives ( C1 ) ;
-  80: LD_STRING C1
+  56: LD_INT 70
+  58: PPUSH
+  59: CALL_OW 67
+// Say ( VanHouten , M1Intro-1 ) ;
+  63: LD_EXP 1
+  67: PPUSH
+  68: LD_STRING M1Intro-1
+  70: PPUSH
+  71: CALL_OW 88
+// Say ( VanHouten , M1Intro-2 ) ;
+  75: LD_EXP 1
+  79: PPUSH
+  80: LD_STRING M1Intro-2
   82: PPUSH
-  83: CALL_OW 337
-// SaveForQuickRestart ;
-  87: CALL_OW 22
-// end ; end_of_file
-  91: END
-// export VanHouten , Roth , Simms , Joan , Truman ; export function PrepareHero ; begin
-  92: LD_INT 0
+  83: CALL_OW 88
+// SayRadio ( Truman , M1Intro-3 ) ;
+  87: LD_EXP 5
+  91: PPUSH
+  92: LD_STRING M1Intro-3
   94: PPUSH
-// uc_side := 1 ;
-  95: LD_ADDR_OWVAR 20
-  99: PUSH
- 100: LD_INT 1
- 102: ST_TO_ADDR
-// VanHouten := NewCharacter ( VanHouten ) ;
- 103: LD_ADDR_EXP 1
- 107: PUSH
- 108: LD_STRING VanHouten
- 110: PPUSH
- 111: CALL_OW 25
- 115: ST_TO_ADDR
-// uc_side := 4 ;
- 116: LD_ADDR_OWVAR 20
- 120: PUSH
- 121: LD_INT 4
- 123: ST_TO_ADDR
-// Roth := NewCharacter ( Roth ) ;
- 124: LD_ADDR_EXP 2
- 128: PUSH
- 129: LD_STRING Roth
+  95: CALL_OW 94
+// Say ( VanHouten , M1Intro-4 ) ;
+  99: LD_EXP 1
+ 103: PPUSH
+ 104: LD_STRING M1Intro-4
+ 106: PPUSH
+ 107: CALL_OW 88
+// InGameOff ;
+ 111: CALL_OW 9
+// ChangeMissionObjectives ( C1 ) ;
+ 115: LD_STRING C1
+ 117: PPUSH
+ 118: CALL_OW 337
+// SaveForQuickRestart ;
+ 122: CALL_OW 22
+// end ;
+ 126: END
+// every 0 0$1 trigger GetDistUnits ( VanHouten , Simms ) < 10 and GetDistUnits ( Truman , Simms ) > 50 do
+ 127: LD_EXP 1
  131: PPUSH
- 132: CALL_OW 25
- 136: ST_TO_ADDR
-// Simms := NewCharacter ( Simms ) ;
- 137: LD_ADDR_EXP 3
+ 132: LD_EXP 3
+ 136: PPUSH
+ 137: CALL_OW 296
  141: PUSH
- 142: LD_STRING Simms
- 144: PPUSH
- 145: CALL_OW 25
- 149: ST_TO_ADDR
-// Joan := NewCharacter ( Joan ) ;
- 150: LD_ADDR_EXP 4
- 154: PUSH
- 155: LD_STRING Joan
+ 142: LD_INT 10
+ 144: LESS
+ 145: IFFALSE 167
+ 147: PUSH
+ 148: LD_EXP 5
+ 152: PPUSH
+ 153: LD_EXP 3
  157: PPUSH
- 158: CALL_OW 25
- 162: ST_TO_ADDR
-// Truman := NewCharacter ( Truman ) ;
- 163: LD_ADDR_EXP 5
- 167: PUSH
- 168: LD_STRING Truman
- 170: PPUSH
- 171: CALL_OW 25
- 175: ST_TO_ADDR
-// PlaceUnitXY ( VanHouten , 51 , 41 , false ) ;
- 176: LD_EXP 1
+ 158: CALL_OW 296
+ 162: PUSH
+ 163: LD_INT 50
+ 165: GREATER
+ 166: AND
+ 167: IFFALSE 414
+ 169: GO 171
+ 171: DISABLE
+// begin InGameOn ;
+ 172: CALL_OW 8
+// Say ( Roth , M1Simms-1 ) ;
+ 176: LD_EXP 2
  180: PPUSH
- 181: LD_INT 51
+ 181: LD_STRING M1Simms-1
  183: PPUSH
- 184: LD_INT 41
- 186: PPUSH
- 187: LD_INT 0
- 189: PPUSH
- 190: CALL_OW 48
-// PlaceUnitXY ( Simms , 19 , 20 , false ) ;
- 194: LD_EXP 3
- 198: PPUSH
- 199: LD_INT 19
- 201: PPUSH
- 202: LD_INT 20
+ 184: CALL_OW 88
+// Say ( Simms , M1Simms-2 ) ;
+ 188: LD_EXP 3
+ 192: PPUSH
+ 193: LD_STRING M1Simms-2
+ 195: PPUSH
+ 196: CALL_OW 88
+// Say ( Roth , M1Simms-3 ) ;
+ 200: LD_EXP 2
  204: PPUSH
- 205: LD_INT 0
+ 205: LD_STRING M1Simms-3
  207: PPUSH
- 208: CALL_OW 48
-// PlaceUnitXY ( Roth , 20 , 23 , false ) ;
- 212: LD_EXP 2
+ 208: CALL_OW 88
+// Say ( Simms , M1Simms-4 ) ;
+ 212: LD_EXP 3
  216: PPUSH
- 217: LD_INT 20
+ 217: LD_STRING M1Simms-4
  219: PPUSH
- 220: LD_INT 23
- 222: PPUSH
- 223: LD_INT 0
- 225: PPUSH
- 226: CALL_OW 48
-// PlaceUnitXY ( Joan , 77 , 35 , false ) ;
- 230: LD_EXP 4
- 234: PPUSH
- 235: LD_INT 77
- 237: PPUSH
- 238: LD_INT 35
+ 220: CALL_OW 88
+// Say ( Roth , M1Simms-5 ) ;
+ 224: LD_EXP 2
+ 228: PPUSH
+ 229: LD_STRING M1Simms-5
+ 231: PPUSH
+ 232: CALL_OW 88
+// Say ( VanHouten , M1Simms-6 ) ;
+ 236: LD_EXP 1
  240: PPUSH
- 241: LD_INT 0
+ 241: LD_STRING M1Simms-6
  243: PPUSH
- 244: CALL_OW 48
-// PlaceUnitXY ( Truman , 73 , 30 , false ) ;
- 248: LD_EXP 5
+ 244: CALL_OW 88
+// Say ( Roth , M1Simms-7 ) ;
+ 248: LD_EXP 2
  252: PPUSH
- 253: LD_INT 73
+ 253: LD_STRING M1Simms-7
  255: PPUSH
- 256: LD_INT 30
- 258: PPUSH
- 259: LD_INT 0
- 261: PPUSH
- 262: CALL_OW 48
-// end ;
- 266: LD_VAR 0 1
- 270: RET
-// export function PrepareBuildings ; var armories , i , sol ; begin
- 271: LD_INT 0
+ 256: CALL_OW 88
+// ComMoveXY ( [ Roth ] , 43 , 37 ) ;
+ 260: LD_EXP 2
+ 264: PUSH
+ 265: EMPTY
+ 266: LIST
+ 267: PPUSH
+ 268: LD_INT 43
+ 270: PPUSH
+ 271: LD_INT 37
  273: PPUSH
- 274: PPUSH
- 275: PPUSH
- 276: PPUSH
-// armories := FilterAllUnits ( [ [ f_side , 1 ] , [ f_btype , b_armoury ] ] ) ;
- 277: LD_ADDR_VAR 0 2
- 281: PUSH
- 282: LD_INT 22
- 284: PUSH
- 285: LD_INT 1
- 287: PUSH
- 288: EMPTY
- 289: LIST
- 290: LIST
- 291: PUSH
- 292: LD_INT 30
- 294: PUSH
- 295: LD_INT 4
- 297: PUSH
- 298: EMPTY
- 299: LIST
- 300: LIST
- 301: PUSH
- 302: EMPTY
- 303: LIST
- 304: LIST
- 305: PPUSH
- 306: CALL_OW 69
- 310: ST_TO_ADDR
-// for i = 1 to armories do
- 311: LD_ADDR_VAR 0 3
- 315: PUSH
- 316: DOUBLE
- 317: LD_INT 1
- 319: DEC
- 320: ST_TO_ADDR
- 321: LD_VAR 0 2
- 325: PUSH
- 326: FOR_TO
- 327: IFFALSE 387
-// begin uc_side := 5 ;
- 329: LD_ADDR_OWVAR 20
- 333: PUSH
- 334: LD_INT 5
- 336: ST_TO_ADDR
-// uc_nation := 1 ;
- 337: LD_ADDR_OWVAR 21
- 341: PUSH
- 342: LD_INT 1
- 344: ST_TO_ADDR
-// PrepareSoldier ( 1 , 2 ) ;
- 345: LD_INT 1
- 347: PPUSH
- 348: LD_INT 2
- 350: PPUSH
- 351: CALL_OW 381
-// sol := CreateHuman ;
- 355: LD_ADDR_VAR 0 4
- 359: PUSH
- 360: CALL_OW 44
- 364: ST_TO_ADDR
-// PlaceHumanInUnit ( sol , armories [ i ] ) ;
- 365: LD_VAR 0 4
+ 274: CALL_OW 111
+// comenterunit ( Roth , lab1 ) ;
+ 278: LD_EXP 2
+ 282: PPUSH
+ 283: LD_INT 8
+ 285: PPUSH
+ 286: CALL_OW 120
+// Say ( VanHouten , M1Simms-8 ) ;
+ 290: LD_EXP 1
+ 294: PPUSH
+ 295: LD_STRING M1Simms-8
+ 297: PPUSH
+ 298: CALL_OW 88
+// Say ( Simms , M1Simms-9 ) ;
+ 302: LD_EXP 3
+ 306: PPUSH
+ 307: LD_STRING M1Simms-9
+ 309: PPUSH
+ 310: CALL_OW 88
+// Say ( VanHouten , M1Simms-10 ) ;
+ 314: LD_EXP 1
+ 318: PPUSH
+ 319: LD_STRING M1Simms-10
+ 321: PPUSH
+ 322: CALL_OW 88
+// Say ( Simms , M1Simms-11 ) ;
+ 326: LD_EXP 3
+ 330: PPUSH
+ 331: LD_STRING M1Simms-11
+ 333: PPUSH
+ 334: CALL_OW 88
+// ComMoveXY ( [ Simms ] , 41 , 35 ) ;
+ 338: LD_EXP 3
+ 342: PUSH
+ 343: EMPTY
+ 344: LIST
+ 345: PPUSH
+ 346: LD_INT 41
+ 348: PPUSH
+ 349: LD_INT 35
+ 351: PPUSH
+ 352: CALL_OW 111
+// AddComMoveXY ( [ Simms ] , 68 , 50 ) ;
+ 356: LD_EXP 3
+ 360: PUSH
+ 361: EMPTY
+ 362: LIST
+ 363: PPUSH
+ 364: LD_INT 68
+ 366: PPUSH
+ 367: LD_INT 50
  369: PPUSH
- 370: LD_VAR 0 2
- 374: PUSH
- 375: LD_VAR 0 3
- 379: ARRAY
- 380: PPUSH
- 381: CALL_OW 52
+ 370: CALL_OW 171
+// AddComMoveXY ( [ Simms ] , 73 , 45 ) ;
+ 374: LD_EXP 3
+ 378: PUSH
+ 379: EMPTY
+ 380: LIST
+ 381: PPUSH
+ 382: LD_INT 73
+ 384: PPUSH
+ 385: LD_INT 45
+ 387: PPUSH
+ 388: CALL_OW 171
+// AddComMoveXY ( [ Simms ] , 70 , 33 ) ;
+ 392: LD_EXP 3
+ 396: PUSH
+ 397: EMPTY
+ 398: LIST
+ 399: PPUSH
+ 400: LD_INT 70
+ 402: PPUSH
+ 403: LD_INT 33
+ 405: PPUSH
+ 406: CALL_OW 171
+// InGameOff ;
+ 410: CALL_OW 9
 // end ;
- 385: GO 326
- 387: POP
- 388: POP
+ 414: END
+// every 0 0$1 trigger GetDistUnits ( Truman , VanHouten ) < 10 do
+ 415: LD_EXP 5
+ 419: PPUSH
+ 420: LD_EXP 1
+ 424: PPUSH
+ 425: CALL_OW 296
+ 429: PUSH
+ 430: LD_INT 10
+ 432: LESS
+ 433: IFFALSE 533
+ 435: GO 437
+ 437: DISABLE
+// begin InGameOn ;
+ 438: CALL_OW 8
+// Say ( Truman , M1Departure-1 ) ;
+ 442: LD_EXP 5
+ 446: PPUSH
+ 447: LD_STRING M1Departure-1
+ 449: PPUSH
+ 450: CALL_OW 88
+// Say ( Truman , M1Departure-5 ) ;
+ 454: LD_EXP 5
+ 458: PPUSH
+ 459: LD_STRING M1Departure-5
+ 461: PPUSH
+ 462: CALL_OW 88
+// Say ( Truman , M1Departure-10 ) ;
+ 466: LD_EXP 5
+ 470: PPUSH
+ 471: LD_STRING M1Departure-10
+ 473: PPUSH
+ 474: CALL_OW 88
+// Say ( VanHouten , M1Departure-11 ) ;
+ 478: LD_EXP 1
+ 482: PPUSH
+ 483: LD_STRING M1Departure-11
+ 485: PPUSH
+ 486: CALL_OW 88
+// Say ( Truman , M1Departure-12 ) ;
+ 490: LD_EXP 5
+ 494: PPUSH
+ 495: LD_STRING M1Departure-12
+ 497: PPUSH
+ 498: CALL_OW 88
+// Say ( VanHouten , M1Departure-13 ) ;
+ 502: LD_EXP 1
+ 506: PPUSH
+ 507: LD_STRING M1Departure-13
+ 509: PPUSH
+ 510: CALL_OW 88
+// InGameOff ;
+ 514: CALL_OW 9
+// disable ( 29 ) ;
+ 518: LD_INT 29
+ 520: DISABLE_MARKED
+// comenterunit ( VanHouten , eon ) ;
+ 521: LD_EXP 1
+ 525: PPUSH
+ 526: LD_INT 14
+ 528: PPUSH
+ 529: CALL_OW 120
 // end ;
- 389: LD_VAR 0 1
- 393: RET
+ 533: END
+// on enterbuilding ( b , VanHouten ) do begin if b = eon then
+ 534: LD_VAR 0 1
+ 538: PUSH
+ 539: LD_INT 14
+ 541: EQUAL
+ 542: IFFALSE 585
+// begin Wait ( 0 0$1.3 ) ;
+ 544: LD_INT 46
+ 546: PPUSH
+ 547: CALL_OW 67
+// savecharacters ( VanHouten , VanHouten ) ;
+ 551: LD_VAR 0 2
+ 555: PPUSH
+ 556: LD_STRING VanHouten
+ 558: PPUSH
+ 559: CALL_OW 38
+// comenterunit ( VanHouten , eon ) ;
+ 563: LD_VAR 0 2
+ 567: PPUSH
+ 568: LD_INT 14
+ 570: PPUSH
+ 571: CALL_OW 120
+// changemap ( 1 , %_cont ) ;
+ 575: LD_STRING 1
+ 577: PPUSH
+ 578: LD_STRING %_cont
+ 580: PPUSH
+ 581: CALL_OW 340
+// end end ; end_of_file
+ 585: PPOPN 2
+ 587: END
+// export VanHouten , Roth , Simms , Joan , Truman ; export function PrepareHero ; begin
+ 588: LD_INT 0
+ 590: PPUSH
+// uc_side := 1 ;
+ 591: LD_ADDR_OWVAR 20
+ 595: PUSH
+ 596: LD_INT 1
+ 598: ST_TO_ADDR
+// VanHouten := NewCharacter ( VanHouten ) ;
+ 599: LD_ADDR_EXP 1
+ 603: PUSH
+ 604: LD_STRING VanHouten
+ 606: PPUSH
+ 607: CALL_OW 25
+ 611: ST_TO_ADDR
+// uc_side := 4 ;
+ 612: LD_ADDR_OWVAR 20
+ 616: PUSH
+ 617: LD_INT 4
+ 619: ST_TO_ADDR
+// Roth := NewCharacter ( Roth ) ;
+ 620: LD_ADDR_EXP 2
+ 624: PUSH
+ 625: LD_STRING Roth
+ 627: PPUSH
+ 628: CALL_OW 25
+ 632: ST_TO_ADDR
+// Simms := NewCharacter ( Simms ) ;
+ 633: LD_ADDR_EXP 3
+ 637: PUSH
+ 638: LD_STRING Simms
+ 640: PPUSH
+ 641: CALL_OW 25
+ 645: ST_TO_ADDR
+// Joan := NewCharacter ( Joan ) ;
+ 646: LD_ADDR_EXP 4
+ 650: PUSH
+ 651: LD_STRING Joan
+ 653: PPUSH
+ 654: CALL_OW 25
+ 658: ST_TO_ADDR
+// Truman := NewCharacter ( Truman ) ;
+ 659: LD_ADDR_EXP 5
+ 663: PUSH
+ 664: LD_STRING Truman
+ 666: PPUSH
+ 667: CALL_OW 25
+ 671: ST_TO_ADDR
+// PlaceUnitXY ( VanHouten , 51 , 41 , false ) ;
+ 672: LD_EXP 1
+ 676: PPUSH
+ 677: LD_INT 51
+ 679: PPUSH
+ 680: LD_INT 41
+ 682: PPUSH
+ 683: LD_INT 0
+ 685: PPUSH
+ 686: CALL_OW 48
+// PlaceUnitXY ( Simms , 19 , 20 , false ) ;
+ 690: LD_EXP 3
+ 694: PPUSH
+ 695: LD_INT 19
+ 697: PPUSH
+ 698: LD_INT 20
+ 700: PPUSH
+ 701: LD_INT 0
+ 703: PPUSH
+ 704: CALL_OW 48
+// PlaceUnitXY ( Roth , 20 , 23 , false ) ;
+ 708: LD_EXP 2
+ 712: PPUSH
+ 713: LD_INT 20
+ 715: PPUSH
+ 716: LD_INT 23
+ 718: PPUSH
+ 719: LD_INT 0
+ 721: PPUSH
+ 722: CALL_OW 48
+// PlaceUnitXY ( Joan , 77 , 35 , false ) ;
+ 726: LD_EXP 4
+ 730: PPUSH
+ 731: LD_INT 77
+ 733: PPUSH
+ 734: LD_INT 35
+ 736: PPUSH
+ 737: LD_INT 0
+ 739: PPUSH
+ 740: CALL_OW 48
+// PlaceUnitXY ( Truman , 73 , 30 , false ) ;
+ 744: LD_EXP 5
+ 748: PPUSH
+ 749: LD_INT 73
+ 751: PPUSH
+ 752: LD_INT 30
+ 754: PPUSH
+ 755: LD_INT 0
+ 757: PPUSH
+ 758: CALL_OW 48
+// end ;
+ 762: LD_VAR 0 1
+ 766: RET
+// export function PrepareBuildings ; var armories , i , sol ; begin
+ 767: LD_INT 0
+ 769: PPUSH
+ 770: PPUSH
+ 771: PPUSH
+ 772: PPUSH
+// armories := FilterAllUnits ( [ [ f_side , 1 ] , [ f_btype , b_armoury ] ] ) ;
+ 773: LD_ADDR_VAR 0 2
+ 777: PUSH
+ 778: LD_INT 22
+ 780: PUSH
+ 781: LD_INT 1
+ 783: PUSH
+ 784: EMPTY
+ 785: LIST
+ 786: LIST
+ 787: PUSH
+ 788: LD_INT 30
+ 790: PUSH
+ 791: LD_INT 4
+ 793: PUSH
+ 794: EMPTY
+ 795: LIST
+ 796: LIST
+ 797: PUSH
+ 798: EMPTY
+ 799: LIST
+ 800: LIST
+ 801: PPUSH
+ 802: CALL_OW 69
+ 806: ST_TO_ADDR
+// for i = 1 to armories do
+ 807: LD_ADDR_VAR 0 3
+ 811: PUSH
+ 812: DOUBLE
+ 813: LD_INT 1
+ 815: DEC
+ 816: ST_TO_ADDR
+ 817: LD_VAR 0 2
+ 821: PUSH
+ 822: FOR_TO
+ 823: IFFALSE 883
+// begin uc_side := 4 ;
+ 825: LD_ADDR_OWVAR 20
+ 829: PUSH
+ 830: LD_INT 4
+ 832: ST_TO_ADDR
+// uc_nation := 1 ;
+ 833: LD_ADDR_OWVAR 21
+ 837: PUSH
+ 838: LD_INT 1
+ 840: ST_TO_ADDR
+// PrepareSoldier ( 1 , 2 ) ;
+ 841: LD_INT 1
+ 843: PPUSH
+ 844: LD_INT 2
+ 846: PPUSH
+ 847: CALL_OW 381
+// sol := CreateHuman ;
+ 851: LD_ADDR_VAR 0 4
+ 855: PUSH
+ 856: CALL_OW 44
+ 860: ST_TO_ADDR
+// PlaceHumanInUnit ( sol , armories [ i ] ) ;
+ 861: LD_VAR 0 4
+ 865: PPUSH
+ 866: LD_VAR 0 2
+ 870: PUSH
+ 871: LD_VAR 0 3
+ 875: ARRAY
+ 876: PPUSH
+ 877: CALL_OW 52
+// end ;
+ 881: GO 822
+ 883: POP
+ 884: POP
+// end ;
+ 885: LD_VAR 0 1
+ 889: RET

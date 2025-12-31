@@ -1,16 +1,69 @@
+var budovy;
 starting
 begin
+   budovy=[depot1,depot2,depot3,lab1,arm1,arm2,eon];
    InGameOn;
    PrepareHero;
    PrepareBuildings;
 
    CenterOnUnits(VanHouten);
    Wait(0$2);
-   Say(VanHouten,'DIntro-1');
-   Say(VanHouten,'DIntro-2');
-   SayRadio(Truman,'DIntro-3');
-   Say(VanHouten,'DIntro-4');
+   Say(VanHouten,'M1Intro-1');
+   Say(VanHouten,'M1Intro-2');
+   SayRadio(Truman,'M1Intro-3');
+   Say(VanHouten,'M1Intro-4');
    InGameOff;
    ChangeMissionObjectives('C1');
    SaveForQuickRestart;
+end;
+
+every 0$1 trigger GetDistUnits(VanHouten,Simms) < 10 and GetDistUnits(Truman,Simms) > 50 do
+begin
+        InGameOn;
+         Say(Roth,'M1Simms-1');
+         Say(Simms,'M1Simms-2');
+         Say(Roth,'M1Simms-3');
+         Say(Simms,'M1Simms-4');
+         Say(Roth,'M1Simms-5');
+         Say(VanHouten,'M1Simms-6');
+         Say(Roth,'M1Simms-7');
+         ComMoveXY([Roth],43,37);
+                 comenterunit(Roth,lab1);
+         Say(VanHouten,'M1Simms-8');
+         Say(Simms,'M1Simms-9');
+         Say(VanHouten,'M1Simms-10');
+         Say(Simms,'M1Simms-11');
+         ComMoveXY([Simms],41,35);
+         AddComMoveXY([Simms],68,50);
+         AddComMoveXY([Simms],73,45);
+         AddComMoveXY([Simms],70,33);
+        InGameOff;
+end;
+
+every 0$1 trigger GetDistUnits(Truman,VanHouten) < 10 do
+begin
+        InGameOn;
+		 CenterOnUnits(VanHouten);
+         Say(Truman,'M1Departure-1');
+                 
+         Say(Truman,'M1Departure-5');
+                 
+         Say(Truman,'M1Departure-10');
+         Say(VanHouten,'M1Departure-11');
+         Say(Truman,'M1Departure-12');
+         Say(VanHouten,'M1Departure-13'); 
+		InGameOff;
+		 disable(29);
+		 comenterunit(VanHouten,eon);
+end;
+
+on enterbuilding(b,VanHouten) do
+begin
+    if b=eon then
+		begin
+		Wait(0$1.3);
+		savecharacters(VanHouten,'VanHouten');
+		comenterunit(VanHouten,eon);
+        changemap('1','%_cont');
+		end
 end;

@@ -1,4 +1,4 @@
-Export VanHouten,Roth,Simms,Joan,Truman;
+Export VanHouten,Roth,Simms,Joan,Truman,JohnAdams,DougIrons;
 
 Export Function PrepareHero;
 begin
@@ -10,6 +10,8 @@ begin
      Simms := NewCharacter('Simms');
      Joan := NewCharacter('Joan');
      Truman := NewCharacter('Truman');
+	 JohnAdams := NewCharacter('JohnAdams');
+	 DougIrons := NewCharacter('DougIrons');
 
      PlaceUnitXY(VanHouten,51,41,false);
      PlaceUnitXY(Simms,19,20,false);
@@ -25,7 +27,7 @@ begin
 
      for i=1 to armories do
       begin
-          uc_side := 5;
+          uc_side := 4;
           uc_nation := 1;
 
           PrepareSoldier(1,2);

@@ -1,0 +1,10 @@
+export VanHouten;
+
+starting
+begin
+   VanHouten := CreateCharacter('VanHouten');
+   PlaceUnitXY(VanHouten,81,13,true);
+   SaveForQuickRestart;
+   CenterOnUnits(VanHouten);
+
+end;
