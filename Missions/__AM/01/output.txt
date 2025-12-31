@@ -27,9 +27,9 @@
 // InGameOn ;
   35: CALL_OW 8
 // PrepareHero ;
-  39: CALL 588 0 0
+  39: CALL 941 0 0
 // PrepareBuildings ;
-  43: CALL 767 0 0
+  43: CALL 1208 0 0
 // CenterOnUnits ( VanHouten ) ;
   47: LD_EXP 1
   51: PPUSH
@@ -72,7 +72,7 @@
  122: CALL_OW 22
 // end ;
  126: END
-// every 0 0$1 trigger GetDistUnits ( VanHouten , Simms ) < 10 and GetDistUnits ( Truman , Simms ) > 50 do
+// every 0 0$1 trigger GetDistUnits ( VanHouten , Simms ) < 10 and GetDistUnits ( Truman , Simms ) > 10 do
  127: LD_EXP 1
  131: PPUSH
  132: LD_EXP 3
@@ -89,7 +89,7 @@
  157: PPUSH
  158: CALL_OW 296
  162: PUSH
- 163: LD_INT 50
+ 163: LD_INT 10
  165: GREATER
  166: AND
  167: IFFALSE 414
@@ -228,277 +228,509 @@
  410: CALL_OW 9
 // end ;
  414: END
-// every 0 0$1 trigger GetDistUnits ( Truman , VanHouten ) < 10 do
- 415: LD_EXP 5
+// every 0 0$1 trigger GetDistUnits ( VanHouten , JohnAdams ) < 10 and GetDistUnits ( Truman , JohnAdams ) > 10 do
+ 415: LD_EXP 1
  419: PPUSH
- 420: LD_EXP 1
+ 420: LD_EXP 6
  424: PPUSH
  425: CALL_OW 296
  429: PUSH
  430: LD_INT 10
  432: LESS
- 433: IFFALSE 533
- 435: GO 437
- 437: DISABLE
+ 433: IFFALSE 455
+ 435: PUSH
+ 436: LD_EXP 5
+ 440: PPUSH
+ 441: LD_EXP 6
+ 445: PPUSH
+ 446: CALL_OW 296
+ 450: PUSH
+ 451: LD_INT 10
+ 453: GREATER
+ 454: AND
+ 455: IFFALSE 600
+ 457: GO 459
+ 459: DISABLE
 // begin InGameOn ;
- 438: CALL_OW 8
-// Say ( Truman , M1Departure-1 ) ;
- 442: LD_EXP 5
- 446: PPUSH
- 447: LD_STRING M1Departure-1
- 449: PPUSH
- 450: CALL_OW 88
-// Say ( Truman , M1Departure-5 ) ;
- 454: LD_EXP 5
- 458: PPUSH
- 459: LD_STRING M1Departure-5
- 461: PPUSH
- 462: CALL_OW 88
-// Say ( Truman , M1Departure-10 ) ;
- 466: LD_EXP 5
- 470: PPUSH
- 471: LD_STRING M1Departure-10
- 473: PPUSH
- 474: CALL_OW 88
-// Say ( VanHouten , M1Departure-11 ) ;
- 478: LD_EXP 1
- 482: PPUSH
- 483: LD_STRING M1Departure-11
- 485: PPUSH
- 486: CALL_OW 88
-// Say ( Truman , M1Departure-12 ) ;
- 490: LD_EXP 5
- 494: PPUSH
- 495: LD_STRING M1Departure-12
- 497: PPUSH
- 498: CALL_OW 88
-// Say ( VanHouten , M1Departure-13 ) ;
- 502: LD_EXP 1
- 506: PPUSH
- 507: LD_STRING M1Departure-13
- 509: PPUSH
- 510: CALL_OW 88
-// InGameOff ;
- 514: CALL_OW 9
-// disable ( 29 ) ;
- 518: LD_INT 29
- 520: DISABLE_MARKED
-// comenterunit ( VanHouten , eon ) ;
- 521: LD_EXP 1
- 525: PPUSH
- 526: LD_INT 14
- 528: PPUSH
- 529: CALL_OW 120
-// end ;
- 533: END
-// on enterbuilding ( b , VanHouten ) do begin if b = eon then
- 534: LD_VAR 0 1
- 538: PUSH
- 539: LD_INT 14
- 541: EQUAL
- 542: IFFALSE 585
-// begin Wait ( 0 0$1.3 ) ;
- 544: LD_INT 46
- 546: PPUSH
- 547: CALL_OW 67
-// savecharacters ( VanHouten , VanHouten ) ;
- 551: LD_VAR 0 2
- 555: PPUSH
- 556: LD_STRING VanHouten
- 558: PPUSH
- 559: CALL_OW 38
-// comenterunit ( VanHouten , eon ) ;
- 563: LD_VAR 0 2
+ 460: CALL_OW 8
+// Say ( DougIrons , M1Adams-1 ) ;
+ 464: LD_EXP 7
+ 468: PPUSH
+ 469: LD_STRING M1Adams-1
+ 471: PPUSH
+ 472: CALL_OW 88
+// Say ( JohnAdams , M1Adams-2 ) ;
+ 476: LD_EXP 6
+ 480: PPUSH
+ 481: LD_STRING M1Adams-2
+ 483: PPUSH
+ 484: CALL_OW 88
+// Say ( DougIrons , M1Adams-3 ) ;
+ 488: LD_EXP 7
+ 492: PPUSH
+ 493: LD_STRING M1Adams-3
+ 495: PPUSH
+ 496: CALL_OW 88
+// Say ( VanHouten , M1Adams-4 ) ;
+ 500: LD_EXP 1
+ 504: PPUSH
+ 505: LD_STRING M1Adams-4
+ 507: PPUSH
+ 508: CALL_OW 88
+// Say ( JohnAdams , M1Adams-5 ) ;
+ 512: LD_EXP 6
+ 516: PPUSH
+ 517: LD_STRING M1Adams-5
+ 519: PPUSH
+ 520: CALL_OW 88
+// ComMoveXY ( [ JohnAdams , DougIrons ] , 47 , 38 ) ;
+ 524: LD_EXP 6
+ 528: PUSH
+ 529: LD_EXP 7
+ 533: PUSH
+ 534: EMPTY
+ 535: LIST
+ 536: LIST
+ 537: PPUSH
+ 538: LD_INT 47
+ 540: PPUSH
+ 541: LD_INT 38
+ 543: PPUSH
+ 544: CALL_OW 111
+// AddComMoveXY ( [ JohnAdams , DougIrons ] , 68 , 49 ) ;
+ 548: LD_EXP 6
+ 552: PUSH
+ 553: LD_EXP 7
+ 557: PUSH
+ 558: EMPTY
+ 559: LIST
+ 560: LIST
+ 561: PPUSH
+ 562: LD_INT 68
+ 564: PPUSH
+ 565: LD_INT 49
  567: PPUSH
- 568: LD_INT 14
- 570: PPUSH
- 571: CALL_OW 120
-// changemap ( 1 , %_cont ) ;
- 575: LD_STRING 1
- 577: PPUSH
- 578: LD_STRING %_cont
- 580: PPUSH
- 581: CALL_OW 340
-// end end ; end_of_file
- 585: PPOPN 2
- 587: END
-// export VanHouten , Roth , Simms , Joan , Truman ; export function PrepareHero ; begin
- 588: LD_INT 0
- 590: PPUSH
-// uc_side := 1 ;
- 591: LD_ADDR_OWVAR 20
- 595: PUSH
- 596: LD_INT 1
- 598: ST_TO_ADDR
-// VanHouten := NewCharacter ( VanHouten ) ;
- 599: LD_ADDR_EXP 1
- 603: PUSH
- 604: LD_STRING VanHouten
- 606: PPUSH
- 607: CALL_OW 25
- 611: ST_TO_ADDR
-// uc_side := 4 ;
- 612: LD_ADDR_OWVAR 20
- 616: PUSH
- 617: LD_INT 4
- 619: ST_TO_ADDR
-// Roth := NewCharacter ( Roth ) ;
- 620: LD_ADDR_EXP 2
- 624: PUSH
- 625: LD_STRING Roth
- 627: PPUSH
- 628: CALL_OW 25
- 632: ST_TO_ADDR
-// Simms := NewCharacter ( Simms ) ;
- 633: LD_ADDR_EXP 3
- 637: PUSH
- 638: LD_STRING Simms
- 640: PPUSH
- 641: CALL_OW 25
- 645: ST_TO_ADDR
-// Joan := NewCharacter ( Joan ) ;
- 646: LD_ADDR_EXP 4
- 650: PUSH
- 651: LD_STRING Joan
+ 568: CALL_OW 171
+// AddComMoveXY ( [ JohnAdams , DougIrons ] , 70 , 32 ) ;
+ 572: LD_EXP 6
+ 576: PUSH
+ 577: LD_EXP 7
+ 581: PUSH
+ 582: EMPTY
+ 583: LIST
+ 584: LIST
+ 585: PPUSH
+ 586: LD_INT 70
+ 588: PPUSH
+ 589: LD_INT 32
+ 591: PPUSH
+ 592: CALL_OW 171
+// InGameOff ;
+ 596: CALL_OW 9
+// end ;
+ 600: END
+// every 0 0$1 trigger GetDistUnits ( Truman , VanHouten ) < 10 and GetDistUnits ( Truman , JohnAdams ) < 10 and GetDistUnits ( Truman , Simms ) < 10 do
+ 601: LD_EXP 5
+ 605: PPUSH
+ 606: LD_EXP 1
+ 610: PPUSH
+ 611: CALL_OW 296
+ 615: PUSH
+ 616: LD_INT 10
+ 618: LESS
+ 619: IFFALSE 641
+ 621: PUSH
+ 622: LD_EXP 5
+ 626: PPUSH
+ 627: LD_EXP 6
+ 631: PPUSH
+ 632: CALL_OW 296
+ 636: PUSH
+ 637: LD_INT 10
+ 639: LESS
+ 640: AND
+ 641: IFFALSE 663
+ 643: PUSH
+ 644: LD_EXP 5
+ 648: PPUSH
+ 649: LD_EXP 3
  653: PPUSH
- 654: CALL_OW 25
- 658: ST_TO_ADDR
-// Truman := NewCharacter ( Truman ) ;
- 659: LD_ADDR_EXP 5
- 663: PUSH
- 664: LD_STRING Truman
- 666: PPUSH
- 667: CALL_OW 25
- 671: ST_TO_ADDR
-// PlaceUnitXY ( VanHouten , 51 , 41 , false ) ;
+ 654: CALL_OW 296
+ 658: PUSH
+ 659: LD_INT 10
+ 661: LESS
+ 662: AND
+ 663: IFFALSE 898
+ 665: GO 667
+ 667: DISABLE
+// begin InGameOn ;
+ 668: CALL_OW 8
+// CenterOnUnits ( VanHouten ) ;
  672: LD_EXP 1
  676: PPUSH
- 677: LD_INT 51
- 679: PPUSH
- 680: LD_INT 41
- 682: PPUSH
- 683: LD_INT 0
+ 677: CALL_OW 85
+// Say ( Truman , M1Departure-1 ) ;
+ 681: LD_EXP 5
  685: PPUSH
- 686: CALL_OW 48
-// PlaceUnitXY ( Simms , 19 , 20 , false ) ;
- 690: LD_EXP 3
- 694: PPUSH
- 695: LD_INT 19
+ 686: LD_STRING M1Departure-1
+ 688: PPUSH
+ 689: CALL_OW 88
+// Say ( JohnAdams , M1Departure-2 ) ;
+ 693: LD_EXP 6
  697: PPUSH
- 698: LD_INT 20
+ 698: LD_STRING M1Departure-2
  700: PPUSH
- 701: LD_INT 0
- 703: PPUSH
- 704: CALL_OW 48
-// PlaceUnitXY ( Roth , 20 , 23 , false ) ;
- 708: LD_EXP 2
+ 701: CALL_OW 88
+// Say ( DougIrons , M1Departure-3 ) ;
+ 705: LD_EXP 7
+ 709: PPUSH
+ 710: LD_STRING M1Departure-3
  712: PPUSH
- 713: LD_INT 20
- 715: PPUSH
- 716: LD_INT 23
- 718: PPUSH
- 719: LD_INT 0
+ 713: CALL_OW 88
+// Say ( Simms , M1Departure-4 ) ;
+ 717: LD_EXP 3
  721: PPUSH
- 722: CALL_OW 48
-// PlaceUnitXY ( Joan , 77 , 35 , false ) ;
- 726: LD_EXP 4
- 730: PPUSH
- 731: LD_INT 77
+ 722: LD_STRING M1Departure-4
+ 724: PPUSH
+ 725: CALL_OW 88
+// Say ( Truman , M1Departure-5 ) ;
+ 729: LD_EXP 5
  733: PPUSH
- 734: LD_INT 35
+ 734: LD_STRING M1Departure-5
  736: PPUSH
- 737: LD_INT 0
- 739: PPUSH
- 740: CALL_OW 48
-// PlaceUnitXY ( Truman , 73 , 30 , false ) ;
- 744: LD_EXP 5
+ 737: CALL_OW 88
+// Say ( Truman , M1Departure-6 ) ;
+ 741: LD_EXP 5
+ 745: PPUSH
+ 746: LD_STRING M1Departure-6
  748: PPUSH
- 749: LD_INT 73
- 751: PPUSH
- 752: LD_INT 30
- 754: PPUSH
- 755: LD_INT 0
+ 749: CALL_OW 88
+// Say ( JohnAdams , M1Departure-7 ) ;
+ 753: LD_EXP 6
  757: PPUSH
- 758: CALL_OW 48
-// end ;
- 762: LD_VAR 0 1
- 766: RET
-// export function PrepareBuildings ; var armories , i , sol ; begin
- 767: LD_INT 0
+ 758: LD_STRING M1Departure-7
+ 760: PPUSH
+ 761: CALL_OW 88
+// comenterunit ( JohnAdams , eon ) ;
+ 765: LD_EXP 6
  769: PPUSH
- 770: PPUSH
- 771: PPUSH
+ 770: LD_INT 14
  772: PPUSH
-// armories := FilterAllUnits ( [ [ f_side , 1 ] , [ f_btype , b_armoury ] ] ) ;
- 773: LD_ADDR_VAR 0 2
- 777: PUSH
- 778: LD_INT 22
- 780: PUSH
- 781: LD_INT 1
- 783: PUSH
- 784: EMPTY
- 785: LIST
- 786: LIST
- 787: PUSH
- 788: LD_INT 30
- 790: PUSH
- 791: LD_INT 4
- 793: PUSH
- 794: EMPTY
- 795: LIST
- 796: LIST
- 797: PUSH
- 798: EMPTY
- 799: LIST
- 800: LIST
- 801: PPUSH
- 802: CALL_OW 69
- 806: ST_TO_ADDR
-// for i = 1 to armories do
- 807: LD_ADDR_VAR 0 3
- 811: PUSH
- 812: DOUBLE
- 813: LD_INT 1
- 815: DEC
- 816: ST_TO_ADDR
- 817: LD_VAR 0 2
- 821: PUSH
- 822: FOR_TO
- 823: IFFALSE 883
-// begin uc_side := 4 ;
- 825: LD_ADDR_OWVAR 20
- 829: PUSH
- 830: LD_INT 4
- 832: ST_TO_ADDR
-// uc_nation := 1 ;
- 833: LD_ADDR_OWVAR 21
- 837: PUSH
- 838: LD_INT 1
- 840: ST_TO_ADDR
-// PrepareSoldier ( 1 , 2 ) ;
- 841: LD_INT 1
+ 773: CALL_OW 120
+// wait ( 0 0$1.5 ) ;
+ 777: LD_INT 52
+ 779: PPUSH
+ 780: CALL_OW 67
+// Say ( Truman , M1Departure-8 ) ;
+ 784: LD_EXP 5
+ 788: PPUSH
+ 789: LD_STRING M1Departure-8
+ 791: PPUSH
+ 792: CALL_OW 88
+// Say ( Simms , M1Departure-9 ) ;
+ 796: LD_EXP 3
+ 800: PPUSH
+ 801: LD_STRING M1Departure-9
+ 803: PPUSH
+ 804: CALL_OW 88
+// comenterunit ( Simms , eon ) ;
+ 808: LD_EXP 3
+ 812: PPUSH
+ 813: LD_INT 14
+ 815: PPUSH
+ 816: CALL_OW 120
+// wait ( 0 0$1.5 ) ;
+ 820: LD_INT 52
+ 822: PPUSH
+ 823: CALL_OW 67
+// Say ( Truman , M1Departure-10 ) ;
+ 827: LD_EXP 5
+ 831: PPUSH
+ 832: LD_STRING M1Departure-10
+ 834: PPUSH
+ 835: CALL_OW 88
+// Say ( VanHouten , M1Departure-11 ) ;
+ 839: LD_EXP 1
  843: PPUSH
- 844: LD_INT 2
+ 844: LD_STRING M1Departure-11
  846: PPUSH
- 847: CALL_OW 381
+ 847: CALL_OW 88
+// Say ( Truman , M1Departure-12 ) ;
+ 851: LD_EXP 5
+ 855: PPUSH
+ 856: LD_STRING M1Departure-12
+ 858: PPUSH
+ 859: CALL_OW 88
+// Say ( VanHouten , M1Departure-13 ) ;
+ 863: LD_EXP 1
+ 867: PPUSH
+ 868: LD_STRING M1Departure-13
+ 870: PPUSH
+ 871: CALL_OW 88
+// comenterunit ( VanHouten , eon ) ;
+ 875: LD_EXP 1
+ 879: PPUSH
+ 880: LD_INT 14
+ 882: PPUSH
+ 883: CALL_OW 120
+// wait ( 0 0$1.5 ) ;
+ 887: LD_INT 52
+ 889: PPUSH
+ 890: CALL_OW 67
+// InGameOff ;
+ 894: CALL_OW 9
+// end ;
+ 898: END
+// on enterbuilding ( b , VanHouten ) do begin if b = eon then
+ 899: LD_VAR 0 1
+ 903: PUSH
+ 904: LD_INT 14
+ 906: EQUAL
+ 907: IFFALSE 938
+// begin Wait ( 0 0$1.3 ) ;
+ 909: LD_INT 46
+ 911: PPUSH
+ 912: CALL_OW 67
+// savecharacters ( VanHouten , VanHouten ) ;
+ 916: LD_VAR 0 2
+ 920: PPUSH
+ 921: LD_STRING VanHouten
+ 923: PPUSH
+ 924: CALL_OW 38
+// changemap ( 1 , %_cont ) ;
+ 928: LD_STRING 1
+ 930: PPUSH
+ 931: LD_STRING %_cont
+ 933: PPUSH
+ 934: CALL_OW 340
+// end end ; end_of_file
+ 938: PPOPN 2
+ 940: END
+// export VanHouten , Roth , Simms , Joan , Truman , JohnAdams , DougIrons , Coonie , Yamoko ; export function PrepareHero ; begin
+ 941: LD_INT 0
+ 943: PPUSH
+// uc_side := 1 ;
+ 944: LD_ADDR_OWVAR 20
+ 948: PUSH
+ 949: LD_INT 1
+ 951: ST_TO_ADDR
+// VanHouten := NewCharacter ( VanHouten ) ;
+ 952: LD_ADDR_EXP 1
+ 956: PUSH
+ 957: LD_STRING VanHouten
+ 959: PPUSH
+ 960: CALL_OW 25
+ 964: ST_TO_ADDR
+// uc_side := 4 ;
+ 965: LD_ADDR_OWVAR 20
+ 969: PUSH
+ 970: LD_INT 4
+ 972: ST_TO_ADDR
+// Roth := NewCharacter ( Roth ) ;
+ 973: LD_ADDR_EXP 2
+ 977: PUSH
+ 978: LD_STRING Roth
+ 980: PPUSH
+ 981: CALL_OW 25
+ 985: ST_TO_ADDR
+// Simms := NewCharacter ( Simms ) ;
+ 986: LD_ADDR_EXP 3
+ 990: PUSH
+ 991: LD_STRING Simms
+ 993: PPUSH
+ 994: CALL_OW 25
+ 998: ST_TO_ADDR
+// Joan := NewCharacter ( Joan ) ;
+ 999: LD_ADDR_EXP 4
+1003: PUSH
+1004: LD_STRING Joan
+1006: PPUSH
+1007: CALL_OW 25
+1011: ST_TO_ADDR
+// Truman := NewCharacter ( Truman ) ;
+1012: LD_ADDR_EXP 5
+1016: PUSH
+1017: LD_STRING Truman
+1019: PPUSH
+1020: CALL_OW 25
+1024: ST_TO_ADDR
+// JohnAdams := NewCharacter ( JohnAdams ) ;
+1025: LD_ADDR_EXP 6
+1029: PUSH
+1030: LD_STRING JohnAdams
+1032: PPUSH
+1033: CALL_OW 25
+1037: ST_TO_ADDR
+// DougIrons := NewCharacter ( DougIrons ) ;
+1038: LD_ADDR_EXP 7
+1042: PUSH
+1043: LD_STRING DougIrons
+1045: PPUSH
+1046: CALL_OW 25
+1050: ST_TO_ADDR
+// Coonie := NewCharacter ( Coonie ) ;
+1051: LD_ADDR_EXP 8
+1055: PUSH
+1056: LD_STRING Coonie
+1058: PPUSH
+1059: CALL_OW 25
+1063: ST_TO_ADDR
+// Yamoko := NewCharacter ( Yamoko ) ;
+1064: LD_ADDR_EXP 9
+1068: PUSH
+1069: LD_STRING Yamoko
+1071: PPUSH
+1072: CALL_OW 25
+1076: ST_TO_ADDR
+// PlaceUnitXY ( VanHouten , 51 , 41 , false ) ;
+1077: LD_EXP 1
+1081: PPUSH
+1082: LD_INT 51
+1084: PPUSH
+1085: LD_INT 41
+1087: PPUSH
+1088: LD_INT 0
+1090: PPUSH
+1091: CALL_OW 48
+// PlaceUnitXY ( Simms , 19 , 20 , false ) ;
+1095: LD_EXP 3
+1099: PPUSH
+1100: LD_INT 19
+1102: PPUSH
+1103: LD_INT 20
+1105: PPUSH
+1106: LD_INT 0
+1108: PPUSH
+1109: CALL_OW 48
+// PlaceUnitXY ( Roth , 20 , 23 , false ) ;
+1113: LD_EXP 2
+1117: PPUSH
+1118: LD_INT 20
+1120: PPUSH
+1121: LD_INT 23
+1123: PPUSH
+1124: LD_INT 0
+1126: PPUSH
+1127: CALL_OW 48
+// PlaceUnitXY ( Joan , 77 , 35 , false ) ;
+1131: LD_EXP 4
+1135: PPUSH
+1136: LD_INT 77
+1138: PPUSH
+1139: LD_INT 35
+1141: PPUSH
+1142: LD_INT 0
+1144: PPUSH
+1145: CALL_OW 48
+// PlaceUnitXY ( Truman , 73 , 30 , false ) ;
+1149: LD_EXP 5
+1153: PPUSH
+1154: LD_INT 73
+1156: PPUSH
+1157: LD_INT 30
+1159: PPUSH
+1160: LD_INT 0
+1162: PPUSH
+1163: CALL_OW 48
+// PlaceUnitXY ( JohnAdams , 39 , 46 , false ) ;
+1167: LD_EXP 6
+1171: PPUSH
+1172: LD_INT 39
+1174: PPUSH
+1175: LD_INT 46
+1177: PPUSH
+1178: LD_INT 0
+1180: PPUSH
+1181: CALL_OW 48
+// PlaceUnitXY ( DougIrons , 42 , 48 , false ) ;
+1185: LD_EXP 7
+1189: PPUSH
+1190: LD_INT 42
+1192: PPUSH
+1193: LD_INT 48
+1195: PPUSH
+1196: LD_INT 0
+1198: PPUSH
+1199: CALL_OW 48
+// end ;
+1203: LD_VAR 0 1
+1207: RET
+// export function PrepareBuildings ; var armories , i , sol ; begin
+1208: LD_INT 0
+1210: PPUSH
+1211: PPUSH
+1212: PPUSH
+1213: PPUSH
+// armories := FilterAllUnits ( [ [ f_side , 1 ] , [ f_btype , b_armoury ] ] ) ;
+1214: LD_ADDR_VAR 0 2
+1218: PUSH
+1219: LD_INT 22
+1221: PUSH
+1222: LD_INT 1
+1224: PUSH
+1225: EMPTY
+1226: LIST
+1227: LIST
+1228: PUSH
+1229: LD_INT 30
+1231: PUSH
+1232: LD_INT 4
+1234: PUSH
+1235: EMPTY
+1236: LIST
+1237: LIST
+1238: PUSH
+1239: EMPTY
+1240: LIST
+1241: LIST
+1242: PPUSH
+1243: CALL_OW 69
+1247: ST_TO_ADDR
+// for i = 1 to armories do
+1248: LD_ADDR_VAR 0 3
+1252: PUSH
+1253: DOUBLE
+1254: LD_INT 1
+1256: DEC
+1257: ST_TO_ADDR
+1258: LD_VAR 0 2
+1262: PUSH
+1263: FOR_TO
+1264: IFFALSE 1324
+// begin uc_side := 4 ;
+1266: LD_ADDR_OWVAR 20
+1270: PUSH
+1271: LD_INT 4
+1273: ST_TO_ADDR
+// uc_nation := 1 ;
+1274: LD_ADDR_OWVAR 21
+1278: PUSH
+1279: LD_INT 1
+1281: ST_TO_ADDR
+// PrepareSoldier ( 1 , 2 ) ;
+1282: LD_INT 1
+1284: PPUSH
+1285: LD_INT 2
+1287: PPUSH
+1288: CALL_OW 381
 // sol := CreateHuman ;
- 851: LD_ADDR_VAR 0 4
- 855: PUSH
- 856: CALL_OW 44
- 860: ST_TO_ADDR
+1292: LD_ADDR_VAR 0 4
+1296: PUSH
+1297: CALL_OW 44
+1301: ST_TO_ADDR
 // PlaceHumanInUnit ( sol , armories [ i ] ) ;
- 861: LD_VAR 0 4
- 865: PPUSH
- 866: LD_VAR 0 2
- 870: PUSH
- 871: LD_VAR 0 3
- 875: ARRAY
- 876: PPUSH
- 877: CALL_OW 52
+1302: LD_VAR 0 4
+1306: PPUSH
+1307: LD_VAR 0 2
+1311: PUSH
+1312: LD_VAR 0 3
+1316: ARRAY
+1317: PPUSH
+1318: CALL_OW 52
 // end ;
- 881: GO 822
- 883: POP
- 884: POP
+1322: GO 1263
+1324: POP
+1325: POP
 // end ;
- 885: LD_VAR 0 1
- 889: RET
+1326: LD_VAR 0 1
+1330: RET

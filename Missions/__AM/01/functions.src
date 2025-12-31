@@ -1,4 +1,4 @@
-Export VanHouten,Roth,Simms,Joan,Truman,JohnAdams,DougIrons;
+Export VanHouten,Roth,Simms,Joan,Truman,JohnAdams,DougIrons,Coonie,Yamoko;
 
 Export Function PrepareHero;
 begin
@@ -12,12 +12,18 @@ begin
      Truman := NewCharacter('Truman');
 	 JohnAdams := NewCharacter('JohnAdams');
 	 DougIrons := NewCharacter('DougIrons');
+	 Coonie := NewCharacter('Coonie');
+	 Yamoko := NewCharacter('Yamoko');
 
      PlaceUnitXY(VanHouten,51,41,false);
      PlaceUnitXY(Simms,19,20,false);
      PlaceUnitXY(Roth,20,23,false);
      PlaceUnitXY(Joan,77,35,false);
      PlaceUnitXY(Truman,73,30,false);
+	 PlaceUnitXY(JohnAdams,39,46,false);
+	 PlaceUnitXY(DougIrons,42,48,false);
+	 PlaceUnitXY(Yamoko,37,7,false);
+	 PlaceUnitXY(Coonie,72,53,false);
 end;
 
 Export Function PrepareBuildings;
