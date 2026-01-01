@@ -19,6 +19,7 @@ begin
    Wait(0$10);
    PeterandRadio;
    ChangeMissionObjectives('D2c');
+   SetAreaMapShow(extractionpoint,1);
    ComMoveXY([Dave],70,17);
 end;
 
@@ -66,4 +67,10 @@ begin
 			SetSide(Yamoko,VanHouten);
 		end;
     InGameOff;
+end;
+
+every 0$1 trigger not FilterUnitsExceptArea(extractionpoint,[[f_side,1],[f_type,unit_human]]) do
+begin
+	//Last Dailogue
+	EndMission;
 end;

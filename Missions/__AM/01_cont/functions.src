@@ -37,3 +37,27 @@ begin
 	Say(VanHouten,'M1RuConvo-8');
 	InGameOff;
 end;
+
+Export Function EndMission;
+begin
+	AddMedal('med1',1);
+	if FilterAllUnits([[f_side,1],[f_type,unit_human]])<4 then
+	AddMedal('med2',-1)
+	else
+	AddMedal('med2',1);
+	if IsDead(Kovalenko) then
+	AddMedal('med3',1)
+	else
+	AddMedal('med3',-1);
+	
+	GiveMedals('MAIN');
+	
+	RewardPeople(FilterAllUnits([[f_alive],[f_side,1],[f_type,unit_human]]));
+	
+	SaveCharacters(VanHouten,'VanHouten');
+	SaveCharacters(Harris,'Harris');
+	SaveCharacters(Dave,'Dave');
+	SaveCharacters(Yamoko,'Yamoko');
+	
+	YouWin;
+end;
