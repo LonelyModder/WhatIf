@@ -1,25 +1,286 @@
-// export VanHouten ; starting begin VanHouten := CreateCharacter ( VanHouten ) ;
-   0: LD_ADDR_EXP 1
-   4: PUSH
-   5: LD_STRING VanHouten
-   7: PPUSH
-   8: CALL_OW 34
-  12: ST_TO_ADDR
-// PlaceUnitXY ( VanHouten , 81 , 13 , true ) ;
-  13: LD_EXP 1
-  17: PPUSH
-  18: LD_INT 81
-  20: PPUSH
-  21: LD_INT 13
-  23: PPUSH
-  24: LD_INT 1
-  26: PPUSH
-  27: CALL_OW 48
-// SaveForQuickRestart ;
-  31: CALL_OW 22
+// starting begin InGameOn ;
+   0: CALL_OW 8
+// PrepareHero1c ;
+   4: CALL 270 0 0
 // CenterOnUnits ( VanHouten ) ;
-  35: LD_EXP 1
-  39: PPUSH
-  40: CALL_OW 85
+   8: LD_EXP 1
+  12: PPUSH
+  13: CALL_OW 85
+// Wait ( 0 0$2 ) ;
+  17: LD_INT 70
+  19: PPUSH
+  20: CALL_OW 67
+// Say ( VanHouten , M1Arrival-1 ) ;
+  24: LD_EXP 1
+  28: PPUSH
+  29: LD_STRING M1Arrival-1
+  31: PPUSH
+  32: CALL_OW 88
+// ComMoveXY ( [ VanHouten ] , 76 , 6 ) ;
+  36: LD_EXP 1
+  40: PUSH
+  41: EMPTY
+  42: LIST
+  43: PPUSH
+  44: LD_INT 76
+  46: PPUSH
+  47: LD_INT 6
+  49: PPUSH
+  50: CALL_OW 111
+// Say ( VanHouten , M1Arrival-2 ) ;
+  54: LD_EXP 1
+  58: PPUSH
+  59: LD_STRING M1Arrival-2
+  61: PPUSH
+  62: CALL_OW 88
+// AddComMoveXY ( [ VanHouten ] , 86 , 19 ) ;
+  66: LD_EXP 1
+  70: PUSH
+  71: EMPTY
+  72: LIST
+  73: PPUSH
+  74: LD_INT 86
+  76: PPUSH
+  77: LD_INT 19
+  79: PPUSH
+  80: CALL_OW 171
+// SayRadio ( VanHouten , M1Arrival-3 ) ;
+  84: LD_EXP 1
+  88: PPUSH
+  89: LD_STRING M1Arrival-3
+  91: PPUSH
+  92: CALL_OW 94
+// SayRadio ( VanHouten , M1Arrival-4 ) ;
+  96: LD_EXP 1
+ 100: PPUSH
+ 101: LD_STRING M1Arrival-4
+ 103: PPUSH
+ 104: CALL_OW 94
+// SayRadioNoName ( Powell , M1Arrival-5 ) ;
+ 108: LD_EXP 3
+ 112: PPUSH
+ 113: LD_STRING M1Arrival-5
+ 115: PPUSH
+ 116: CALL_OW 95
+// SayRadioNoName ( Powell , M1Arrival-6 ) ;
+ 120: LD_EXP 3
+ 124: PPUSH
+ 125: LD_STRING M1Arrival-6
+ 127: PPUSH
+ 128: CALL_OW 95
+// Say ( VanHouten , M1Arrival-7 ) ;
+ 132: LD_EXP 1
+ 136: PPUSH
+ 137: LD_STRING M1Arrival-7
+ 139: PPUSH
+ 140: CALL_OW 88
+// InGameOff ;
+ 144: CALL_OW 9
+// ChangeMissionObjectives ( D1c ) ;
+ 148: LD_STRING D1c
+ 150: PPUSH
+ 151: CALL_OW 337
+// SaveForQuickRestart ;
+ 155: CALL_OW 22
+// Wait ( 0 0$5 ) ;
+ 159: LD_INT 175
+ 161: PPUSH
+ 162: CALL_OW 67
+// Say ( VanHouten , M1RuConvo-1 ) ;
+ 166: LD_EXP 1
+ 170: PPUSH
+ 171: LD_STRING M1RuConvo-1
+ 173: PPUSH
+ 174: CALL_OW 88
+// SayRadio ( Kovalenko , M1RuConvo-2 ) ;
+ 178: LD_EXP 6
+ 182: PPUSH
+ 183: LD_STRING M1RuConvo-2
+ 185: PPUSH
+ 186: CALL_OW 94
+// SayRadio ( Kovalenko , M1RuConvo-3 ) ;
+ 190: LD_EXP 6
+ 194: PPUSH
+ 195: LD_STRING M1RuConvo-3
+ 197: PPUSH
+ 198: CALL_OW 94
+// SayRadio ( Gaydar , M1RuConvo-4 ) ;
+ 202: LD_EXP 7
+ 206: PPUSH
+ 207: LD_STRING M1RuConvo-4
+ 209: PPUSH
+ 210: CALL_OW 94
+// Say ( VanHouten , M1RuConvo-5 ) ;
+ 214: LD_EXP 1
+ 218: PPUSH
+ 219: LD_STRING M1RuConvo-5
+ 221: PPUSH
+ 222: CALL_OW 88
+// Say ( VanHouten , M1RuConvo-6 ) ;
+ 226: LD_EXP 1
+ 230: PPUSH
+ 231: LD_STRING M1RuConvo-6
+ 233: PPUSH
+ 234: CALL_OW 88
+// SayRadioNoName ( Powell , M1RuConvo-7 ) ;
+ 238: LD_EXP 3
+ 242: PPUSH
+ 243: LD_STRING M1RuConvo-7
+ 245: PPUSH
+ 246: CALL_OW 95
+// Say ( VanHouten , M1RuConvo-8 ) ;
+ 250: LD_EXP 1
+ 254: PPUSH
+ 255: LD_STRING M1RuConvo-8
+ 257: PPUSH
+ 258: CALL_OW 88
+// ChangeMissionObjectives ( D2c ) ;
+ 262: LD_STRING D2c
+ 264: PPUSH
+ 265: CALL_OW 337
+// end ; end_of_file
+ 269: END
+// export VanHouten , Yamoko , Powell , Gladstone , Dave , Kovalenko , Gaydar ; export function PrepareHero1c ; begin
+ 270: LD_INT 0
+ 272: PPUSH
+// InGameOn ;
+ 273: CALL_OW 8
+// CenterNowOnXY ( 83 , 13 ) ;
+ 277: LD_INT 83
+ 279: PPUSH
+ 280: LD_INT 13
+ 282: PPUSH
+ 283: CALL_OW 86
+// uc_side := 1 ;
+ 287: LD_ADDR_OWVAR 20
+ 291: PUSH
+ 292: LD_INT 1
+ 294: ST_TO_ADDR
+// VanHouten := NewCharacter ( VanHouten ) ;
+ 295: LD_ADDR_EXP 1
+ 299: PUSH
+ 300: LD_STRING VanHouten
+ 302: PPUSH
+ 303: CALL_OW 25
+ 307: ST_TO_ADDR
+// uc_side := 4 ;
+ 308: LD_ADDR_OWVAR 20
+ 312: PUSH
+ 313: LD_INT 4
+ 315: ST_TO_ADDR
+// Yamoko := NewCharacter ( Yamoko ) ;
+ 316: LD_ADDR_EXP 2
+ 320: PUSH
+ 321: LD_STRING Yamoko
+ 323: PPUSH
+ 324: CALL_OW 25
+ 328: ST_TO_ADDR
+// Powell := NewCharacter ( Powell ) ;
+ 329: LD_ADDR_EXP 3
+ 333: PUSH
+ 334: LD_STRING Powell
+ 336: PPUSH
+ 337: CALL_OW 25
+ 341: ST_TO_ADDR
+// Gladstone := NewCharacter ( Gladstone ) ;
+ 342: LD_ADDR_EXP 4
+ 346: PUSH
+ 347: LD_STRING Gladstone
+ 349: PPUSH
+ 350: CALL_OW 25
+ 354: ST_TO_ADDR
+// Dave := NewCharacter ( Dave ) ;
+ 355: LD_ADDR_EXP 5
+ 359: PUSH
+ 360: LD_STRING Dave
+ 362: PPUSH
+ 363: CALL_OW 25
+ 367: ST_TO_ADDR
+// uc_side := 3 ;
+ 368: LD_ADDR_OWVAR 20
+ 372: PUSH
+ 373: LD_INT 3
+ 375: ST_TO_ADDR
+// Kovalenko := NewCharacter ( Kovalenko ) ;
+ 376: LD_ADDR_EXP 6
+ 380: PUSH
+ 381: LD_STRING Kovalenko
+ 383: PPUSH
+ 384: CALL_OW 25
+ 388: ST_TO_ADDR
+// Gaydar := NewCharacter ( Gaydar ) ;
+ 389: LD_ADDR_EXP 7
+ 393: PUSH
+ 394: LD_STRING Gaydar
+ 396: PPUSH
+ 397: CALL_OW 25
+ 401: ST_TO_ADDR
+// DWait ( 0 0$2 ) ;
+ 402: LD_INT 70
+ 404: PPUSH
+ 405: CALL_OW 68
+// PlaceUnitXY ( VanHouten , 83 , 13 , true ) ;
+ 409: LD_EXP 1
+ 413: PPUSH
+ 414: LD_INT 83
+ 416: PPUSH
+ 417: LD_INT 13
+ 419: PPUSH
+ 420: LD_INT 1
+ 422: PPUSH
+ 423: CALL_OW 48
+// PlaceUnitXY ( Yamoko , 116 , 83 , false ) ;
+ 427: LD_EXP 2
+ 431: PPUSH
+ 432: LD_INT 116
+ 434: PPUSH
+ 435: LD_INT 83
+ 437: PPUSH
+ 438: LD_INT 0
+ 440: PPUSH
+ 441: CALL_OW 48
+// PlaceUnitXY ( Gladstone , 122 , 94 , false ) ;
+ 445: LD_EXP 4
+ 449: PPUSH
+ 450: LD_INT 122
+ 452: PPUSH
+ 453: LD_INT 94
+ 455: PPUSH
+ 456: LD_INT 0
+ 458: PPUSH
+ 459: CALL_OW 48
+// PlaceUnitXY ( Dave , 50 , 81 , false ) ;
+ 463: LD_EXP 5
+ 467: PPUSH
+ 468: LD_INT 50
+ 470: PPUSH
+ 471: LD_INT 81
+ 473: PPUSH
+ 474: LD_INT 0
+ 476: PPUSH
+ 477: CALL_OW 48
+// PlaceUnitXY ( Kovalenko , 36 , 17 , false ) ;
+ 481: LD_EXP 6
+ 485: PPUSH
+ 486: LD_INT 36
+ 488: PPUSH
+ 489: LD_INT 17
+ 491: PPUSH
+ 492: LD_INT 0
+ 494: PPUSH
+ 495: CALL_OW 48
+// PlaceUnitXY ( Powell , 36 , 17 , false ) ;
+ 499: LD_EXP 3
+ 503: PPUSH
+ 504: LD_INT 36
+ 506: PPUSH
+ 507: LD_INT 17
+ 509: PPUSH
+ 510: LD_INT 0
+ 512: PPUSH
+ 513: CALL_OW 48
+// InGameOff ;
+ 517: CALL_OW 9
 // end ;
-  44: END
+ 521: LD_VAR 0 1
+ 525: RET

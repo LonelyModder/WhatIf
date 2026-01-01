@@ -17,7 +17,7 @@ begin
    SaveForQuickRestart;
 end;
 
-every 0$1 trigger GetDistUnits(VanHouten,Simms) < 10 and GetDistUnits(Truman,Simms) > 10 do
+every 0$1 trigger GetDistUnits(VanHouten,Simms) < 10 and GetDistUnits(Truman,Simms) > 15 do
 begin
     InGameOn;
         Say(Roth,'M1Simms-1');
@@ -40,7 +40,7 @@ begin
     InGameOff;
 end;
 
-every 0$1 trigger GetDistUnits(VanHouten,JohnAdams) < 10 and GetDistUnits(Truman,JohnAdams) > 10 do
+every 0$1 trigger GetDistUnits(VanHouten,JohnAdams) < 10 and GetDistUnits(Truman,JohnAdams) > 25 do
 begin
     InGameOn;
         Say(DougIrons,'M1Adams-1');
@@ -54,7 +54,7 @@ begin
     InGameOff;
 end;
 
-every 0$1 trigger GetDistUnits(VanHouten,Yamoko) < 10 and GetDistUnits(Truman,Yamoko) > 10 do
+every 0$1 trigger GetDistUnits(VanHouten,Yamoko) < 10 and GetDistUnits(Truman,Yamoko) > 15 do
 begin
     InGameOn;
         Say(Yamoko,'M1Yamoko-1');
@@ -64,12 +64,56 @@ begin
 		Say(Yamoko,'M1Yamoko-5');
         Say(VanHouten,'M1Yamoko-6');
         ComMoveXY([Yamoko],60,19);
-        AddComMoveXY([Yamoko],61,29);
+        AddComMoveXY([Yamoko],69,29);
 		Say(Yamoko,'M1Yamoko-7');
     InGameOff;
 end;
 
-every 0$1 trigger GetDistUnits(Truman,VanHouten) < 10 and GetDistUnits(Truman,JohnAdams) < 10 and GetDistUnits(Truman,Simms) < 10 and GetDistUnits(Truman,Yamoko) < 10 do
+every 0$1 trigger GetDistUnits(VanHouten,Coonie) < 7 and GetDistUnits(Truman,Coonie) > 15 do
+begin
+    InGameOn;
+        Say(Coonie,'M1Coonie-1');
+		Say(Wilson,'M1Coonie-2');
+		Say(VanHouten,'M1Coonie-3');
+		Say(Wilson,'M1Coonie-4');
+		Say(Damien,'M1Coonie-5');
+		Say(Wilson,'M1Coonie-6');
+		AddComMoveXY([Wilson,Damien],47,36);
+		Say(VanHouten,'M1Coonie-7');
+		Say(Coonie,'M1Coonie-8');
+		Say(VanHouten,'M1Coonie-9');
+		Say(Coonie,'M1Coonie-10');
+        ComMoveXY([Coonie],69,33);
+		Say(VanHouten,'M1Coonie-11');
+    InGameOff;
+end;
+
+every 0$1 trigger GetDistUnits(Truman, VanHouten) < 10 and ( GetDistUnits(Truman, JohnAdams) > 10 or GetDistUnits(Truman, Simms) > 10 or GetDistUnits(Truman, Yamoko) > 10 or GetDistUnits(Truman, Coonie) > 10 ) do
+begin
+    InGameOn;
+        Say(Truman,'M1PreDeparture-1');
+		Say(VanHouten,'M1PreDeparture-2');
+		Say(Truman,'M1PreDeparture-3');
+		Say(Joan,'M1PreDeparture-4');
+		Say(Truman,'M1PreDeparture-5');
+		Say(Joan,'M1PreDeparture-6');
+		Say(Truman,'M1PreDeparture-7');
+		SayRadio(Truman,'M1PreDeparture-8');
+		Say(Truman,'M1PreDeparture-9');
+        ComMoveXY([Simms],41,35);
+        AddComMoveXY([Simms],68,50);
+        AddComMoveXY([Simms],73,45);
+        AddComMoveXY([Simms],70,33);
+		ComMoveXY([JohnAdams,DougIrons],47,38);
+        AddComMoveXY([JohnAdams,DougIrons],68,49);
+        AddComMoveXY([JohnAdams,DougIrons],70,32);
+		ComMoveXY([Yamoko],60,19);
+        AddComMoveXY([Yamoko],69,29);
+		ComMoveXY([Coonie],69,33);
+    InGameOff;
+end;
+
+every 0$1 trigger GetDistUnits(Truman,VanHouten) < 10 and GetDistUnits(Truman,JohnAdams) < 10 and GetDistUnits(Truman,Simms) < 10 and GetDistUnits(Truman,Yamoko) < 10 and GetDistUnits(Truman,Coonie) < 10 do
 begin
     InGameOn;
 		CenterOnUnits(VanHouten);
@@ -99,8 +143,8 @@ on enterbuilding(b,VanHouten) do
 begin
     if b=eon then
 		begin
-			Wait(0$1.3);
+			Wait(0$4);
 			savecharacters(VanHouten,'VanHouten');
-			changemap('1','%_cont');
+			changemap('%_cont','%_cont');
 		end
 end;

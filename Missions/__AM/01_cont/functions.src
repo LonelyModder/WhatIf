@@ -1,0 +1,25 @@
+export VanHouten, Yamoko, Powell, Gladstone, Dave, Kovalenko, Gaydar;
+
+Export Function PrepareHero1c;
+begin
+	InGameOn;
+	 CenterNowOnXY(83,13);
+     uc_side := 1;
+     VanHouten := NewCharacter('VanHouten');
+	 uc_side := 4;
+	 Yamoko := NewCharacter('Yamoko');
+	 Powell := NewCharacter('Powell');
+	 Gladstone := NewCharacter('Gladstone');
+	 Dave := NewCharacter('Dave');
+	 uc_side := 3;
+	 Kovalenko := NewCharacter('Kovalenko');
+	 Gaydar := NewCharacter('Gaydar');
+	 DWait(0$2);
+	 PlaceUnitXY(VanHouten,83,13,true);
+	 PlaceUnitXY(Yamoko,116,83,false);
+	 PlaceUnitXY(Gladstone,122,94,false);
+	 PlaceUnitXY(Dave,50,81,false);
+	 PlaceUnitXY(Kovalenko,36,17,false);
+	 PlaceUnitXY(Powell,36,17,false);
+	InGameOff;
+end;

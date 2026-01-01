@@ -1,5 +1,5 @@
 VARIABLES 0
-CHARACTERS 90
+CHARACTERS 93
   Abdul 1
     DEFINE
       NAME Abdul
@@ -1245,7 +1245,7 @@ CHARACTERS 90
     END_OF_DEFINE
   DougIrons 1
     DEFINE
-      NAME DougIrons
+      NAME Irons
       HUMAN 1 1 1
       ATTR 10 10
       SKILLS 3 15000 1 15000 0 15000 0 15000
@@ -1253,5 +1253,38 @@ CHARACTERS 90
       CHAR @ 0 0
       RANDSEED 0
       VOICE 1 GALLERY E3galery 7
+    END_OF_DEFINE
+  Wilson 1
+    DEFINE
+      NAME Wilson
+      HUMAN 1 2 1
+      ATTR 10 10
+      SKILLS 0 0 2 6000 0 0 0 0
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY MyGallery 11
+    END_OF_DEFINE
+  Damien 1
+    DEFINE
+      NAME Damien
+      HUMAN 1 2 1
+      ATTR 10 10
+      SKILLS 0 0 2 6000 0 0 0 0
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY MyGallery 22
+    END_OF_DEFINE
+  Dave 1
+    DEFINE
+      NAME Dave
+      HUMAN 1 1 1
+      ATTR 10 10
+      SKILLS 3 15000 0 15000 2 15000 0 15000
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY multi 3
     END_OF_DEFINE
 END

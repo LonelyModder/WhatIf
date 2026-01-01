@@ -1,10 +1,29 @@
-export VanHouten;
-
 starting
 begin
-   VanHouten := CreateCharacter('VanHouten');
-   PlaceUnitXY(VanHouten,81,13,true);
-   SaveForQuickRestart;
+   InGameOn;
+   PrepareHero1c;
    CenterOnUnits(VanHouten);
-
+   Wait(0$2);
+   Say(VanHouten,'M1Arrival-1');
+   ComMoveXY([VanHouten],76,6);
+   Say(VanHouten,'M1Arrival-2');
+   AddComMoveXY([VanHouten],86,19);
+   SayRadio(VanHouten,'M1Arrival-3');
+   SayRadio(VanHouten,'M1Arrival-4');
+   SayRadioNoName(Powell,'M1Arrival-5');
+   SayRadioNoName(Powell,'M1Arrival-6');
+   Say(VanHouten,'M1Arrival-7');
+   InGameOff;
+   ChangeMissionObjectives('D1c');
+   SaveForQuickRestart;
+   Wait(0$5);
+   Say(VanHouten,'M1RuConvo-1');
+   SayRadio(Kovalenko,'M1RuConvo-2');
+   SayRadio(Kovalenko,'M1RuConvo-3');
+   SayRadio(Gaydar,'M1RuConvo-4');
+   Say(VanHouten,'M1RuConvo-5');
+   Say(VanHouten,'M1RuConvo-6');
+   SayRadioNoName(Powell,'M1RuConvo-7');
+   Say(VanHouten,'M1RuConvo-8');
+   ChangeMissionObjectives('D2c');
 end;
