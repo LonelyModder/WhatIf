@@ -1,4 +1,4 @@
-export VanHouten, Yamoko, Powell, Gladstone, Dave, Kovalenko, Gaydar;
+export VanHouten, Harris, Powell, Dave, Kovalenko, Gaydar, Yamoko;
 
 Export Function PrepareHero1c;
 begin
@@ -7,19 +7,33 @@ begin
      uc_side := 1;
      VanHouten := NewCharacter('VanHouten');
 	 uc_side := 4;
-	 Yamoko := NewCharacter('Yamoko');
+	 Harris := NewCharacter('Harris');
 	 Powell := NewCharacter('Powell');
-	 Gladstone := NewCharacter('Gladstone');
 	 Dave := NewCharacter('Dave');
+	 Yamoko := NewCharacter('Yamoko');
 	 uc_side := 3;
 	 Kovalenko := NewCharacter('Kovalenko');
 	 Gaydar := NewCharacter('Gaydar');
 	 DWait(0$2);
 	 PlaceUnitXY(VanHouten,83,13,true);
-	 PlaceUnitXY(Yamoko,116,83,false);
-	 PlaceUnitXY(Gladstone,122,94,false);
-	 PlaceUnitXY(Dave,50,81,false);
+	 PlaceUnitXY(Harris,116,83,false);
+	 PlaceUnitXY(Dave,82,57,false);
+	 PlaceUnitXY(Yamoko,51,81,false);
 	 PlaceUnitXY(Kovalenko,36,17,false);
 	 PlaceUnitXY(Powell,36,17,false);
+	InGameOff;
+end;
+
+Export Function PeterandRadio;
+begin
+	InGameOn;
+	Say(VanHouten,'M1RuConvo-1');
+	SayRadio(Kovalenko,'M1RuConvo-2');
+	SayRadio(Kovalenko,'M1RuConvo-3');
+	SayRadio(Gaydar,'M1RuConvo-4');
+	Say(VanHouten,'M1RuConvo-5');
+	Say(VanHouten,'M1RuConvo-6');
+	SayRadioNoName(Powell,'M1RuConvo-7');
+	Say(VanHouten,'M1RuConvo-8');
 	InGameOff;
 end;

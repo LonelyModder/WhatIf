@@ -16,14 +16,54 @@ begin
    InGameOff;
    ChangeMissionObjectives('D1c');
    SaveForQuickRestart;
-   Wait(0$5);
-   Say(VanHouten,'M1RuConvo-1');
-   SayRadio(Kovalenko,'M1RuConvo-2');
-   SayRadio(Kovalenko,'M1RuConvo-3');
-   SayRadio(Gaydar,'M1RuConvo-4');
-   Say(VanHouten,'M1RuConvo-5');
-   Say(VanHouten,'M1RuConvo-6');
-   SayRadioNoName(Powell,'M1RuConvo-7');
-   Say(VanHouten,'M1RuConvo-8');
+   Wait(0$10);
+   PeterandRadio;
    ChangeMissionObjectives('D2c');
+   ComMoveXY([Dave],70,17);
+end;
+
+every 0$1 trigger see(VanHouten,Harris) and IsOk(Harris) do
+begin
+    InGameOn;
+        Say(VanHouten,'M1Harris-1');
+        Say(Harris,'M1Harris-2');
+		SetSide(Harris,VanHouten);
+		Say(VanHouten,'M1Harris-3');
+		Say(VanHouten,'M1Harris-4');
+		Say(Harris,'M1Harris-5');
+    InGameOff;
+end;
+
+every 0$1 trigger see(VanHouten,Dave) and IsOk(Dave) do
+begin
+    InGameOn;
+        Say(VanHouten,'M1Dave-1');
+        Say(Dave,'M1Dave-2');
+		Say(VanHouten,'M1Dave-3');
+        Say(Dave,'M1Dave-4');
+		Say(VanHouten,'M1Dave-5');
+        Say(Dave,'M1Dave-6');
+		Say(VanHouten,'M1Dave-7');
+		SetSide(Dave,VanHouten);
+    InGameOff;
+end;
+
+every 0$1 trigger see(VanHouten,Yamoko) and IsOk(Yamoko) do
+begin
+    InGameOn;
+		if IsOk(Dave) and (GetDistUnits(Yamoko,Dave)<17) then begin
+			Say(VanHouten,'M1cYamoko-1');
+			Say(Yamoko,'M1cYamoko-2');
+			Say(VanHouten,'M1cYamoko-3');
+			Say(Yamoko,'M1cYamoko-4');
+			Say(VanHouten,'M1cYamoko-5');
+			SetSide(Yamoko,VanHouten);
+		end;
+		if IsDead(Dave) or (GetDistUnits(Yamoko,Dave)>17) then begin
+			Say(VanHouten,'M1cYamokND-1');
+			Say(Yamoko,'M1cYamokND-2');
+			Say(VanHouten,'M1cYamokND-3');
+			SetSide(Yamoko,VanHouten);
+		end;
+    InGameOff;
 end;
