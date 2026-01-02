@@ -1,5 +1,5 @@
 VARIABLES 0
-CHARACTERS 95
+CHARACTERS 96
   Abdul 1
     DEFINE
       NAME Abdul
@@ -1308,5 +1308,16 @@ CHARACTERS 95
       CHAR @ 0 0
       RANDSEED 0
       VOICE 1 GALLERY SecondCharsGal 19
+    END_OF_DEFINE
+  Tatarczuk 1
+    DEFINE
+      NAME Tatarczuk
+      HUMAN 1 3 3
+      ATTR 10 10
+      SKILLS 0 15000 0 15000 2 15000 0 15000
+      LAST_MISSION 1
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY RusAmTrial 1
     END_OF_DEFINE
 END

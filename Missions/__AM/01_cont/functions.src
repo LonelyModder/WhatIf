@@ -1,4 +1,4 @@
-export VanHouten, Harris, Powell, Dave, Kovalenko, Gaydar, Yamoko;
+export VanHouten, Harris, Powell, Dave, Kovalenko, Gaydar, Yamoko, Tatarczuk;
 
 Export Function PrepareHero1c;
 begin
@@ -14,13 +14,29 @@ begin
 	 uc_side := 3;
 	 Kovalenko := NewCharacter('Kovalenko');
 	 Gaydar := NewCharacter('Gaydar');
+	 Tatarczuk := NewCharacter('Tatarczuk');
 	 DWait(0$2);
 	 PlaceUnitXY(VanHouten,83,13,true);
 	 PlaceUnitXY(Harris,116,83,false);
 	 PlaceUnitXY(Dave,82,57,false);
 	 PlaceUnitXY(Yamoko,51,81,false);
-	 PlaceUnitXY(Kovalenko,36,17,false);
-	 PlaceUnitXY(Powell,36,17,false);
+	 PlaceUnitXY(Kovalenko,30,18,false);
+	 PlaceUnitXY(Tatarczuk,79,76,false);
+	InGameOff;
+end;
+
+Export Function Intro1c;
+begin
+	InGameOn;
+	Say(VanHouten,'M1Arrival-1');
+    ComMoveXY([VanHouten],76,6);
+    Say(VanHouten,'M1Arrival-2');
+    AddComMoveXY([VanHouten],86,19);
+    SayRadio(VanHouten,'M1Arrival-3');
+    SayRadio(VanHouten,'M1Arrival-4');
+    SayRadioNoName(Powell,'M1Arrival-5');
+    SayRadioNoName(Powell,'M1Arrival-6');
+    Say(VanHouten,'M1Arrival-7');
 	InGameOff;
 end;
 
@@ -36,6 +52,46 @@ begin
 	SayRadioNoName(Powell,'M1RuConvo-7');
 	Say(VanHouten,'M1RuConvo-8');
 	InGameOff;
+end;
+
+Export Function PrepareRuskies1c;
+var i ,sol;
+begin
+	for i=1 to 5 do
+		begin
+		uc_nation := 3;
+		PrepareHuman(1,[1,1,1,1,4][i],2);
+		sol := CreateHuman;
+		PlaceUnitXYR(sol,30,17,4,false);
+	end;
+end;
+
+Export Function PrepareRuskieReinforcements;
+var i ,sol;
+begin
+	for i=1 to 2 do
+		begin
+		uc_nation := 3;
+		PrepareHuman(1,[1,1][i],2);
+		sol := CreateHuman;
+		PlaceUnitXYR(sol,79,76,4,false);
+	end;
+end;
+
+Export Function PrepareRuskieTank;
+var tank;
+begin
+	uc_side := 3;
+	uc_nation := 3;
+	
+	vc_chassis:= ru_medium_wheeled;
+	vc_control:= control_manual;
+	vc_weapon:= ru_heavy_machine_gun;
+	vc_engine:= engine_combustion;
+	
+	tank:=CreateVehicle;
+	SetDir(tank,0);
+	PlaceUnitXY(tank,74,70,false);
 end;
 
 Export Function EndMission;

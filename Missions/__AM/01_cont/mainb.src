@@ -2,17 +2,12 @@ starting
 begin
    InGameOn;
    PrepareHero1c;
+   PrepareRuskies1c;
+   PrepareRuskieReinforcements;
+   PrepareRuskieTank;
    CenterOnUnits(VanHouten);
    Wait(0$2);
-   Say(VanHouten,'M1Arrival-1');
-   ComMoveXY([VanHouten],76,6);
-   Say(VanHouten,'M1Arrival-2');
-   AddComMoveXY([VanHouten],86,19);
-   SayRadio(VanHouten,'M1Arrival-3');
-   SayRadio(VanHouten,'M1Arrival-4');
-   SayRadioNoName(Powell,'M1Arrival-5');
-   SayRadioNoName(Powell,'M1Arrival-6');
-   Say(VanHouten,'M1Arrival-7');
+   Intro1c;
    InGameOff;
    ChangeMissionObjectives('D1c');
    SaveForQuickRestart;
