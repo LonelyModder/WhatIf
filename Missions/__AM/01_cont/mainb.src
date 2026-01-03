@@ -1,4 +1,4 @@
-export RuUnit,RuReinf,RuOfficerKilled;
+export RuUnit,RuReinf,RuOfficerKilled,RuMechanicKilled;
 starting
 begin
    InGameOn;
@@ -19,30 +19,32 @@ begin
    ComMoveXY([Dave],70,17);
 end;
 
-every 0$1 trigger see(VanHouten,Tatarczuk) and IsOk(Tatarczuk) do
+every 0$1 trigger see(VanHouten,Tatarczuk) and RuReinf > 1 do
 begin
     //InGameOn;
         Say(Tatarczuk,'M1cRusTank-1');
     //InGameOff;
 end;
 
-every 0$1 trigger GetDistUnits(VanHouten,Tatarczuk) <= 10 and RuReinf < 2 do
+every 0$1 trigger see(VanHouten,Tatarczuk) and GetLives(Tatarczuk)<500 do
 begin
     //InGameOn;
         Say(Tatarczuk,'M1cRusTank-2');
         case Query('RusMecQ') of
             1: begin
                 Say(VanHouten,'M1cRusTank-3');
+				//SetAttitude(1, 6, att_friend, true);
                 ComMoveToArea([Tatarczuk],extractionpoint);
             end;
             2: begin
                 Say(VanHouten,'M1cRusTank-4');
+				ComMoveToArea([Tatarczuk],extractionpoint);
             end;
         end;
     //InGameOff;
 end;
 
-every 0$1 trigger GetDistUnits(VanHouten,Kovalenko) <= 10 and RuUnit < 3 do
+every 0$1 trigger GetDistUnits(VanHouten,Kovalenko) <= 10 and (RuUnit < 3 or GetLives(Kovalenko)<500) do
 begin
     InGameOn;
         Say(Kovalenko,'M1cRusUnit-4'); 
@@ -54,6 +56,12 @@ end;
 every 0$1 trigger IsInArea(Kovalenko,escapearea) do
 begin
 	RemoveUnit(Kovalenko);
+	Say(VanHouten,'M1cRusUnit-2');
+end;
+
+every 0$1 trigger IsInArea(Tatarczuk,extractionpoint) do
+begin
+	RemoveUnit(Tatarczuk);
 	Say(VanHouten,'M1cRusUnit-2');
 end;
 

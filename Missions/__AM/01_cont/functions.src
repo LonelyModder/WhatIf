@@ -22,7 +22,7 @@ begin
 	 PlaceUnitXY(Dave,82,57,false);
 	 PlaceUnitXY(Yamoko,51,81,false);
 	 PlaceUnitXY(Kovalenko,30,18,false);
-	 PlaceUnitXY(Tatarczuk,79,76,false);
+	 PlaceUnitXY(Tatarczuk,88,93,false);
 	InGameOff;
 end;
 

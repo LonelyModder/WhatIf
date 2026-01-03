@@ -7,6 +7,10 @@ begin
 			Say(VanHouten,'M1cRusUnit-3');
 			ChangeMissionObjectives('Out_CD1c');
 		end;
+	if un = Tatarczuk then 
+		begin
+			RuMechanicKilled = true;
+		end;
 	if un in RuUnit then RuUnit := RuUnit diff un;
 	if un in RuReinf then RuReinf := RuReinf diff un;
 end;
