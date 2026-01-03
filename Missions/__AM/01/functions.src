@@ -33,7 +33,7 @@ end;
 Export Function PrepareBuildings;
 var armories,i,sol;
 begin
-     armories := FilterAllUnits([ [f_side,1],[f_btype,b_armoury]]);
+     armories := FilterAllUnits([ [f_side,4],[f_btype,b_armoury]]);
 
      for i=1 to armories do
       begin

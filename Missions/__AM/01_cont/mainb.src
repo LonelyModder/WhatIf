@@ -1,3 +1,4 @@
+export RuUnit,RuReinf,RuOfficerKilled;
 starting
 begin
    InGameOn;
@@ -18,6 +19,44 @@ begin
    ComMoveXY([Dave],70,17);
 end;
 
+every 0$1 trigger see(VanHouten,Tatarczuk) and IsOk(Tatarczuk) do
+begin
+    //InGameOn;
+        Say(Tatarczuk,'M1cRusTank-1');
+    //InGameOff;
+end;
+
+every 0$1 trigger GetDistUnits(VanHouten,Tatarczuk) <= 10 and RuReinf < 2 do
+begin
+    //InGameOn;
+        Say(Tatarczuk,'M1cRusTank-2');
+        case Query('RusMecQ') of
+            1: begin
+                Say(VanHouten,'M1cRusTank-3');
+                ComMoveToArea([Tatarczuk],extractionpoint);
+            end;
+            2: begin
+                Say(VanHouten,'M1cRusTank-4');
+            end;
+        end;
+    //InGameOff;
+end;
+
+every 0$1 trigger GetDistUnits(VanHouten,Kovalenko) <= 10 and RuUnit < 3 do
+begin
+    InGameOn;
+        Say(Kovalenko,'M1cRusUnit-4'); 
+        ComMoveToArea([Kovalenko],escapearea);
+    InGameOff;
+end;
+
+//export RuOfficerKilled;
+every 0$1 trigger IsInArea(Kovalenko,escapearea) do
+begin
+	RemoveUnit(Kovalenko);
+	Say(VanHouten,'M1cRusUnit-2');
+end;
+
 every 0$1 trigger see(VanHouten,Harris) and IsOk(Harris) do
 begin
     InGameOn;
@@ -25,14 +64,19 @@ begin
         Say(Harris,'M1Harris-2');
 		SetSide(Harris,VanHouten);
 		Say(VanHouten,'M1Harris-3');
-		Say(VanHouten,'M1Harris-4');
-		Say(Harris,'M1Harris-5');
+		Say(Harris,'M1Harris-4');
+		Say(VanHouten,'M1Harris-5');
+		Say(Harris,'M1Harris-6');
+		Say(VanHouten,'M1Harris-7');
+		Say(Harris,'M1Harris-8');
+		Say(VanHouten,'M1Harris-9');
     InGameOff;
 end;
 
 every 0$1 trigger see(VanHouten,Dave) and IsOk(Dave) do
 begin
     InGameOn;
+	if IsOk(Yamoko) and (GetDistUnits(Yamoko,Dave)>17) then begin
         Say(VanHouten,'M1Dave-1');
         Say(Dave,'M1Dave-2');
 		Say(VanHouten,'M1Dave-3');
@@ -41,6 +85,25 @@ begin
         Say(Dave,'M1Dave-6');
 		Say(VanHouten,'M1Dave-7');
 		SetSide(Dave,VanHouten);
+	end;
+	if IsDead(Yamoko) then begin
+		Say(VanHouten,'M1Dave-1');
+        Say(Dave,'M1Dave-2');
+		Say(VanHouten,'M1Dave-3');
+        Say(Dave,'M1Dave-4');
+		Say(VanHouten,'M1Dave-8');
+        Say(Dave,'M1Dave-9');
+		Say(VanHouten,'M1Dave-10');
+	end;
+	if GetDistUnits(Yamoko,Dave)<17 then begin
+		Say(VanHouten,'M1Dave-1');
+        Say(Dave,'M1Dave-2');
+		Say(VanHouten,'M1Dave-3');
+		Say(Yamoko,'M1Dave-3');
+		Say(Dave,'M1Dave-3');
+		Say(Yamoko,'M1Dave-3');
+		Say(VanHouten,'M1Dave-3');
+	end;
     InGameOff;
 end;
 

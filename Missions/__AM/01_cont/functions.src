@@ -14,6 +14,7 @@ begin
 	 uc_side := 3;
 	 Kovalenko := NewCharacter('Kovalenko');
 	 Gaydar := NewCharacter('Gaydar');
+	 uc_side := 6;
 	 Tatarczuk := NewCharacter('Tatarczuk');
 	 DWait(0$2);
 	 PlaceUnitXY(VanHouten,83,13,true);
@@ -52,16 +53,19 @@ begin
 	SayRadioNoName(Powell,'M1RuConvo-7');
 	Say(VanHouten,'M1RuConvo-8');
 	InGameOff;
+	ChangeMissionObjectives('CD1c');
 end;
 
 Export Function PrepareRuskies1c;
 var i ,sol;
 begin
 	for i=1 to 5 do
-		begin
+	begin
+		uc_side := 3;
 		uc_nation := 3;
 		PrepareHuman(1,[1,1,1,1,4][i],2);
 		sol := CreateHuman;
+		RuUnit := RuUnit ^ sol;
 		PlaceUnitXYR(sol,30,17,4,false);
 	end;
 end;
@@ -70,10 +74,12 @@ Export Function PrepareRuskieReinforcements;
 var i ,sol;
 begin
 	for i=1 to 2 do
-		begin
+	begin
+		uc_side := 6;
 		uc_nation := 3;
 		PrepareHuman(1,[1,1][i],2);
 		sol := CreateHuman;
+		RuReinf := RuReinf ^ sol;
 		PlaceUnitXYR(sol,79,76,4,false);
 	end;
 end;
@@ -81,7 +87,7 @@ end;
 Export Function PrepareRuskieTank;
 var tank;
 begin
-	uc_side := 3;
+	uc_side := 6;
 	uc_nation := 3;
 	
 	vc_chassis:= ru_medium_wheeled;
@@ -101,7 +107,7 @@ begin
 	AddMedal('med2',-1)
 	else
 	AddMedal('med2',1);
-	if IsDead(Kovalenko) then
+	if RuOfficerKilled = true then
 	AddMedal('med3',1)
 	else
 	AddMedal('med3',-1);
