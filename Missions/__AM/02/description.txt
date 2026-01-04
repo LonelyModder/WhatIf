@@ -1,0 +1,9 @@
+MISSION
+  MAP map.txt
+  TEXTS texts.txt
+  SOURCES sources.txt
+  LIBRARYSOURCES librarysources.txt
+  CAMPAIGN 1 6
+  AUTOR Stoupa
+  ENABLED_INPUT_OUTPUT CharsAm06cont CharsAm06contout
+  SIZE 100 100 END_OF_MISSION

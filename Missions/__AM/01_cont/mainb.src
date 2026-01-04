@@ -26,6 +26,13 @@ begin
     //InGameOff;
 end;
 
+every 0$1 trigger FilterAllUnits([[f_side,1],[f_type,unit_human]])=4 do
+begin
+    //InGameOn;
+        ChangeMissionObjectives('Out_CD2c');
+    //InGameOff;
+end;
+
 every 0$1 trigger see(VanHouten,Tatarczuk) and GetLives(Tatarczuk)<500 do
 begin
     //InGameOn;
@@ -68,6 +75,7 @@ end;
 every 0$1 trigger see(VanHouten,Harris) and IsOk(Harris) do
 begin
     InGameOn;
+		CenterOnUnits(Harris);
         Say(VanHouten,'M1Harris-1');
         Say(Harris,'M1Harris-2');
 		SetSide(Harris,VanHouten);
@@ -85,6 +93,7 @@ every 0$1 trigger see(VanHouten,Dave) and IsOk(Dave) do
 begin
     InGameOn;
 	if IsOk(Yamoko) and (GetDistUnits(Yamoko,Dave)>17) then begin
+		CenterOnUnits(Dave);
         Say(VanHouten,'M1Dave-1');
         Say(Dave,'M1Dave-2');
 		Say(VanHouten,'M1Dave-3');
@@ -95,6 +104,7 @@ begin
 		SetSide(Dave,VanHouten);
 	end;
 	if IsDead(Yamoko) then begin
+		CenterOnUnits(Dave);
 		Say(VanHouten,'M1Dave-1');
         Say(Dave,'M1Dave-2');
 		Say(VanHouten,'M1Dave-3');
@@ -104,6 +114,7 @@ begin
 		Say(VanHouten,'M1Dave-10');
 	end;
 	if GetDistUnits(Yamoko,Dave)<17 then begin
+		CenterOnUnits(Dave);
 		Say(VanHouten,'M1Dave-1');
         Say(Dave,'M1Dave-2');
 		Say(VanHouten,'M1Dave-3');
@@ -119,6 +130,7 @@ every 0$1 trigger see(VanHouten,Yamoko) and IsOk(Yamoko) do
 begin
     InGameOn;
 		if IsOk(Dave) and (GetDistUnits(Yamoko,Dave)<17) then begin
+			CenterOnUnits(Yamoko);
 			Say(VanHouten,'M1cYamoko-1');
 			Say(Yamoko,'M1cYamoko-2');
 			Say(VanHouten,'M1cYamoko-3');
@@ -127,6 +139,7 @@ begin
 			SetSide(Yamoko,VanHouten);
 		end;
 		if IsDead(Dave) or (GetDistUnits(Yamoko,Dave)>17) then begin
+			CenterOnUnits(Yamoko);
 			Say(VanHouten,'M1cYamokND-1');
 			Say(Yamoko,'M1cYamokND-2');
 			Say(VanHouten,'M1cYamokND-3');

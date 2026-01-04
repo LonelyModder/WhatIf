@@ -20,6 +20,7 @@ end;
 every 0$1 trigger GetDistUnits(VanHouten,Simms) < 10 and metTruman = false do
 begin
     InGameOn;
+		CenterOnUnits(Simms);
         Say(Roth,'M1Simms-1');
         Say(Simms,'M1Simms-2');
         Say(Roth,'M1Simms-3');
@@ -43,6 +44,7 @@ end;
 every 0$1 trigger GetDistUnits(VanHouten,JohnAdams) < 10 and metTruman = false do
 begin
     InGameOn;
+		CenterOnUnits(JohnAdams);
         Say(DougIrons,'M1Adams-1');
         Say(JohnAdams,'M1Adams-2');
         Say(DougIrons,'M1Adams-3');
@@ -57,6 +59,7 @@ end;
 every 0$1 trigger GetDistUnits(VanHouten,Yamoko) < 10 and metTruman = false do
 begin
     InGameOn;
+		CenterOnUnits(Yamoko);
         Say(Yamoko,'M1Yamoko-1');
         Say(VanHouten,'M1Yamoko-2');
 		Say(Yamoko,'M1Yamoko-3');
@@ -72,6 +75,7 @@ end;
 every 0$1 trigger GetDistUnits(VanHouten,Coonie) < 10 and metTruman = false do
 begin
     InGameOn;
+		CenterOnUnits(Coonie);
         Say(Coonie,'M1Coonie-1');
 		Say(Wilson,'M1Coonie-2');
 		Say(VanHouten,'M1Coonie-3');
@@ -91,6 +95,7 @@ end;
 every 0$1 trigger GetDistUnits(VanHouten,Truman) < 15 and ( GetDistUnits(Truman, JohnAdams) > 10 or GetDistUnits(Truman, Simms) > 10 or GetDistUnits(Truman, Yamoko) > 10 or GetDistUnits(Truman, Coonie) > 10 ) do
 begin
     InGameOn;
+		CenterOnUnits(Truman);
         Say(Truman,'M1PreDeparture-1');
 		Say(VanHouten,'M1PreDeparture-2');
 		Say(Truman,'M1PreDeparture-3');
@@ -125,7 +130,7 @@ end;
 every 0$1 trigger GetDistUnits(VanHouten,Truman) < 10 and GetDistUnits(Truman,JohnAdams) < 10 and (GetDistUnits(Truman,Simms) < 10 and GetDistUnits(Truman,Yamoko) < 10 and GetDistUnits(Truman,Coonie) < 10) do
 begin
     InGameOn;
-		CenterOnUnits(VanHouten);
+		CenterOnUnits(Truman);
         Say(Truman,'M1Departure-1');
         Say(JohnAdams,'M1Departure-2');  
 		Say(DougIrons,'M1Departure-3');	
