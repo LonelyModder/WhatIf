@@ -1,12 +1,13 @@
 starting
 begin
-   InGameOn;
+   //InGameOn;
    PrepareHero02;
    CenterOnUnits(VanHouten);
    Wait(0$2);
+   IntroY;
    Intro02;
-   InGameOff;
-   ChangeMissionObjectives('02main1');
+   //InGameOff;
+   ChangeMissionObjectives('main1');
    SaveForQuickRestart;
 end;
 
@@ -16,6 +17,5 @@ begin
 		Say(VanHouten,'M2Intro-1');
 		Say(Yamoko,'M2Intro-2');
 		Say(VanHouten,'M2Intro-3');
-		Say(VanHouten,'M2Intro-4');
 	InGameOff;
 end;

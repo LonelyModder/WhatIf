@@ -20,7 +20,7 @@ begin
 	InGameOff;
 end;
 
-Export Function Intro02;
+Export Function IntroY;
 begin
 	 AM01_YamokoScout := true;
 	InGameOn;
@@ -30,6 +30,24 @@ begin
 	 end;
 	 if AM01_YamokoScout = false then begin 
 		PlaceUnitXY(Yamoko,75,17,false);
+	 end;
+	InGameOff;
+end;
+
+Export Function Intro02;
+begin
+	InGameOn;
+	 Say(VanHouten,'M2Intro-4');
+	 Say(Powell,'M2Intro-5');
+	 Say(VanHouten,'M2Intro-6');
+	 Say(Powell,'M2Intro-7');
+	 Say(VanHouten,'M2Intro-8');
+	 Say(Powell,'M2Intro-9');
+	 Say(Powell,'M2Intro-10');
+	 if GetDistUnits(Dave,VanHouten)<10 then begin
+		Say(Dave,'M2Intro-11');
+		Say(VanHouten,'M2Intro-12');
+		Say(Dave,'M2Intro-13');
 	 end;
 	InGameOff;
 end;
