@@ -1,0 +1,35 @@
+export VanHouten, Harris, Powell, Dave, Kovalenko, Gaydar, Yamoko, Tatarczuk, AM01_YamokoScout;
+//var AM01_YamokoScout; From mission 01?
+Export Function PrepareHero02;
+begin
+	InGameOn;
+	 uc_side := 1;
+     VanHouten := NewCharacter('VanHouten');
+	 Harris := NewCharacter('Harris');
+	 Powell := NewCharacter('Powell');
+	 Dave := NewCharacter('Dave');
+	 Yamoko := NewCharacter('Yamoko');
+	 uc_side := 3;
+	 Tatarczuk := NewCharacter('Tatarczuk');
+	 Kovalenko := NewCharacter('Kovalenko');
+	 Gaydar := NewCharacter('Gaydar');
+	 
+	 PlaceUnitXY(VanHouten,72,12,false);
+	 PlaceUnitXY(Dave,68,13,false);
+	 PlaceUnitXY(Harris,75,12,false);
+	InGameOff;
+end;
+
+Export Function Intro02;
+begin
+	 AM01_YamokoScout := true;
+	InGameOn;
+	 if AM01_YamokoScout = true then begin
+		PlaceUnitXY(Yamoko,91,36,false);
+		ComMoveXY([Yamoko],74,12);
+	 end;
+	 if AM01_YamokoScout = false then begin 
+		PlaceUnitXY(Yamoko,75,17,false);
+	 end;
+	InGameOff;
+end;

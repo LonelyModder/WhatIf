@@ -1,0 +1,21 @@
+starting
+begin
+   InGameOn;
+   PrepareHero02;
+   CenterOnUnits(VanHouten);
+   Wait(0$2);
+   Intro02;
+   InGameOff;
+   ChangeMissionObjectives('02main1');
+   SaveForQuickRestart;
+end;
+
+every 0$1 trigger GetDistUnits(Yamoko,VanHouten)<7 and AM01_YamokoScout = true do
+begin
+	InGameOn;
+		Say(VanHouten,'M2Intro-1');
+		Say(Yamoko,'M2Intro-2');
+		Say(VanHouten,'M2Intro-3');
+		Say(VanHouten,'M2Intro-4');
+	InGameOff;
+end;

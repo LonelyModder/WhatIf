@@ -150,6 +150,28 @@ end;
 
 every 0$1 trigger not FilterUnitsExceptArea(extractionpoint,[[f_side,1],[f_type,unit_human]]) do
 begin
-	//Last Dailogue
+	InGameOn;
+		if FilterAllUnits([[f_side,1],[f_type,unit_human]])=1 then begin
+			CenterOnUnits(VanHouten);
+			Say(VanHouten,'M1cOutro-1');
+		end;
+		if IsOk(Harris) and (GetDistUnits(VanHouten,Harris)<10) then begin
+			Say(Harris,'M1cOutro-2');
+			Say(VanHouten,'M1cOutro-3');
+		end;
+		if IsOk(Yamoko) and (GetDistUnits(VanHouten,Yamoko)<10) then begin
+			Say(VanHouten,'M1cOutro-4');
+			Say(Yamoko,'M1cOutro-5');
+			case Query('YamScautQ') of
+				1: begin
+					Say(VanHouten,'M1cOutro-6');
+					SaveVariable('AM01_YamokoScout',1);
+				end;
+				2: begin
+					Say(VanHouten,'M1cOutro-7');
+				end;
+			end;
+		end;
+	InGameOff;
 	EndMission;
 end;

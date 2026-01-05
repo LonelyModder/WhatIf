@@ -1,0 +1,4 @@
+on UnitDestroyed(un) do
+begin
+	if un = VanHouten then YouLost('VanHouten');
+end;
