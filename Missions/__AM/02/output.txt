@@ -1,354 +1,322 @@
-// starting begin InGameOn ;
-   0: CALL_OW 8
-// PrepareHero02 ;
-   4: CALL 136 0 0
+// starting begin PrepareHero02 ;
+   0: CALL 120 0 0
 // CenterOnUnits ( VanHouten ) ;
-   8: LD_EXP 1
-  12: PPUSH
-  13: CALL_OW 85
-// Wait ( 0 0$2 ) ;
-  17: LD_INT 70
+   4: LD_EXP 1
+   8: PPUSH
+   9: CALL_OW 85
+// IntroY ;
+  13: CALL 310 0 0
+// Wait ( 0 0$5 ) ;
+  17: LD_INT 175
   19: PPUSH
   20: CALL_OW 67
 // Intro02 ;
-  24: CALL 326 0 0
-// InGameOff ;
-  28: CALL_OW 9
-// ChangeMissionObjectives ( 02main1 ) ;
-  32: LD_STRING 02main1
-  34: PPUSH
-  35: CALL_OW 337
+  24: CALL 408 0 0
+// ChangeMissionObjectives ( main1 ) ;
+  28: LD_STRING main1
+  30: PPUSH
+  31: CALL_OW 337
 // SaveForQuickRestart ;
-  39: CALL_OW 22
+  35: CALL_OW 22
 // end ;
-  43: END
+  39: END
 // every 0 0$1 trigger GetDistUnits ( Yamoko , VanHouten ) < 7 and AM01_YamokoScout = true do
-  44: LD_EXP 7
-  48: PPUSH
-  49: LD_EXP 1
-  53: PPUSH
-  54: CALL_OW 296
-  58: PUSH
-  59: LD_INT 7
-  61: LESS
-  62: IFFALSE 74
-  64: PUSH
-  65: LD_EXP 9
-  69: PUSH
-  70: LD_INT 1
-  72: EQUAL
-  73: AND
-  74: IFFALSE 135
-  76: GO 78
-  78: DISABLE
+  40: LD_EXP 7
+  44: PPUSH
+  45: LD_EXP 1
+  49: PPUSH
+  50: CALL_OW 296
+  54: PUSH
+  55: LD_INT 7
+  57: LESS
+  58: IFFALSE 70
+  60: PUSH
+  61: LD_EXP 9
+  65: PUSH
+  66: LD_INT 1
+  68: EQUAL
+  69: AND
+  70: IFFALSE 119
+  72: GO 74
+  74: DISABLE
 // begin InGameOn ;
-  79: CALL_OW 8
+  75: CALL_OW 8
 // Say ( VanHouten , M2Intro-1 ) ;
-  83: LD_EXP 1
-  87: PPUSH
-  88: LD_STRING M2Intro-1
-  90: PPUSH
-  91: CALL_OW 88
+  79: LD_EXP 1
+  83: PPUSH
+  84: LD_STRING M2Intro-1
+  86: PPUSH
+  87: CALL_OW 88
 // Say ( Yamoko , M2Intro-2 ) ;
-  95: LD_EXP 7
-  99: PPUSH
- 100: LD_STRING M2Intro-2
- 102: PPUSH
- 103: CALL_OW 88
+  91: LD_EXP 7
+  95: PPUSH
+  96: LD_STRING M2Intro-2
+  98: PPUSH
+  99: CALL_OW 88
 // Say ( VanHouten , M2Intro-3 ) ;
- 107: LD_EXP 1
- 111: PPUSH
- 112: LD_STRING M2Intro-3
- 114: PPUSH
- 115: CALL_OW 88
-// Say ( VanHouten , M2Intro-4 ) ;
- 119: LD_EXP 1
- 123: PPUSH
- 124: LD_STRING M2Intro-4
- 126: PPUSH
- 127: CALL_OW 88
+ 103: LD_EXP 1
+ 107: PPUSH
+ 108: LD_STRING M2Intro-3
+ 110: PPUSH
+ 111: CALL_OW 88
 // InGameOff ;
- 131: CALL_OW 9
+ 115: CALL_OW 9
 // end ; end_of_file
- 135: END
+ 119: END
 // export VanHouten , Harris , Powell , Dave , Kovalenko , Gaydar , Yamoko , Tatarczuk , AM01_YamokoScout ; export function PrepareHero02 ; begin
- 136: LD_INT 0
- 138: PPUSH
+ 120: LD_INT 0
+ 122: PPUSH
 // InGameOn ;
- 139: CALL_OW 8
+ 123: CALL_OW 8
 // uc_side := 1 ;
- 143: LD_ADDR_OWVAR 20
- 147: PUSH
- 148: LD_INT 1
- 150: ST_TO_ADDR
+ 127: LD_ADDR_OWVAR 20
+ 131: PUSH
+ 132: LD_INT 1
+ 134: ST_TO_ADDR
 // VanHouten := NewCharacter ( VanHouten ) ;
- 151: LD_ADDR_EXP 1
- 155: PUSH
- 156: LD_STRING VanHouten
- 158: PPUSH
- 159: CALL_OW 25
- 163: ST_TO_ADDR
+ 135: LD_ADDR_EXP 1
+ 139: PUSH
+ 140: LD_STRING VanHouten
+ 142: PPUSH
+ 143: CALL_OW 25
+ 147: ST_TO_ADDR
 // Harris := NewCharacter ( Harris ) ;
- 164: LD_ADDR_EXP 2
- 168: PUSH
- 169: LD_STRING Harris
- 171: PPUSH
- 172: CALL_OW 25
- 176: ST_TO_ADDR
+ 148: LD_ADDR_EXP 2
+ 152: PUSH
+ 153: LD_STRING Harris
+ 155: PPUSH
+ 156: CALL_OW 25
+ 160: ST_TO_ADDR
 // Powell := NewCharacter ( Powell ) ;
- 177: LD_ADDR_EXP 3
- 181: PUSH
- 182: LD_STRING Powell
- 184: PPUSH
- 185: CALL_OW 25
- 189: ST_TO_ADDR
+ 161: LD_ADDR_EXP 3
+ 165: PUSH
+ 166: LD_STRING Powell
+ 168: PPUSH
+ 169: CALL_OW 25
+ 173: ST_TO_ADDR
 // Dave := NewCharacter ( Dave ) ;
- 190: LD_ADDR_EXP 4
- 194: PUSH
- 195: LD_STRING Dave
- 197: PPUSH
- 198: CALL_OW 25
- 202: ST_TO_ADDR
+ 174: LD_ADDR_EXP 4
+ 178: PUSH
+ 179: LD_STRING Dave
+ 181: PPUSH
+ 182: CALL_OW 25
+ 186: ST_TO_ADDR
 // Yamoko := NewCharacter ( Yamoko ) ;
- 203: LD_ADDR_EXP 7
- 207: PUSH
- 208: LD_STRING Yamoko
- 210: PPUSH
- 211: CALL_OW 25
- 215: ST_TO_ADDR
+ 187: LD_ADDR_EXP 7
+ 191: PUSH
+ 192: LD_STRING Yamoko
+ 194: PPUSH
+ 195: CALL_OW 25
+ 199: ST_TO_ADDR
 // uc_side := 3 ;
- 216: LD_ADDR_OWVAR 20
- 220: PUSH
- 221: LD_INT 3
- 223: ST_TO_ADDR
+ 200: LD_ADDR_OWVAR 20
+ 204: PUSH
+ 205: LD_INT 3
+ 207: ST_TO_ADDR
 // Tatarczuk := NewCharacter ( Tatarczuk ) ;
- 224: LD_ADDR_EXP 8
- 228: PUSH
- 229: LD_STRING Tatarczuk
- 231: PPUSH
- 232: CALL_OW 25
- 236: ST_TO_ADDR
+ 208: LD_ADDR_EXP 8
+ 212: PUSH
+ 213: LD_STRING Tatarczuk
+ 215: PPUSH
+ 216: CALL_OW 25
+ 220: ST_TO_ADDR
 // Kovalenko := NewCharacter ( Kovalenko ) ;
- 237: LD_ADDR_EXP 5
- 241: PUSH
- 242: LD_STRING Kovalenko
- 244: PPUSH
- 245: CALL_OW 25
- 249: ST_TO_ADDR
+ 221: LD_ADDR_EXP 5
+ 225: PUSH
+ 226: LD_STRING Kovalenko
+ 228: PPUSH
+ 229: CALL_OW 25
+ 233: ST_TO_ADDR
 // Gaydar := NewCharacter ( Gaydar ) ;
- 250: LD_ADDR_EXP 6
- 254: PUSH
- 255: LD_STRING Gaydar
- 257: PPUSH
- 258: CALL_OW 25
- 262: ST_TO_ADDR
+ 234: LD_ADDR_EXP 6
+ 238: PUSH
+ 239: LD_STRING Gaydar
+ 241: PPUSH
+ 242: CALL_OW 25
+ 246: ST_TO_ADDR
 // PlaceUnitXY ( VanHouten , 72 , 12 , false ) ;
- 263: LD_EXP 1
- 267: PPUSH
- 268: LD_INT 72
- 270: PPUSH
- 271: LD_INT 12
- 273: PPUSH
- 274: LD_INT 0
- 276: PPUSH
- 277: CALL_OW 48
+ 247: LD_EXP 1
+ 251: PPUSH
+ 252: LD_INT 72
+ 254: PPUSH
+ 255: LD_INT 12
+ 257: PPUSH
+ 258: LD_INT 0
+ 260: PPUSH
+ 261: CALL_OW 48
 // PlaceUnitXY ( Dave , 68 , 13 , false ) ;
- 281: LD_EXP 4
- 285: PPUSH
- 286: LD_INT 68
- 288: PPUSH
- 289: LD_INT 13
- 291: PPUSH
- 292: LD_INT 0
- 294: PPUSH
- 295: CALL_OW 48
+ 265: LD_EXP 4
+ 269: PPUSH
+ 270: LD_INT 68
+ 272: PPUSH
+ 273: LD_INT 13
+ 275: PPUSH
+ 276: LD_INT 0
+ 278: PPUSH
+ 279: CALL_OW 48
 // PlaceUnitXY ( Harris , 75 , 12 , false ) ;
- 299: LD_EXP 2
- 303: PPUSH
- 304: LD_INT 75
- 306: PPUSH
- 307: LD_INT 12
- 309: PPUSH
+ 283: LD_EXP 2
+ 287: PPUSH
+ 288: LD_INT 75
+ 290: PPUSH
+ 291: LD_INT 12
+ 293: PPUSH
+ 294: LD_INT 0
+ 296: PPUSH
+ 297: CALL_OW 48
+// InGameOff ;
+ 301: CALL_OW 9
+// end ;
+ 305: LD_VAR 0 1
+ 309: RET
+// export function IntroY ; begin
  310: LD_INT 0
  312: PPUSH
- 313: CALL_OW 48
-// InGameOff ;
- 317: CALL_OW 9
-// end ;
- 321: LD_VAR 0 1
- 325: RET
-// export function Intro02 ; begin
- 326: LD_INT 0
- 328: PPUSH
 // AM01_YamokoScout := true ;
- 329: LD_ADDR_EXP 9
- 333: PUSH
- 334: LD_INT 1
- 336: ST_TO_ADDR
+ 313: LD_ADDR_EXP 9
+ 317: PUSH
+ 318: LD_INT 1
+ 320: ST_TO_ADDR
 // InGameOn ;
- 337: CALL_OW 8
+ 321: CALL_OW 8
 // if AM01_YamokoScout = true then
- 341: LD_EXP 9
- 345: PUSH
- 346: LD_INT 1
- 348: EQUAL
- 349: IFFALSE 387
+ 325: LD_EXP 9
+ 329: PUSH
+ 330: LD_INT 1
+ 332: EQUAL
+ 333: IFFALSE 371
 // begin PlaceUnitXY ( Yamoko , 91 , 36 , false ) ;
- 351: LD_EXP 7
- 355: PPUSH
- 356: LD_INT 91
- 358: PPUSH
- 359: LD_INT 36
- 361: PPUSH
- 362: LD_INT 0
- 364: PPUSH
- 365: CALL_OW 48
-// ComMoveXY ( [ Yamoko ] , 74 , 12 ) ;
- 369: LD_EXP 7
- 373: PUSH
- 374: EMPTY
- 375: LIST
- 376: PPUSH
- 377: LD_INT 74
- 379: PPUSH
- 380: LD_INT 12
- 382: PPUSH
- 383: CALL_OW 111
+ 335: LD_EXP 7
+ 339: PPUSH
+ 340: LD_INT 91
+ 342: PPUSH
+ 343: LD_INT 36
+ 345: PPUSH
+ 346: LD_INT 0
+ 348: PPUSH
+ 349: CALL_OW 48
+// ComMoveXY ( [ Yamoko ] , 74 , 15 ) ;
+ 353: LD_EXP 7
+ 357: PUSH
+ 358: EMPTY
+ 359: LIST
+ 360: PPUSH
+ 361: LD_INT 74
+ 363: PPUSH
+ 364: LD_INT 15
+ 366: PPUSH
+ 367: CALL_OW 111
 // end ; if AM01_YamokoScout = false then
- 387: LD_EXP 9
- 391: PUSH
- 392: LD_INT 0
- 394: EQUAL
- 395: IFFALSE 415
+ 371: LD_EXP 9
+ 375: PUSH
+ 376: LD_INT 0
+ 378: EQUAL
+ 379: IFFALSE 399
 // begin PlaceUnitXY ( Yamoko , 75 , 17 , false ) ;
- 397: LD_EXP 7
- 401: PPUSH
- 402: LD_INT 75
- 404: PPUSH
- 405: LD_INT 17
- 407: PPUSH
+ 381: LD_EXP 7
+ 385: PPUSH
+ 386: LD_INT 75
+ 388: PPUSH
+ 389: LD_INT 17
+ 391: PPUSH
+ 392: LD_INT 0
+ 394: PPUSH
+ 395: CALL_OW 48
+// end ; InGameOff ;
+ 399: CALL_OW 9
+// end ;
+ 403: LD_VAR 0 1
+ 407: RET
+// export function Intro02 ; begin
  408: LD_INT 0
  410: PPUSH
- 411: CALL_OW 48
+// InGameOn ;
+ 411: CALL_OW 8
+// Say ( VanHouten , M2Intro-4 ) ;
+ 415: LD_EXP 1
+ 419: PPUSH
+ 420: LD_STRING M2Intro-4
+ 422: PPUSH
+ 423: CALL_OW 88
+// Say ( Powell , M2Intro-5 ) ;
+ 427: LD_EXP 3
+ 431: PPUSH
+ 432: LD_STRING M2Intro-5
+ 434: PPUSH
+ 435: CALL_OW 88
+// Say ( VanHouten , M2Intro-6 ) ;
+ 439: LD_EXP 1
+ 443: PPUSH
+ 444: LD_STRING M2Intro-6
+ 446: PPUSH
+ 447: CALL_OW 88
+// Say ( Powell , M2Intro-7 ) ;
+ 451: LD_EXP 3
+ 455: PPUSH
+ 456: LD_STRING M2Intro-7
+ 458: PPUSH
+ 459: CALL_OW 88
+// Say ( VanHouten , M2Intro-8 ) ;
+ 463: LD_EXP 1
+ 467: PPUSH
+ 468: LD_STRING M2Intro-8
+ 470: PPUSH
+ 471: CALL_OW 88
+// Say ( Powell , M2Intro-9 ) ;
+ 475: LD_EXP 3
+ 479: PPUSH
+ 480: LD_STRING M2Intro-9
+ 482: PPUSH
+ 483: CALL_OW 88
+// Say ( Powell , M2Intro-10 ) ;
+ 487: LD_EXP 3
+ 491: PPUSH
+ 492: LD_STRING M2Intro-10
+ 494: PPUSH
+ 495: CALL_OW 88
+// if GetDistUnits ( Dave , VanHouten ) < 10 then
+ 499: LD_EXP 4
+ 503: PPUSH
+ 504: LD_EXP 1
+ 508: PPUSH
+ 509: CALL_OW 296
+ 513: PUSH
+ 514: LD_INT 10
+ 516: LESS
+ 517: IFFALSE 555
+// begin Say ( Dave , M2Intro-11 ) ;
+ 519: LD_EXP 4
+ 523: PPUSH
+ 524: LD_STRING M2Intro-11
+ 526: PPUSH
+ 527: CALL_OW 88
+// Say ( VanHouten , M2Intro-12 ) ;
+ 531: LD_EXP 1
+ 535: PPUSH
+ 536: LD_STRING M2Intro-12
+ 538: PPUSH
+ 539: CALL_OW 88
+// Say ( Dave , M2Intro-13 ) ;
+ 543: LD_EXP 4
+ 547: PPUSH
+ 548: LD_STRING M2Intro-13
+ 550: PPUSH
+ 551: CALL_OW 88
 // end ; InGameOff ;
- 415: CALL_OW 9
+ 555: CALL_OW 9
 // end ; end_of_file
- 419: LD_VAR 0 1
- 423: RET
+ 559: LD_VAR 0 1
+ 563: RET
 // on UnitDestroyed ( un ) do begin if un = VanHouten then
- 424: LD_VAR 0 1
- 428: PUSH
- 429: LD_EXP 1
- 433: EQUAL
- 434: IFFALSE 443
+ 564: LD_VAR 0 1
+ 568: PUSH
+ 569: LD_EXP 1
+ 573: EQUAL
+ 574: IFFALSE 583
 // YouLost ( VanHouten ) ;
- 436: LD_STRING VanHouten
- 438: PPUSH
- 439: CALL_OW 104
-// end ; end_of_file
- 443: PPOPN 1
- 445: END
-// export function SA_EndMission ( campaignNumber , missionNumber , medal1 , medal2 , medal3 ) ; var achiv ; begin
- 446: LD_INT 0
- 448: PPUSH
- 449: PPUSH
-// if not missionNumber then
- 450: LD_VAR 0 2
- 454: NOT
- 455: IFFALSE 459
-// exit ;
- 457: GO 597
-// achiv := false ;
- 459: LD_ADDR_VAR 0 7
- 463: PUSH
- 464: LD_INT 0
- 466: ST_TO_ADDR
-// case campaignNumber of 1 :
- 467: LD_VAR 0 1
- 471: PUSH
- 472: LD_INT 1
- 474: DOUBLE
- 475: EQUAL
- 476: IFTRUE 480
- 478: GO 491
- 480: POP
-// achiv := ACH_GOTA ; 2 :
- 481: LD_ADDR_VAR 0 7
- 485: PUSH
- 486: LD_STRING ACH_GOTA
- 488: ST_TO_ADDR
- 489: GO 541
- 491: LD_INT 2
- 493: DOUBLE
- 494: EQUAL
- 495: IFTRUE 499
- 497: GO 502
- 499: POP
-// ; 3 :
- 500: GO 541
- 502: LD_INT 3
- 504: DOUBLE
- 505: EQUAL
- 506: IFTRUE 510
- 508: GO 521
- 510: POP
-// achiv := ACH_MOTSU ; 4 :
- 511: LD_ADDR_VAR 0 7
- 515: PUSH
- 516: LD_STRING ACH_MOTSU
- 518: ST_TO_ADDR
- 519: GO 541
- 521: LD_INT 4
- 523: DOUBLE
- 524: EQUAL
- 525: IFTRUE 529
- 527: GO 540
- 529: POP
-// achiv := ACH_LOP ; end ;
- 530: LD_ADDR_VAR 0 7
- 534: PUSH
- 535: LD_STRING ACH_LOP
- 537: ST_TO_ADDR
- 538: GO 541
- 540: POP
-// if Difficulty = 3 and achiv and medal1 and medal2 and medal3 then
- 541: LD_OWVAR 67
- 545: PUSH
- 546: LD_INT 3
- 548: EQUAL
- 549: IFFALSE 557
- 551: PUSH
- 552: LD_VAR 0 7
- 556: AND
- 557: IFFALSE 565
- 559: PUSH
- 560: LD_VAR 0 3
- 564: AND
- 565: IFFALSE 573
- 567: PUSH
- 568: LD_VAR 0 4
- 572: AND
- 573: IFFALSE 581
- 575: PUSH
- 576: LD_VAR 0 5
- 580: AND
- 581: IFFALSE 597
-// SetAchievementEX ( achiv , missionNumber ) ;
- 583: LD_VAR 0 7
- 587: PPUSH
- 588: LD_VAR 0 2
- 592: PPUSH
- 593: CALL_OW 564
+ 576: LD_STRING VanHouten
+ 578: PPUSH
+ 579: CALL_OW 104
 // end ;
- 597: LD_VAR 0 6
- 601: RET
-// export function SA_BehemothConstructed ; begin
- 602: LD_INT 0
- 604: PPUSH
-// SetAchievement ( ACH_SMC ) ;
- 605: LD_STRING ACH_SMC
- 607: PPUSH
- 608: CALL_OW 543
-// end ;
- 612: LD_VAR 0 1
- 616: RET
+ 583: PPOPN 1
+ 585: END

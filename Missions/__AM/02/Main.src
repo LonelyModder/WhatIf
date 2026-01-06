@@ -3,8 +3,8 @@ begin
    //InGameOn;
    PrepareHero02;
    CenterOnUnits(VanHouten);
-   Wait(0$2);
    IntroY;
+   Wait(0$5);
    Intro02;
    //InGameOff;
    ChangeMissionObjectives('main1');
