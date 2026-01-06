@@ -1,4 +1,4 @@
-export VanHouten, Harris, Powell, Dave, Kovalenko, Gaydar, Yamoko, Tatarczuk, AM01_YamokoScout;
+export VanHouten, Gladstone, Harris, Powell, Dave, Kovalenko, Gaydar, Yamoko, Tatarczuk, AM01_YamokoScout;
 //var AM01_YamokoScout; From mission 01?
 Export Function PrepareHero02;
 begin
@@ -9,6 +9,8 @@ begin
 	 Powell := NewCharacter('Powell');
 	 Dave := NewCharacter('Dave');
 	 Yamoko := NewCharacter('Yamoko');
+	 uc_side := 4;
+	 Gladstone := NewCharacter('Gladstone');
 	 uc_side := 3;
 	 Tatarczuk := NewCharacter('Tatarczuk');
 	 Kovalenko := NewCharacter('Kovalenko');
@@ -17,13 +19,14 @@ begin
 	 PlaceUnitXY(VanHouten,72,12,false);
 	 PlaceUnitXY(Dave,68,13,false);
 	 PlaceUnitXY(Harris,75,12,false);
+	 PlaceUnitXY(Gladstone,143,96,false);
 	InGameOff;
 end;
 
 Export Function IntroY;
 begin
 	 AM01_YamokoScout := true;
-	InGameOn;
+	InGameOff;
 	 if AM01_YamokoScout = true then begin
 		PlaceUnitXY(Yamoko,91,36,false);
 		ComMoveXY([Yamoko],74,15);
@@ -31,23 +34,24 @@ begin
 	 if AM01_YamokoScout = false then begin 
 		PlaceUnitXY(Yamoko,75,17,false);
 	 end;
-	InGameOff;
+	InGameOn;
 end;
 
 Export Function Intro02;
 begin
 	InGameOn;
 	 Say(VanHouten,'M2Intro-4');
-	 Say(Powell,'M2Intro-5');
-	 Say(VanHouten,'M2Intro-6');
-	 Say(Powell,'M2Intro-7');
-	 Say(VanHouten,'M2Intro-8');
-	 Say(Powell,'M2Intro-9');
-	 Say(Powell,'M2Intro-10');
+	 SayRadio(Powell,'M2Intro-5');
+	 SayRadio(VanHouten,'M2Intro-6');
+	 SayRadio(Powell,'M2Intro-7');
+	 SayRadio(VanHouten,'M2Intro-8');
+	 SayRadio(Powell,'M2Intro-9');
+	 SayRadio(VanHouten,'M2Intro-10');
 	 if GetDistUnits(Dave,VanHouten)<10 then begin
 		Say(Dave,'M2Intro-11');
 		Say(VanHouten,'M2Intro-12');
 		Say(Dave,'M2Intro-13');
 	 end;
+	 ChangeMissionObjectives('main1');
 	InGameOff;
 end;

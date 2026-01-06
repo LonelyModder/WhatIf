@@ -1,13 +1,11 @@
 starting
 begin
-   //InGameOn;
+   InGameOn;
    PrepareHero02;
-   CenterOnUnits(VanHouten);
    IntroY;
-   Wait(0$5);
-   Intro02;
-   //InGameOff;
-   ChangeMissionObjectives('main1');
+   CenterOnUnits(VanHouten);
+   //Wait(0$5);
+   InGameOff;
    SaveForQuickRestart;
 end;
 
@@ -17,5 +15,27 @@ begin
 		Say(VanHouten,'M2Intro-1');
 		Say(Yamoko,'M2Intro-2');
 		Say(VanHouten,'M2Intro-3');
+		Intro02;
+	InGameOff;
+end;
+
+every 0$1 trigger GetDistUnits(Gladstone,VanHouten)<10 do
+begin
+	InGameOn;
+		Say(VanHouten,'M2Gladstone-1');
+		Say(Gladstone,'M2Gladstone-2');
+		Say(VanHouten,'M2Gladstone-3');
+		if GetDistUnits(Gladstone,Harris)<10 then begin
+			Say(Gladstone,'M2Gladstone-4');
+			Say(Harris,'M2Gladstone-5');
+			Say(Gladstone,'M2Gladstone-6');
+			Say(Harris,'M2Gladstone-7');
+			Say(VanHouten,'M2Gladstone-8');
+			Say(Harris,'M2Gladstone-9');
+			Say(VanHouten,'M2Gladstone-10');
+		end;
+		SayRadio(VanHouten,'M2Gladstone-11');
+		SayRadio(Powell,'M2Gladstone-12');
+		SayRadio(VanHouten,'M2Gladstone-13');
 	InGameOff;
 end;
