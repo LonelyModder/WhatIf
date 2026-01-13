@@ -25,6 +25,7 @@ begin
 		Say(VanHouten,'M2Gladstone-1');
 		Say(Gladstone,'M2Gladstone-2');
 		Say(VanHouten,'M2Gladstone-3');
+		SetSide(Gladstone,VanHouten);
 		if GetDistUnits(Gladstone,Harris)<10 then begin
 			Say(Gladstone,'M2Gladstone-4');
 			Say(Harris,'M2Gladstone-5');
@@ -37,5 +38,37 @@ begin
 		SayRadio(VanHouten,'M2Gladstone-11');
 		SayRadio(Powell,'M2Gladstone-12');
 		SayRadio(VanHouten,'M2Gladstone-13');
+	InGameOff;
+end;
+
+every 0$1 trigger GetDistUnits(Cornell,VanHouten)<70 do
+begin
+	InGameOn;
+		SayRadio(Cornell,'M2Cornell-1');
+		SayRadio(VanHouten,'M2Cornell-2');
+		SayRadio(Cornell,'M2Cornell-3');
+		SayRadio(VanHouten,'M2Cornell-4');
+		//Add new additional target 
+	InGameOff;
+end;
+
+every 0$1 trigger GetDistUnits(Cornell,VanHouten)<10 do
+begin
+	InGameOn;
+		Say(VanHouten,'M2Cornell-5');
+		Say(Cornell,'M2Cornell-6');
+		Say(VanHouten,'M2Cornell-7');
+		Say(Cornell,'M2Cornell-8');
+		Say(VanHouten,'M2Cornell-9');
+		Say(Cornell,'M2Cornell-10');
+		Say(VanHouten,'M2Cornell-11');
+		Say(Cornell,'M2Cornell-12');
+		Say(VanHouten,'M2Cornell-13');
+		Say(Cornell,'M2Cornell-14');
+		SetSide(Gladstone,VanHouten);
+		SetSide(Frank,VanHouten);
+		SetSide(Walker,VanHouten);
+		SetSide(Jilian,VanHouten);
+		Say(VanHouten,'M2Cornell-15');
 	InGameOff;
 end;

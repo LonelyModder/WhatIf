@@ -1,4 +1,4 @@
-export VanHouten, Gladstone, Harris, Powell, Dave, Kovalenko, Gaydar, Yamoko, Tatarczuk, AM01_YamokoScout;
+export VanHouten, Walker, Frank, Cornell, Jilian, Gladstone, Harris, Powell, Dave, Kovalenko, Gaydar, Yamoko, Tatarczuk, AM01_YamokoScout;
 //var AM01_YamokoScout; From mission 01?
 Export Function PrepareHero02;
 begin
@@ -11,6 +11,10 @@ begin
 	 Yamoko := NewCharacter('Yamoko');
 	 uc_side := 4;
 	 Gladstone := NewCharacter('Gladstone');
+	 Walker := NewCharacter('Walker');
+	 Frank := NewCharacter('Frank');
+	 Cornell := NewCharacter('Cornell');
+	 Jilian := NewCharacter('Jilian');
 	 uc_side := 3;
 	 Tatarczuk := NewCharacter('Tatarczuk');
 	 Kovalenko := NewCharacter('Kovalenko');
@@ -20,6 +24,10 @@ begin
 	 PlaceUnitXY(Dave,68,13,false);
 	 PlaceUnitXY(Harris,75,12,false);
 	 PlaceUnitXY(Gladstone,143,96,false);
+	 PlaceUnitXY(Frank,47,92,false);
+	 PlaceUnitXY(Walker,47,94,false);
+	 PlaceUnitXY(Cornell,50,93,false);
+	 PlaceUnitXY(Jilian,49,96,false);
 	InGameOff;
 end;
 
