@@ -2,6 +2,7 @@ starting
 begin
    InGameOn;
    PrepareHero02;
+   PrepareBunkers;
    IntroY;
    CenterOnUnits(VanHouten);
    //Wait(0$5);
@@ -68,7 +69,7 @@ begin
 		SetSide(Gladstone,VanHouten);
 		SetSide(Frank,VanHouten);
 		SetSide(Walker,VanHouten);
-		SetSide(Jilian,VanHouten);
+		SetSide(Jillian,VanHouten);
 		Say(VanHouten,'M2Cornell-15');
 	InGameOff;
 end;

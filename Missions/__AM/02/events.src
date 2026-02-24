@@ -1,4 +1,5 @@
 on UnitDestroyed(un) do
 begin
 	if un = VanHouten then YouLost('VanHouten');
+	if un = Gladstone then YouLost('Gladstone');
 end;
