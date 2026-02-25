@@ -151,15 +151,15 @@ HEXES
   LINE 68 34 133
     t4r2vTf1 t2r2vTsAf1 r2vTsAf1 r2vTsHf1 r2vVf1 r2vV r7vV r7vSsS r2vS r2vS r2vQsK r2vOsK r2vMsKf1 r2vKsLf1 r2vIsL r2vHsB r2vGsJ r2vFsK r7vCsS r7v8sa v6sK v6 v6 v6 v6sA v6sA v7 v7 v7 v7 v7 v7 v7 v7 v6sG v6sG v6sG v6sG v6sG v6sG v7s8 r6v8sf r6vDso r6vDsp vBsJ r6vBso r6vH r6vBsq vAsB vAsO vDs8 vE r6v9si v9 v9s9 vA vA vA vA vA vA vA vA vA vA vA vA v9sB v9 v9f8 v9f8 v9f8 v9f8 v9 v9s8f8 vAf8 r2vAs8 r2vAs8f8 r2vAsW r6vE r6vDsC r6vD r6vAsR vAsR r2vAsQ r6vAsg r6vAsg r6vAsg r6vAso r6vAso r6vCsQ r6vCsQ r6vAsh r6vAsh r6v7sp r6v7so v9sZ v9sZ t2v6sZ t4v6sZ
   LINE 69 35 134
-    t4r2vTs9f1 t2r2vUf1 r2vUf1 r2vUs9f1 r2vVf1 r7vV r7vSsS r7vS r2vS r2vQsK r2vOsKf1 r2vMsKf1 r2vKsKf1 r2vIsKf1 r2vI r2vI r2vHsC r7vEsS r6v8sq r7v4sb v4sG v4sG v6 v6s9 v7 v7 v7 v7 v7 v7 v7 v7 v7 v6sC v6 r7v6 r7v6 r7v6 r7v6 r7v6s8 r6v7sn r6vDsn r6vJ r6vDsp r6vDsQ r6vGs8 r6vGs8 r6vBsh vB vBsG vCsG r6v9se v9sA v9sA vA vA vA vA vAf8 vA vA vA vA vA vA vAf8 vAf8 v9sB v9sBf8 v9f8 v9f8 v9f8 v9f8 v9 r2v9s9f8 r2vA r2vAf8 r2vA r2vAsX r2vCsH r2vD r2vD r2vD r2vD r6vDsH r6vF r6vF r6vFs9 r6vG r6vFsC r2vF r6vF r6vF r6vDsJ r6vD vDsQ vDsR r6vAsh t2r6vAsh t4v6sZ
+    t4r2vTs9f1 t2r2vUf1 r2vUf1 r2vUs9f1 r2vVf1 r7vV r7vSsS r7vS r2vS r2vQsK r2vOsKf1 r2vMsKf1 r2vKsKf1 r2vIsKf1 r2vI r2vI r2vHsC r7vEsS r6v8sq r7v4sb v4sG v4sG v6 v6s9 v7 v7 v7 v7 v7 v7 v7 v7 v7 v6sC v6 r7v6 r7v6 r7v6 r7v6 r7v6s8 r6v7sn r6vDsn r6vJ r6vDsp r6vDsQ r6vGs8 r6vGs8 r6vBsh vB vBsG vCsG r6v9se v9sA v9sA vA vA vA vA vAf8 vAf8 vA vA vA vA vA vAf8 vAf8 v9sB v9sBf8 v9f8 v9f8 v9f8 v9f8 v9 r2v9s9f8 r2vA r2vAf8 r2vA r2vAsX r2vCsH r2vD r2vD r2vD r2vD r6vDsH r6vF r6vF r6vFs9 r6vG r6vFsC r2vF r6vF r6vF r6vDsJ r6vD vDsQ vDsR r6vAsh t2r6vAsh t4v6sZ
   LINE 70 35 134
-    t4r2vTs9f1 t2r2vUf1 r2vUf1 r2vUs9f1 r2vVf1 r7vVf1 r7vUsCf1 r7vSsKf1 r7vQsLf1 r2vQsLf1 r2vOsKf1 r2vMsKf1 r2vKsKf1 r2vIsKf1 r2vIf1 r2vI r2vHsC r7vEsS r6v8sq r7v4sa v4 v4 v4sH v6 v6s8 v6s8 v6s8 v6s8 v6s8 v7 v7 v7 v7 v6sC v6 v6 v6 r7v6 r7v6 r7v6 r6v6s9 r6v7sn r6vDsn r6vJ r6vGsR r6vG r6vG r6vGsB r6vBsp r6vBse vC v9sO v9s8 vA vA vA vA vA vA vA vA vA vA vA vAf8 vAf8 vAf8 vA vA v9sBf8 v9f8 v9f8 v9f8 v9f8 r2v9sAf8 r2vAsAf8 r2vAsA r2vAsAf8 r2vAsA r2vBs9 r2vCs8 r2vBsL r2vBsL r2vBsL r2vBsG r2vBsW r2vDsG r2vDsG r2vDsO r2vEsL r2vEs8 r2vEs8 r2vF r2vF r2vDsJ r2vDsO r2vG r2vFsC t2r2vF t4r6vAsh
+    t4r2vTs9f1 t2r2vUf1 r2vUf1 r2vUs9f1 r2vVf1 r7vVf1 r7vUsCf1 r7vSsKf1 r7vQsLf1 r2vQsLf1 r2vOsKf1 r2vMsKf1 r2vKsKf1 r2vIsKf1 r2vIf1 r2vI r2vHsC r7vEsS r6v8sq r7v4sa v4 v4 v4sH v6 v6s8 v6s8 v6s8 v6s8 v6s8 v7 v7 v7 v7 v6sC v6 v6 v6 r7v6 r7v6 r7v6 r6v6s9 r6v7sn r6vDsn r6vJ r6vGsR r6vG r6vG r6vGsB r6vBsp r6vBse vC v9sO v9s8 vA vA vA vA vA vA vAf8 vAf8 vAf8 vA vA vAf8 vAf8 vAf8 vA vA v9sBf8 v9f8 v9f8 v9f8 v9f8 r2v9sAf8 r2vAsAf8 r2vAsA r2vAsAf8 r2vAsA r2vBs9 r2vCs8 r2vBsL r2vBsL r2vBsL r2vBsG r2vBsW r2vDsG r2vDsG r2vDsO r2vEsL r2vEs8 r2vEs8 r2vF r2vF r2vDsJ r2vDsO r2vG r2vFsC t2r2vF t4r6vAsh
   LINE 71 36 135
-    t4r2vRsPf1 t2r2vUf1 r2vUf1 r2vUs9f1 r2vVf1 r7vUsCf1 r7vSsKf1 r7vQsKf1 r7vQf1 r2vOsKf1 r2vNsCf1 r2vLsKf1 r2vJsKf1 r2vIsC r2vI r2vHsC r7vEsS r6v8sq r7v4sa v4 v4 v4sH v6 v6 v6 v6 v6 v6 v6s9 v7 v7 v7 v7 v6sC v6 v6 v6 r7v6 r7v6 r7v6s9 r6v7sn r6vD r6vDsn r6vJ r6vGsR r6vG r6vGs9 r6vH r6vGsC r6vBsj v9sT v9s8 vA vA vA vA vA vA vA vA vA vA vA vAf8 vAf8 vAf8 vAf8 vA vA v9sBf8 v9sBf8 v9sAf8 v9sAf8 r2v9sI r2vAsIf8 r2vBsAf8 r2vBsAf8 r2vBsA r2vBsA r2vC r2vBsD r2vB r2vB r2vB r2vB r2vBsG r2vBsG r2vBsG r2vBsO r2vBsO r2vCsG r2vCsO r2vDsG r2vF r2vDsG r2vDsO r2vFs8 r6vFsg t2r6vFsh t4r6vEsp
+    t4r2vRsPf1 t2r2vUf1 r2vUf1 r2vUs9f1 r2vVf1 r7vUsCf1 r7vSsKf1 r7vQsKf1 r7vQf1 r2vOsKf1 r2vNsCf1 r2vLsKf1 r2vJsKf1 r2vIsC r2vI r2vHsC r7vEsS r6v8sq r7v4sa v4 v4 v4sH v6 v6 v6 v6 v6 v6 v6s9 v7 v7 v7 v7 v6sC v6 v6 v6 r7v6 r7v6 r7v6s9 r6v7sn r6vD r6vDsn r6vJ r6vGsR r6vG r6vGs9 r6vH r6vGsC r6vBsj v9sT v9s8 vA vA vA vA vA vA vA vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vA v9sBf8 v9sBf8 v9sAf8 v9sAf8 r2v9sI r2vAsIf8 r2vBsAf8 r2vBsAf8 r2vBsA r2vBsA r2vC r2vBsD r2vB r2vB r2vB r2vB r2vBsG r2vBsG r2vBsG r2vBsO r2vBsO r2vCsG r2vCsO r2vDsG r2vF r2vDsG r2vDsO r2vFs8 r6vFsg t2r6vFsh t4r6vEsp
   LINE 72 36 135
-    t4r2vOsPf1 t2r2vRsPf1 r2vUf1 r2vUs9f1 r2vVf1 r7vUsCf1 r7vSsKf1 r7vQsKf1 r7vQf1 r7vPsCf1 r2vNsK r2vLsK r2vJsK r2vIsC r2vI r2vHsC r7vEsS r6v8sq r7v4sa v4 v4 v4sH v6 v6 v6 v6 v6 v6 v6s9 v7 v7 v6sD v6sD v6sD v6 v6 v6 v6 v6 r7v6s9f8 r6v7sn r6vD r6vD r6vDsn r6vJ r6vEsh r6vEsG r6vEsO r6vEsT r6vAsr v9sLf8 v9f8 v9s9f8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vA vA vA vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAsAf8 r2vAsAf8 r2vBsAf8 r2vCf8 r2vCf8 r2vCf8 r2vC vC vBsC vB vB vB vB r2vB r2vB r2vB r2vB r2vB r2vBs8 r2vBs8 r2vBsG r2vBsW r2vBsW r2vD r6vDse r6vFsg t2r6vKsg t4r6vKsh
+    t4r2vOsPf1 t2r2vRsPf1 r2vUf1 r2vUs9f1 r2vVf1 r7vUsCf1 r7vSsKf1 r7vQsKf1 r7vQf1 r7vPsCf1 r2vNsK r2vLsK r2vJsK r2vIsC r2vI r2vHsC r7vEsS r6v8sq r7v4sa v4 v4 v4sH v6 v6 v6 v6 v6 v6 v6s9 v7 v7 v6sD v6sD v6sD v6 v6 v6 v6 v6 r7v6s9f8 r6v7sn r6vD r6vD r6vDsn r6vJ r6vEsh r6vEsG r6vEsO r6vEsT r6vAsr v9sLf8 v9f8 v9s9f8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAsAf8 r2vAsAf8 r2vBsAf8 r2vCf8 r2vCf8 r2vCf8 r2vC vC vBsC vB vB vB vB r2vB r2vB r2vB r2vB r2vB r2vBs8 r2vBs8 r2vBsG r2vBsW r2vBsW r2vD r6vDse r6vFsg t2r6vKsg t4r6vKsh
   LINE 73 37 136
-    t4r2vRsPf1 t2r2vUf1 r2vUf1 r2vUs9f1 r2vVf1 r7vUsBf1 r7vSsJf1 r7vQsJf1 r7vQsJ r2vOsK r2vMsK r2vKsK r2vJsB r2vIsJ r2vHsK r7vEsS r6vE r6v8sq r7v4sa v4 v4 v4sG v6 v6 v6 v4sL v4sG v4sG v6s8 v7 v6sD v6 v6 v6 v6 v6 v6 v6f8 v6s9f8 r6v7snf8 r6vDsI r6vDsQ r6vDso r6vJsA r6vEso r6vE r6v9sj r6v9sjf8 r6v9sjf8 v9sDf8 v9f8 v9s9f8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vA vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAsAf8 vAsAf8 vAsIf8 r2vBsAf8 r2vBsAf8 r2vCf8 r2vCf8 r2vCf8 vCf8 vC vBsC vB vB vB vBf8 vAsDf8 r2vAs8 r2vB r2vB r2vB r2vB r2vB r2vB r2vB r2vB r2vBsH r6vDsf r3vIsQ r6vKsg t2r6vPso t4r6vPsp
+    t4r2vRsPf1 t2r2vUf1 r2vUf1 r2vUs9f1 r2vVf1 r7vUsBf1 r7vSsJf1 r7vQsJf1 r7vQsJ r2vOsK r2vMsK r2vKsK r2vJsB r2vIsJ r2vHsK r7vEsS r6vE r6v8sq r7v4sa v4 v4 v4sG v6 v6 v6 v4sL v4sG v4sG v6s8 v7 v6sD v6 v6 v6 v6 v6 v6 v6f8 v6s9f8 r6v7snf8 r6vDsI r6vDsQ r6vDso r6vJsA r6vEso r6vE r6v9sj r6v9sjf8 r6v9sjf8 v9sDf8 v9f8 v9s9f8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAsAf8 vAsAf8 vAsIf8 r2vBsAf8 r2vBsAf8 r2vCf8 r2vCf8 r2vCf8 vCf8 vC vBsC vB vB vB vBf8 vAsDf8 r2vAs8 r2vB r2vB r2vB r2vB r2vB r2vB r2vB r2vB r2vBsH r6vDsf r3vIsQ r6vKsg t2r6vPso t4r6vPsp
   LINE 74 37 136
     t4r2vRsPf1 t2r2vUsQf1 r2vUsRf1 r2vUsAf1 r2vVsIf1 r2vVsJf1 r7vUsB r7vSsR r7vSsB r7vPsS r2vNsK r2vLsK r2vKsC r2vK r2vJsC r7vFsa r7vCsS r6vAsb r6v4sq v4 v4 v4 v4sG v4sG v4sG v4sL v4 v4 v4sH v6s8 v6sD v6 v6 v6 v6 v6 v6 v6f8 v6f8 r6v6sPf8 r6v9snf8 r6vFsIf8 r6vGsAf8 r6vHsPf8 r6vKf8 r6vEsqf8 r6v9sif8 v9f8 v9f8 v9f8 v9f8 v9s9f8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBf8 vBsAf8 r2vCf8 r2vCf8 vCsAf8 vCsBf8 vCsBf8 vCf8 vCf8 vC vBsCf8 vBf8 vBf8 vBf8 vAsCf8 vA r2vAs9 r2vB r2vB v9sL v9sG v9sG r2vB vB r2vB r6vBsf r6vGsf r3vLsX t2r6vPsn t4r3vVsY
   LINE 75 38 137
@@ -183,13 +183,13 @@ HEXES
   LINE 84 42 141
     t4r2vUsOf1 t2r2vUsO r2vUsT r2vUsPf1 r7vXf1 r7vTsa r7vRsKf1 r2vPsKf1 r2vNsK r2vLsK r2vKsB r2vKsB r2vKsB r2vK r2vJsC vHsK vFsK vDsK vBsK v9sK v7sK v5sK v4sC v4 v4 v4 v4 v4 v4 v4 v4f8 v4f8 v4f8 v3sCf8 v2sCf8 v2f8 v2f8 r6v2sff8 r6v7sff8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAsJf8 vAsJf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBsHf8 vDf8 vDf8 vDs9f8 vEf8 vEf8 vEf8 vEf8 vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vD vD r2vCsB r2vCsI r2vCsIf8 r2vCsIf8 r2vCsIf8 r2vCsI r2vDsI r2vDsI r2vFsH t2r6vHsn t4r7vNsX
   LINE 85 43 142
-    t4r2vRsO t2r2vRsO r7vU r7vUsPf1 r7vXf1 r7vTsaf1 r7vRsKf1 r2vPsKf1 r2vNsK r2vLsJ r2vL r2vL r2vKsB r2vK vJsC vHsK vFsK vDsK vBsK v9sK v7sK v5sK v4sC v4 v4 v4 v4 v4 v4 v4 v4f8 v4f8 v4sAf8 v3sQf8 v2sZf8 v2sYf8 r6v2sgf8 r6v7sgf8 vCsAf8 vCsAf8 vCsBf8 vCf8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBs9f8 vCs9f8 vDf8 vDf8 vDs9f8 vEf8 vEf8 vEf8 vEf8 vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vD r2vD r2vDsIf8 r2vEsIf8 r2vEsIf8 r2vEsIf8 r2vEsI r2vEsQ r2vFsI r2vFsQ r6vHsg t2r6vMsn t4r7vPsR
+    t4r2vRsO t2r2vRsO r7vU r7vUsPf1 r7vXf1 r7vTsaf1 r7vRsKf1 r2vPsKf1 r2vNsK r2vLsJ r2vL r2vL r2vKsB r2vK vJsC vHsK vFsK vDsK vBsK v9sK v7sK v5sK v4sC v4 v4 v4 v4 v4 v4 v4 v4f8 v4f8 v4sAf8 v3sQf8 v2sZf8 v2sYf8 r6v2sgf8 r6v7sgf8 vCsAf8 vCsAf8 vCsBf8 vCf8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBs9f8 vCs9f8 vDf8 vDf8 vDs9f8 vEf8 vEf8 vEf8 vEf8 vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vD r2vD r2vDsIf8 r2vEsIf8 r2vEsIf8 r2vEsIf8 r2vEsI r2vEsQ r2vFsI r2vFsQ r6vHsg t2r6vMsn t4r7vPsR
   LINE 86 43 142
-    t4vQs8f1 t2r2vR r2vRsP r7vUsP r2vX r2vX r7vTsa r2vRsK r2vPsK r2vNsJ r2vLsJ r2vLsJ r2vL r2vKsB r2vJsC vHsK vFsK vDsK vBsK v9sK v7sK v5sK v4sC v4 v4 v4 v4 v4 v4 v4 v4f8 v4f8 v4sAf8 v5sAf8 r6v6sof8 r6v6sof8 r6v6sof8 r6v7sgf8 vCsAf8 vDf8 vDf8 vCsBf8 vCsBf8 vCf8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vAf8 vA vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBsHf8 vDf8 vDf8 vDs9f8 vEf8 vEf8 vEf8 vEf8 vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDsAf8 r2vDsIf8 r2vFsIf8 r2vGsIf8 r2vGsIf8 r2vGsIf8 r2vGsI r2vHsI r2vHsI r2vIsY t2r6vMsn t4r7vSsQ
+    t4vQs8f1 t2r2vR r2vRsP r7vUsP r2vX r2vX r7vTsa r2vRsK r2vPsK r2vNsJ r2vLsJ r2vLsJ r2vL r2vKsB r2vJsC vHsK vFsK vDsK vBsK v9sK v7sK v5sK v4sC v4 v4 v4 v4 v4 v4 v4 v4f8 v4f8 v4sAf8 v5sAf8 r6v6sof8 r6v6sof8 r6v6sof8 r6v7sgf8 vCsAf8 vDf8 vDf8 vCsBf8 vCsBf8 vCf8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBsHf8 vDf8 vDf8 vDs9f8 vEf8 vEf8 vEf8 vEf8 vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDsAf8 r2vDsIf8 r2vFsIf8 r2vGsIf8 r2vGsIf8 r2vGsIf8 r2vGsI r2vHsI r2vHsI r2vIsY t2r6vMsn t4r7vSsQ
   LINE 87 44 143
-    t4r7vRsQ t2r7vRsQ r7vU r7vUsO r2vUsT r2vUsT r7vTsC r2vRsK r2vPsK r2vNsJ r2vNsJ r2vLsJ r2vLsJ r2vKsC r2vIsK vGsK vEsK vCsK vAsK v8sK v6sK v4sK v4 v4 v4 v4 v4 v4 v4 v4sA v4sIf8 v4sQf8 r6v5sgf8 r6v6sof8 vCsAf8 vCsAf8 vCsAf8 vCsAf8 vDsIf8 vDsJf8 vDf8 vDf8 vCsBf8 vCsBf8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBs9f8 vCs9f8 vDf8 vDf8 vDs9f8 vEf8 vEf8 vE vEf8 vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDs9f8 vEs9f8 r2vFsIf8 r2vHsIf8 r2vIsIf8 r2vIsIf8 r2vIsIf8 r2vIsI r2vJsI r2vJsQ r3vMsP t2r6vPsn t4r7vV
+    t4r7vRsQ t2r7vRsQ r7vU r7vUsO r2vUsT r2vUsT r7vTsC r2vRsK r2vPsK r2vNsJ r2vNsJ r2vLsJ r2vLsJ r2vKsC r2vIsK vGsK vEsK vCsK vAsK v8sK v6sK v4sK v4 v4 v4 v4 v4 v4 v4 v4sA v4sIf8 v4sQf8 r6v5sgf8 r6v6sof8 vCsAf8 vCsAf8 vCsAf8 vCsAf8 vDsIf8 vDsJf8 vDf8 vDf8 vCsBf8 vCsBf8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBs9f8 vCs9f8 vDf8 vDf8 vDs9f8 vEf8 vEf8 vE vEf8 vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDs9f8 vEs9f8 r2vFsIf8 r2vHsIf8 r2vIsIf8 r2vIsIf8 r2vIsIf8 r2vIsI r2vJsI r2vJsQ r3vMsP t2r6vPsn t4r7vV
   LINE 88 44 143
-    t4vU t2r2vU r7vU r7vU r7vU r7vSsL r7vSsL r2vRsK r2vQsC r2vPsB r2vPsB r2vNsJ r2vNsJ r2vLsJ r2vJsK vHsK vFsK vDsK vBsK r7v8sS v6sK v4sK v4 v4 v4 v4 v4sA v4sB v4 v4sA v5sI v6sQf8 v7sYf8 vAsIf8 vCsAf8 vDf8 vDf8 vDf8 vDsHf8 vFf8 vDsKf8 vDf8 vDf8 vDf8 vCsBf8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vA vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBs9f8 vCs9f8 vDf8 vDf8 vDs9f8 vE vE vE vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vCsDf8 vCsGf8 vEsPf8 r2vHsIf8 r2vJsIf8 r2vKsIf8 r2vKsIf8 r2vKsI r2vKsI r2vLsI r2vMsQ t2r6vPsn t4r7vVsA
+    t4vU t2r2vU r7vU r7vU r7vU r7vSsL r7vSsL r2vRsK r2vQsC r2vPsB r2vPsB r2vNsJ r2vNsJ r2vLsJ r2vJsK vHsK vFsK vDsK vBsK r7v8sS v6sK v4sK v4 v4 v4 v4 v4sA v4sB v4 v4sA v5sI v6sQf8 v7sYf8 vAsIf8 vCsAf8 vDf8 vDf8 vDf8 vDsHf8 vFf8 vDsKf8 vDf8 vDf8 vDf8 vCsBf8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBs9f8 vCs9f8 vDf8 vDf8 vDs9f8 vE vE vE vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vCsDf8 vCsGf8 vEsPf8 r2vHsIf8 r2vJsIf8 r2vKsIf8 r2vKsIf8 r2vKsI r2vKsI r2vLsI r2vMsQ t2r6vPsn t4r7vVsA
   LINE 89 45 144
     t4vU t2r2vU r2vU r2vU r2vSsK r2vS r2vS r2vQsK r2vQ r2vQ r2vPsB r2vPsB r2vNsR r2vLsJ vJsJ vHsJ r7vFsJ r7vDsJ r7vAsS v8sK v6sK v4sK v4 v4 v4 v4sA v5 v4sI v4sI v5sI v7sI v9sQ vBsIf8 vCsAf8 vDf8 vDf8 vDf8 vDf8 vDsGf8 vDsLf8 vDf8 vDf8 vDf8 vDf8 vCsBf8 vCf8 vCf8 vCf8 vCf8 vAsJf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAs9f8 vBs9f8 vCs9f8 vDf8 vDf8 vDs9f8 vEf8 vE vEf8 vE vDsCf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vDf8 vCsCf8 vCf8 vCsHf8 r6vEsff8 r2vJsIf8 r2vLsIf8 r2vMsIf8 r2vMsIf8 r2vMsI r2vMsI r2vNsI r3vPsQ t2r6vSso t4r7vWsJ
   LINE 90 45 144
@@ -1593,25 +1593,25 @@ RANDOMS
   MICROLOGIC 2 0 1
   RANDOM_SEED 1 -390040414
   RANDOM_SEED 2 1491754263
-  RANDOM_SEED 3 2137340399
+  RANDOM_SEED 3 1880671143
   RANDOM_SEED 4 2037572564
   RANDOM_SEED 5 -1526611554
   RANDOM_SEED 6 -185815300
-  RANDOM_SEED 7 1012973164
+  RANDOM_SEED 7 1931621703
   RANDOM_SEED 8 1751026996
   RANDOM_SEED 9 1834939448
-  RANDOM_SEED 10 -483039414
+  RANDOM_SEED 10 -1565018772
   RANDOM_SEED 11 -443074555
   RANDOM_SEED 12 911650
   RANDOM_SEED 13 -1748332987
   RANDOM_SEED 14 378023
-  RANDOM_SEED 15 -598868
+  RANDOM_SEED 15 -1146297088
   RANDOM_SEED 16 907772
   RANDOM_SEED 17 -1211948769
   RANDOM_SEED 18 136448
   RANDOM_SEED 19 1303225394
   RANDOM_SEED 20 758098213
-  RANDOM_SEED 21 -798717416
+  RANDOM_SEED 21 -225689981
   RANDOM_SEED 22 1237831399
   WIND_TIME 726039 726054 726098
   WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
@@ -1856,6 +1856,168 @@ NEW_UNITS
       LAST_ACTION 0
       BUILDING
     END_OF_GAME_STATE
+  UNIT 63 HUMAN
+    DEFINITION
+      POS 91 85 3
+      SIDE 3
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Siergiej Dravchenko"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 2 0 0
+        EXPERIENCES 15079 2687 26381 17457
+        COLORS 8493241 3955319
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED -1748332987
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 91 85 3 6 F
+      UNITMODE T 91 85
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1358 1510 0
+      FROM_TO_POS 91 85 3 91 85 3
+      FROM_TO_XY 1358 1510 1358 1510
+      LAST_ACTION 0
+      HUMAN
+        LIMITS 45000 45000 45000 45000
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 65 HUMAN
+    DEFINITION
+      POS 93 83 2
+      SIDE 3
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Aleksiej Javorov"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 2 0 0
+        EXPERIENCES 16628 9868 15337 19793
+        COLORS 9609409 5658198
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 13
+        RANDOM_SEED 32674050
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 93 83 2 6 F
+      UNITMODE T 93 83
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1442 1474 0
+      FROM_TO_POS 93 83 2 93 83 2
+      FROM_TO_XY 1442 1474 1442 1474
+      LAST_ACTION 0
+      HUMAN
+        LIMITS 45000 45000 45000 45000
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 66 HUMAN
+    DEFINITION
+      POS 96 80 2
+      SIDE 3
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Danys Popov"
+        SEX 1
+        ATTR 10 10
+        CLASS 4
+        LAST_MISSION 2
+        BSKILLS 0 0 0 2
+        EXPERIENCES 15000 15000 15000 15000
+        COLORS 8493241 3955319
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER @
+        VOICE 11
+        RANDOM_SEED -1748332987
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 96 80 2 6 F
+      UNITMODE T 96 80
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1568 1420 0
+      FROM_TO_POS 96 80 2 96 80 2
+      FROM_TO_XY 1568 1420 1568 1420
+      LAST_ACTION 0
+      HUMAN
+        LIMITS 45000 45000 45000 45000
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 68 HUMAN
+    DEFINITION
+      POS 102 87 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Igor Iegorov"
+        SEX 1
+        ATTR 10 10
+        CLASS 3
+        LAST_MISSION 2
+        BSKILLS 0 0 2 0
+        EXPERIENCES 15000 15000 15000 15000
+        COLORS 9282759 7840965
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER @
+        VOICE 13
+        RANDOM_SEED -1817649581
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 102 87 0 6 F
+      UNITMODE T 102 87
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1638 1546 0
+      FROM_TO_POS 102 87 0 102 87 0
+      FROM_TO_XY 1638 1546 1638 1546
+      LAST_ACTION 0
+      HUMAN
+        LIMITS 45000 45000 45000 45000
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
 END_OF_NEW_UNITS
 
 COLDMEAT
@@ -1880,7 +2042,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW 1302 656 1540 780 1
+  VIEW 788 1096 1540 780 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -2108,6 +2270,74 @@ SEXTRA
       0 0
     6
       1
+    7
+      F
+
+  255
+  1
+    63
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    65
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    66
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    68
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
     7
       F
 

@@ -1,3 +1,4 @@
+var metPeter;
 starting
 begin
    InGameOn;
@@ -23,22 +24,27 @@ end;
 every 0$1 trigger GetDistUnits(Gladstone,VanHouten)<10 do
 begin
 	InGameOn;
-		Say(VanHouten,'M2Gladstone-1');
-		Say(Gladstone,'M2Gladstone-2');
-		Say(VanHouten,'M2Gladstone-3');
-		SetSide(Gladstone,VanHouten);
-		if GetDistUnits(Gladstone,Harris)<10 then begin
-			Say(Gladstone,'M2Gladstone-4');
-			Say(Harris,'M2Gladstone-5');
-			Say(Gladstone,'M2Gladstone-6');
-			Say(Harris,'M2Gladstone-7');
-			Say(VanHouten,'M2Gladstone-8');
-			Say(Harris,'M2Gladstone-9');
-			Say(VanHouten,'M2Gladstone-10');
-		end;
-		SayRadio(VanHouten,'M2Gladstone-11');
-		SayRadio(Powell,'M2Gladstone-12');
-		SayRadio(VanHouten,'M2Gladstone-13');
+		Say(VanHouten,'M2Gladsone-1');
+		Say(Gladstone,'M2Gladsone-2');
+		Say(VanHouten,'M2Gladsone-3');
+		SetSide(Gladstone,1);
+		SayRadio(VanHouten,'M2Gladsone-11');
+		SayRadio(Powell,'M2Gladsone-12');
+		SayRadio(VanHouten,'M2Gladsone-13');
+		metPeter = true;
+	InGameOff;
+end;
+
+every 0$1 trigger GetDistUnits(Gladstone,Harris)<10 and metPeter = true do
+begin
+	InGameOn;
+		Say(Gladstone,'M2Gladsone-4');
+		Say(Harris,'M2Gladsone-5');
+		Say(Gladstone,'M2Gladsone-6');
+		Say(Harris,'M2Gladsone-7');
+		Say(VanHouten,'M2Gladsone-8');
+		Say(Harris,'M2Gladsone-9');
+		Say(VanHouten,'M2Gladsone-10');
 	InGameOff;
 end;
 
@@ -49,7 +55,7 @@ begin
 		SayRadio(VanHouten,'M2Cornell-2');
 		SayRadio(Cornell,'M2Cornell-3');
 		SayRadio(VanHouten,'M2Cornell-4');
-		//Add new additional target 
+		ChangeMissionObjectives('side1');
 	InGameOff;
 end;
 
@@ -66,10 +72,11 @@ begin
 		Say(Cornell,'M2Cornell-12');
 		Say(VanHouten,'M2Cornell-13');
 		Say(Cornell,'M2Cornell-14');
-		SetSide(Gladstone,VanHouten);
-		SetSide(Frank,VanHouten);
-		SetSide(Walker,VanHouten);
-		SetSide(Jillian,VanHouten);
 		Say(VanHouten,'M2Cornell-15');
+		SetSide(Cornell,1);
+		SetSide(Frank,1);
+		SetSide(Walker,1);
+		SetSide(Jillian,1);
+		ChangeMissionObjectives('Out_side1');
 	InGameOff;
 end;

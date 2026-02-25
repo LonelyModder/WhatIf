@@ -25,7 +25,7 @@ begin
 	 PlaceUnitXY(Harris,75,12,false);
 	 PlaceUnitXY(Gladstone,143,96,false);
 	 PlaceUnitXY(Frank,47,92,false);
-	 PlaceUnitXY(Walker,47,94,false);
+	 PlaceUnitXY(Walker,50,98,false);
 	 PlaceUnitXY(Cornell,50,93,false);
 	 PlaceUnitXY(Jillian,49,96,false);
 	InGameOff;
