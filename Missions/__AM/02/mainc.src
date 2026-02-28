@@ -16,6 +16,7 @@ begin
 	InGameOn;
 		Say(VanHouten,'M2Intro-1');
 		Say(Yamoko,'M2Intro-2');
+		RevealFogArea(1,4);
 		Say(VanHouten,'M2Intro-3');
 		Intro02;
 	InGameOff;
