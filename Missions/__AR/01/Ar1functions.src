@@ -1,0 +1,58 @@
+Export Omar, Abdul, Heike, Farmer;
+
+Export Function PrepareHero;
+begin
+	uc_side := 2;
+	Omar := NewCharacter('Omar');
+	uc_side := 5;
+	Abdul := NewCharacter('Abdul');
+	Heike := NewCharacter('Heike');
+	Farmer := NewCharacter('Farmer');
+	
+	PlaceUnitXY(Omar,29,52,false);
+	PlaceUnitXY(Heike,46,7,false);
+	PlaceUnitXY(Farmer,94,60,false);
+	CenterOnUnits(Omar);
+end;
+
+Export Function PrepareBuildings;
+var armories,depots,labs,i,j,sol;
+begin
+    armories := FilterAllUnits([ [f_side,4],[f_btype,b_armoury]]);
+	depots := FilterAllUnits([ [f_side,4],[f_btype,b_depot]]);
+	labs := FilterAllUnits([ [f_side,4],[f_btype,b_lab]]);
+
+    for i=1 to armories do
+		begin
+			uc_side := 4;
+			uc_nation := 1;
+
+			PrepareSoldier(1,2);
+			sol := CreateHuman;
+			PlaceHumanInUnit(sol,armories[i]);
+		end;
+	
+	for i=1 to depots do
+		begin
+			uc_side := 4;
+			uc_nation := 1;
+			for j=1 to 2 do
+			begin
+				PrepareEngineer(1,2);
+				sol := CreateHuman;
+				PlaceHumanInUnit(sol,depots[i]);
+			end;
+		end;
+	
+	for i=1 to labs do
+		begin
+			uc_side := 4;
+			uc_nation := 1;
+			for j=1 to 4 do
+			begin
+				PrepareScientist(1,2);
+				sol := CreateHuman;
+				PlaceHumanInUnit(sol,labs[i]);
+			end;
+		end;
+end;

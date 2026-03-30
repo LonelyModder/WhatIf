@@ -50,11 +50,11 @@ begin
 	InGameOn;
 	 Say(VanHouten,'M2Intro-4');
 	 SayRadio(Powell,'M2Intro-5');
-	 SayRadio(VanHouten,'M2Intro-6');
+	 Say(VanHouten,'M2Intro-6');
 	 SayRadio(Powell,'M2Intro-7');
-	 SayRadio(VanHouten,'M2Intro-8');
+	 Say(VanHouten,'M2Intro-8');
 	 SayRadio(Powell,'M2Intro-9');
-	 SayRadio(VanHouten,'M2Intro-10');
+	 Say(VanHouten,'M2Intro-10');
 	 if GetDistUnits(Dave,VanHouten)<10 then begin
 		Say(Dave,'M2Intro-11');
 		Say(VanHouten,'M2Intro-12');

@@ -1,0 +1,31 @@
+var budovy;
+starting
+begin
+   budovy=[depot1,depot2,depot3,lab1,arm1,arm2,eon];
+   InGameOn;
+   PrepareHero;
+   PrepareBuildings;
+
+   CenterOnUnits(Omar);
+   Wait(0$2);
+   Say(Omar,'M1ArIntro-1');
+   SayRadio(Abdul,'M1ArIntro-2');
+   Say(Omar,'M1ArIntro-3');
+   SayRadio(Omar,'M1ArIntro-4');
+   SayRadio(Heike,'M1ArIntro-5');
+   SayRadio(Farmer,'M1ArIntro-6');
+   SayRadio(Omar,'M1ArIntro-7');
+   InGameOff;
+   ChangeMissionObjectives('Ar_1_1');
+   SaveForQuickRestart;
+end;
+
+on enterbuilding(b,Omar) do
+begin
+    if b=eon then
+		begin
+			Wait(0$4);
+			savecharacters(Omar,'Omar');
+			changemap('%_cont','%_cont');
+		end
+end;
