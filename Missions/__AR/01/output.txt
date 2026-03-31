@@ -27,9 +27,9 @@
 // InGameOn ;
   35: CALL_OW 8
 // PrepareHero ;
-  39: CALL 115 0 0
+  39: CALL 396 0 0
 // PrepareBuildings ;
-  43: CALL 254 0 0
+  43: CALL 605 0 0
 // CenterOnUnits ( Omar ) ;
   47: LD_EXP 1
   51: PPUSH
@@ -56,343 +56,615 @@
   92: LD_STRING M1ArIntro-3
   94: PPUSH
   95: CALL_OW 88
+// SayRadio ( Omar , M1ArIntro-4 ) ;
+  99: LD_EXP 1
+ 103: PPUSH
+ 104: LD_STRING M1ArIntro-4
+ 106: PPUSH
+ 107: CALL_OW 94
+// SayRadio ( Heike , M1ArIntro-5 ) ;
+ 111: LD_EXP 3
+ 115: PPUSH
+ 116: LD_STRING M1ArIntro-5
+ 118: PPUSH
+ 119: CALL_OW 94
+// SayRadio ( Farmer , M1ArIntro-6 ) ;
+ 123: LD_EXP 4
+ 127: PPUSH
+ 128: LD_STRING M1ArIntro-6
+ 130: PPUSH
+ 131: CALL_OW 94
+// SayRadio ( Omar , M1ArIntro-7 ) ;
+ 135: LD_EXP 1
+ 139: PPUSH
+ 140: LD_STRING M1ArIntro-7
+ 142: PPUSH
+ 143: CALL_OW 94
 // InGameOff ;
-  99: CALL_OW 9
+ 147: CALL_OW 9
+// AttackOrder ;
+ 151: CALL 995 0 0
 // ChangeMissionObjectives ( Ar_1_1 ) ;
- 103: LD_STRING Ar_1_1
- 105: PPUSH
- 106: CALL_OW 337
+ 155: LD_STRING Ar_1_1
+ 157: PPUSH
+ 158: CALL_OW 337
 // SaveForQuickRestart ;
- 110: CALL_OW 22
-// end ; end_of_file
- 114: END
-// export Omar , Abdul , Heike , Farmer ; export function PrepareHero ; begin
- 115: LD_INT 0
- 117: PPUSH
-// uc_side := 2 ;
- 118: LD_ADDR_OWVAR 20
- 122: PUSH
- 123: LD_INT 2
- 125: ST_TO_ADDR
-// Omar := NewCharacter ( Omar ) ;
- 126: LD_ADDR_EXP 1
- 130: PUSH
- 131: LD_STRING Omar
- 133: PPUSH
- 134: CALL_OW 25
- 138: ST_TO_ADDR
-// uc_side := 5 ;
- 139: LD_ADDR_OWVAR 20
- 143: PUSH
- 144: LD_INT 5
- 146: ST_TO_ADDR
-// Abdul := NewCharacter ( Abdul ) ;
- 147: LD_ADDR_EXP 2
- 151: PUSH
- 152: LD_STRING Abdul
- 154: PPUSH
- 155: CALL_OW 25
- 159: ST_TO_ADDR
-// Heike := NewCharacter ( Heike ) ;
- 160: LD_ADDR_EXP 3
- 164: PUSH
- 165: LD_STRING Heike
- 167: PPUSH
- 168: CALL_OW 25
- 172: ST_TO_ADDR
-// Farmer := NewCharacter ( Farmer ) ;
- 173: LD_ADDR_EXP 4
- 177: PUSH
- 178: LD_STRING Farmer
- 180: PPUSH
- 181: CALL_OW 25
- 185: ST_TO_ADDR
-// PlaceUnitXY ( Omar , 29 , 52 , false ) ;
- 186: LD_EXP 1
- 190: PPUSH
- 191: LD_INT 29
- 193: PPUSH
- 194: LD_INT 52
- 196: PPUSH
- 197: LD_INT 0
- 199: PPUSH
- 200: CALL_OW 48
-// PlaceUnitXY ( Heike , 46 , 7 , false ) ;
- 204: LD_EXP 3
- 208: PPUSH
- 209: LD_INT 46
- 211: PPUSH
- 212: LD_INT 7
- 214: PPUSH
- 215: LD_INT 0
- 217: PPUSH
- 218: CALL_OW 48
-// PlaceUnitXY ( Farmer , 94 , 60 , false ) ;
- 222: LD_EXP 4
- 226: PPUSH
- 227: LD_INT 94
- 229: PPUSH
- 230: LD_INT 60
- 232: PPUSH
- 233: LD_INT 0
- 235: PPUSH
- 236: CALL_OW 48
-// CenterOnUnits ( Omar ) ;
- 240: LD_EXP 1
- 244: PPUSH
- 245: CALL_OW 85
+ 162: CALL_OW 22
 // end ;
- 249: LD_VAR 0 1
- 253: RET
-// export function PrepareBuildings ; var armories , depots , labs , i , j , sol ; begin
- 254: LD_INT 0
+ 166: END
+// every 0 0$1 trigger GetLives ( Ar1Sniper1 ) < 1000 or GetLives ( Ar1Soldier1 ) < 1000 or GetLives ( Ar1Soldier2 ) < 1000 or GetLives ( Ar1Soldier3 ) < 1000 or GetLives ( Truman ) < 1000 do
+ 167: LD_INT 40
+ 169: PPUSH
+ 170: CALL_OW 256
+ 174: PUSH
+ 175: LD_INT 1000
+ 177: LESS
+ 178: IFTRUE 193
+ 180: PUSH
+ 181: LD_INT 15
+ 183: PPUSH
+ 184: CALL_OW 256
+ 188: PUSH
+ 189: LD_INT 1000
+ 191: LESS
+ 192: OR
+ 193: IFTRUE 208
+ 195: PUSH
+ 196: LD_INT 16
+ 198: PPUSH
+ 199: CALL_OW 256
+ 203: PUSH
+ 204: LD_INT 1000
+ 206: LESS
+ 207: OR
+ 208: IFTRUE 223
+ 210: PUSH
+ 211: LD_INT 17
+ 213: PPUSH
+ 214: CALL_OW 256
+ 218: PUSH
+ 219: LD_INT 1000
+ 221: LESS
+ 222: OR
+ 223: IFTRUE 240
+ 225: PUSH
+ 226: LD_EXP 5
+ 230: PPUSH
+ 231: CALL_OW 256
+ 235: PUSH
+ 236: LD_INT 1000
+ 238: LESS
+ 239: OR
+ 240: IFFALSE 289
+ 242: GO 244
+ 244: DISABLE
+// begin InGameOn ;
+ 245: CALL_OW 8
+// Say ( Omar , M1ArTruman-1 ) ;
+ 249: LD_EXP 1
+ 253: PPUSH
+ 254: LD_STRING M1ArTruman-1
  256: PPUSH
- 257: PPUSH
- 258: PPUSH
- 259: PPUSH
- 260: PPUSH
- 261: PPUSH
- 262: PPUSH
-// armories := FilterAllUnits ( [ [ f_side , 4 ] , [ f_btype , b_armoury ] ] ) ;
- 263: LD_ADDR_VAR 0 2
- 267: PUSH
- 268: LD_INT 22
- 270: PUSH
- 271: LD_INT 4
- 273: PUSH
- 274: EMPTY
- 275: LIST
- 276: LIST
- 277: PUSH
- 278: LD_INT 30
- 280: PUSH
- 281: LD_INT 4
- 283: PUSH
- 284: EMPTY
- 285: LIST
- 286: LIST
- 287: PUSH
- 288: EMPTY
- 289: LIST
- 290: LIST
- 291: PPUSH
- 292: CALL_OW 69
- 296: ST_TO_ADDR
-// depots := FilterAllUnits ( [ [ f_side , 4 ] , [ f_btype , b_depot ] ] ) ;
- 297: LD_ADDR_VAR 0 3
- 301: PUSH
- 302: LD_INT 22
- 304: PUSH
- 305: LD_INT 4
- 307: PUSH
- 308: EMPTY
- 309: LIST
- 310: LIST
- 311: PUSH
- 312: LD_INT 30
- 314: PUSH
- 315: LD_INT 0
- 317: PUSH
- 318: EMPTY
- 319: LIST
- 320: LIST
- 321: PUSH
- 322: EMPTY
- 323: LIST
- 324: LIST
- 325: PPUSH
- 326: CALL_OW 69
- 330: ST_TO_ADDR
-// labs := FilterAllUnits ( [ [ f_side , 4 ] , [ f_btype , b_lab ] ] ) ;
- 331: LD_ADDR_VAR 0 4
- 335: PUSH
- 336: LD_INT 22
- 338: PUSH
- 339: LD_INT 4
- 341: PUSH
- 342: EMPTY
- 343: LIST
- 344: LIST
+ 257: CALL_OW 88
+// Say ( Truman , M1ArTruman-2 ) ;
+ 261: LD_EXP 5
+ 265: PPUSH
+ 266: LD_STRING M1ArTruman-2
+ 268: PPUSH
+ 269: CALL_OW 88
+// Say ( Omar , M1ArTruman-3 ) ;
+ 273: LD_EXP 1
+ 277: PPUSH
+ 278: LD_STRING M1ArTruman-3
+ 280: PPUSH
+ 281: CALL_OW 88
+// InGameOff ;
+ 285: CALL_OW 9
+// end ;
+ 289: END
+// every 0 0$1 trigger GetLives ( Joan ) < 1000 do
+ 290: LD_EXP 6
+ 294: PPUSH
+ 295: CALL_OW 256
+ 299: PUSH
+ 300: LD_INT 1000
+ 302: LESS
+ 303: IFFALSE 340
+ 305: GO 307
+ 307: DISABLE
+// begin InGameOn ;
+ 308: CALL_OW 8
+// Say ( Joan , M1ArJoan-1 ) ;
+ 312: LD_EXP 6
+ 316: PPUSH
+ 317: LD_STRING M1ArJoan-1
+ 319: PPUSH
+ 320: CALL_OW 88
+// comenterunit ( Joan , eon ) ;
+ 324: LD_EXP 6
+ 328: PPUSH
+ 329: LD_INT 14
+ 331: PPUSH
+ 332: CALL_OW 120
+// InGameOff ;
+ 336: CALL_OW 9
+// end ;
+ 340: END
+// on enterbuilding ( b , Omar ) do begin if b = eon and IsOk ( Joan ) then
+ 341: LD_VAR 0 1
  345: PUSH
- 346: LD_INT 30
- 348: PUSH
- 349: LD_INT 6
+ 346: LD_INT 14
+ 348: EQUAL
+ 349: IFFALSE 362
  351: PUSH
- 352: EMPTY
- 353: LIST
- 354: LIST
- 355: PUSH
- 356: EMPTY
- 357: LIST
- 358: LIST
- 359: PPUSH
- 360: CALL_OW 69
- 364: ST_TO_ADDR
-// for i = 1 to armories do
- 365: LD_ADDR_VAR 0 5
- 369: PUSH
- 370: DOUBLE
- 371: LD_INT 1
- 373: DEC
- 374: ST_TO_ADDR
- 375: LD_VAR 0 2
- 379: PUSH
- 380: FOR_TO
- 381: IFFALSE 441
-// begin uc_side := 4 ;
- 383: LD_ADDR_OWVAR 20
- 387: PUSH
- 388: LD_INT 4
- 390: ST_TO_ADDR
-// uc_nation := 1 ;
- 391: LD_ADDR_OWVAR 21
- 395: PUSH
- 396: LD_INT 1
- 398: ST_TO_ADDR
-// PrepareSoldier ( 1 , 2 ) ;
- 399: LD_INT 1
- 401: PPUSH
- 402: LD_INT 2
- 404: PPUSH
- 405: CALL_OW 381
-// sol := CreateHuman ;
- 409: LD_ADDR_VAR 0 7
- 413: PUSH
- 414: CALL_OW 44
- 418: ST_TO_ADDR
-// PlaceHumanInUnit ( sol , armories [ i ] ) ;
- 419: LD_VAR 0 7
- 423: PPUSH
- 424: LD_VAR 0 2
- 428: PUSH
- 429: LD_VAR 0 5
- 433: ARRAY
- 434: PPUSH
- 435: CALL_OW 52
-// end ;
- 439: GO 380
- 441: POP
- 442: POP
-// for i = 1 to depots do
- 443: LD_ADDR_VAR 0 5
- 447: PUSH
- 448: DOUBLE
- 449: LD_INT 1
- 451: DEC
- 452: ST_TO_ADDR
- 453: LD_VAR 0 3
- 457: PUSH
- 458: FOR_TO
- 459: IFFALSE 539
-// begin uc_side := 4 ;
- 461: LD_ADDR_OWVAR 20
- 465: PUSH
- 466: LD_INT 4
- 468: ST_TO_ADDR
-// uc_nation := 1 ;
- 469: LD_ADDR_OWVAR 21
- 473: PUSH
- 474: LD_INT 1
- 476: ST_TO_ADDR
-// for j = 1 to 2 do
- 477: LD_ADDR_VAR 0 6
- 481: PUSH
- 482: DOUBLE
- 483: LD_INT 1
- 485: DEC
- 486: ST_TO_ADDR
- 487: LD_INT 2
- 489: PUSH
- 490: FOR_TO
- 491: IFFALSE 535
-// begin PrepareEngineer ( 1 , 2 ) ;
- 493: LD_INT 1
+ 352: LD_EXP 6
+ 356: PPUSH
+ 357: CALL_OW 302
+ 361: AND
+ 362: IFFALSE 393
+// begin Wait ( 0 0$4 ) ;
+ 364: LD_INT 140
+ 366: PPUSH
+ 367: CALL_OW 67
+// savecharacters ( Omar , Omar ) ;
+ 371: LD_VAR 0 2
+ 375: PPUSH
+ 376: LD_STRING Omar
+ 378: PPUSH
+ 379: CALL_OW 38
+// changemap ( %_cont , %_cont ) ;
+ 383: LD_STRING %_cont
+ 385: PPUSH
+ 386: LD_STRING %_cont
+ 388: PPUSH
+ 389: CALL_OW 340
+// end end ; end_of_file
+ 393: PPOPN 2
+ 395: END
+// export Omar , Abdul , Heike , Farmer , Truman , Joan ; export function PrepareHero ; begin
+ 396: LD_INT 0
+ 398: PPUSH
+// uc_side := 2 ;
+ 399: LD_ADDR_OWVAR 20
+ 403: PUSH
+ 404: LD_INT 2
+ 406: ST_TO_ADDR
+// Omar := NewCharacter ( Omar ) ;
+ 407: LD_ADDR_EXP 1
+ 411: PUSH
+ 412: LD_STRING Omar
+ 414: PPUSH
+ 415: CALL_OW 25
+ 419: ST_TO_ADDR
+// uc_side := 5 ;
+ 420: LD_ADDR_OWVAR 20
+ 424: PUSH
+ 425: LD_INT 5
+ 427: ST_TO_ADDR
+// Abdul := NewCharacter ( Abdul ) ;
+ 428: LD_ADDR_EXP 2
+ 432: PUSH
+ 433: LD_STRING Abdul
+ 435: PPUSH
+ 436: CALL_OW 25
+ 440: ST_TO_ADDR
+// Heike := NewCharacter ( Heike ) ;
+ 441: LD_ADDR_EXP 3
+ 445: PUSH
+ 446: LD_STRING Heike
+ 448: PPUSH
+ 449: CALL_OW 25
+ 453: ST_TO_ADDR
+// Farmer := NewCharacter ( Farmer ) ;
+ 454: LD_ADDR_EXP 4
+ 458: PUSH
+ 459: LD_STRING Farmer
+ 461: PPUSH
+ 462: CALL_OW 25
+ 466: ST_TO_ADDR
+// uc_side := 4 ;
+ 467: LD_ADDR_OWVAR 20
+ 471: PUSH
+ 472: LD_INT 4
+ 474: ST_TO_ADDR
+// Truman := NewCharacter ( Truman ) ;
+ 475: LD_ADDR_EXP 5
+ 479: PUSH
+ 480: LD_STRING Truman
+ 482: PPUSH
+ 483: CALL_OW 25
+ 487: ST_TO_ADDR
+// Joan := NewCharacter ( Joan ) ;
+ 488: LD_ADDR_EXP 6
+ 492: PUSH
+ 493: LD_STRING Joan
  495: PPUSH
- 496: LD_INT 2
- 498: PPUSH
- 499: CALL_OW 382
-// sol := CreateHuman ;
- 503: LD_ADDR_VAR 0 7
- 507: PUSH
- 508: CALL_OW 44
- 512: ST_TO_ADDR
-// PlaceHumanInUnit ( sol , depots [ i ] ) ;
- 513: LD_VAR 0 7
- 517: PPUSH
- 518: LD_VAR 0 3
- 522: PUSH
- 523: LD_VAR 0 5
- 527: ARRAY
- 528: PPUSH
- 529: CALL_OW 52
+ 496: CALL_OW 25
+ 500: ST_TO_ADDR
+// PlaceUnitXY ( Truman , 51 , 41 , false ) ;
+ 501: LD_EXP 5
+ 505: PPUSH
+ 506: LD_INT 51
+ 508: PPUSH
+ 509: LD_INT 41
+ 511: PPUSH
+ 512: LD_INT 0
+ 514: PPUSH
+ 515: CALL_OW 48
+// PlaceUnitXY ( Joan , 77 , 35 , false ) ;
+ 519: LD_EXP 6
+ 523: PPUSH
+ 524: LD_INT 77
+ 526: PPUSH
+ 527: LD_INT 35
+ 529: PPUSH
+ 530: LD_INT 0
+ 532: PPUSH
+ 533: CALL_OW 48
+// PlaceUnitXY ( Omar , 30 , 49 , false ) ;
+ 537: LD_EXP 1
+ 541: PPUSH
+ 542: LD_INT 30
+ 544: PPUSH
+ 545: LD_INT 49
+ 547: PPUSH
+ 548: LD_INT 0
+ 550: PPUSH
+ 551: CALL_OW 48
+// PlaceUnitXY ( Heike , 46 , 6 , false ) ;
+ 555: LD_EXP 3
+ 559: PPUSH
+ 560: LD_INT 46
+ 562: PPUSH
+ 563: LD_INT 6
+ 565: PPUSH
+ 566: LD_INT 0
+ 568: PPUSH
+ 569: CALL_OW 48
+// PlaceUnitXY ( Farmer , 96 , 61 , false ) ;
+ 573: LD_EXP 4
+ 577: PPUSH
+ 578: LD_INT 96
+ 580: PPUSH
+ 581: LD_INT 61
+ 583: PPUSH
+ 584: LD_INT 0
+ 586: PPUSH
+ 587: CALL_OW 48
+// CenterOnUnits ( Omar ) ;
+ 591: LD_EXP 1
+ 595: PPUSH
+ 596: CALL_OW 85
 // end ;
- 533: GO 490
- 535: POP
- 536: POP
-// end ;
- 537: GO 458
- 539: POP
- 540: POP
-// for i = 1 to labs do
- 541: LD_ADDR_VAR 0 5
- 545: PUSH
- 546: DOUBLE
- 547: LD_INT 1
- 549: DEC
- 550: ST_TO_ADDR
- 551: LD_VAR 0 4
- 555: PUSH
- 556: FOR_TO
- 557: IFFALSE 637
+ 600: LD_VAR 0 1
+ 604: RET
+// export function PrepareBuildings ; var armories , depots , labs , i , j , sol ; begin
+ 605: LD_INT 0
+ 607: PPUSH
+ 608: PPUSH
+ 609: PPUSH
+ 610: PPUSH
+ 611: PPUSH
+ 612: PPUSH
+ 613: PPUSH
+// armories := FilterAllUnits ( [ [ f_side , 4 ] , [ f_btype , b_armoury ] ] ) ;
+ 614: LD_ADDR_VAR 0 2
+ 618: PUSH
+ 619: LD_INT 22
+ 621: PUSH
+ 622: LD_INT 4
+ 624: PUSH
+ 625: EMPTY
+ 626: LIST
+ 627: LIST
+ 628: PUSH
+ 629: LD_INT 30
+ 631: PUSH
+ 632: LD_INT 4
+ 634: PUSH
+ 635: EMPTY
+ 636: LIST
+ 637: LIST
+ 638: PUSH
+ 639: EMPTY
+ 640: LIST
+ 641: LIST
+ 642: PPUSH
+ 643: CALL_OW 69
+ 647: ST_TO_ADDR
+// depots := FilterAllUnits ( [ [ f_side , 4 ] , [ f_btype , b_depot ] ] ) ;
+ 648: LD_ADDR_VAR 0 3
+ 652: PUSH
+ 653: LD_INT 22
+ 655: PUSH
+ 656: LD_INT 4
+ 658: PUSH
+ 659: EMPTY
+ 660: LIST
+ 661: LIST
+ 662: PUSH
+ 663: LD_INT 30
+ 665: PUSH
+ 666: LD_INT 0
+ 668: PUSH
+ 669: EMPTY
+ 670: LIST
+ 671: LIST
+ 672: PUSH
+ 673: EMPTY
+ 674: LIST
+ 675: LIST
+ 676: PPUSH
+ 677: CALL_OW 69
+ 681: ST_TO_ADDR
+// labs := FilterAllUnits ( [ [ f_side , 4 ] , [ f_btype , b_lab ] ] ) ;
+ 682: LD_ADDR_VAR 0 4
+ 686: PUSH
+ 687: LD_INT 22
+ 689: PUSH
+ 690: LD_INT 4
+ 692: PUSH
+ 693: EMPTY
+ 694: LIST
+ 695: LIST
+ 696: PUSH
+ 697: LD_INT 30
+ 699: PUSH
+ 700: LD_INT 6
+ 702: PUSH
+ 703: EMPTY
+ 704: LIST
+ 705: LIST
+ 706: PUSH
+ 707: EMPTY
+ 708: LIST
+ 709: LIST
+ 710: PPUSH
+ 711: CALL_OW 69
+ 715: ST_TO_ADDR
+// for i = 1 to armories do
+ 716: LD_ADDR_VAR 0 5
+ 720: PUSH
+ 721: DOUBLE
+ 722: LD_INT 1
+ 724: DEC
+ 725: ST_TO_ADDR
+ 726: LD_VAR 0 2
+ 730: PUSH
+ 731: FOR_TO
+ 732: IFFALSE 792
 // begin uc_side := 4 ;
- 559: LD_ADDR_OWVAR 20
- 563: PUSH
- 564: LD_INT 4
- 566: ST_TO_ADDR
+ 734: LD_ADDR_OWVAR 20
+ 738: PUSH
+ 739: LD_INT 4
+ 741: ST_TO_ADDR
 // uc_nation := 1 ;
- 567: LD_ADDR_OWVAR 21
- 571: PUSH
- 572: LD_INT 1
- 574: ST_TO_ADDR
-// for j = 1 to 4 do
- 575: LD_ADDR_VAR 0 6
- 579: PUSH
- 580: DOUBLE
- 581: LD_INT 1
- 583: DEC
- 584: ST_TO_ADDR
- 585: LD_INT 4
- 587: PUSH
- 588: FOR_TO
- 589: IFFALSE 633
-// begin PrepareScientist ( 1 , 2 ) ;
- 591: LD_INT 1
- 593: PPUSH
- 594: LD_INT 2
- 596: PPUSH
- 597: CALL_OW 384
+ 742: LD_ADDR_OWVAR 21
+ 746: PUSH
+ 747: LD_INT 1
+ 749: ST_TO_ADDR
+// PrepareSoldier ( 1 , 2 ) ;
+ 750: LD_INT 1
+ 752: PPUSH
+ 753: LD_INT 2
+ 755: PPUSH
+ 756: CALL_OW 381
 // sol := CreateHuman ;
- 601: LD_ADDR_VAR 0 7
- 605: PUSH
- 606: CALL_OW 44
- 610: ST_TO_ADDR
+ 760: LD_ADDR_VAR 0 7
+ 764: PUSH
+ 765: CALL_OW 44
+ 769: ST_TO_ADDR
+// PlaceHumanInUnit ( sol , armories [ i ] ) ;
+ 770: LD_VAR 0 7
+ 774: PPUSH
+ 775: LD_VAR 0 2
+ 779: PUSH
+ 780: LD_VAR 0 5
+ 784: ARRAY
+ 785: PPUSH
+ 786: CALL_OW 52
+// end ;
+ 790: GO 731
+ 792: POP
+ 793: POP
+// for i = 1 to depots do
+ 794: LD_ADDR_VAR 0 5
+ 798: PUSH
+ 799: DOUBLE
+ 800: LD_INT 1
+ 802: DEC
+ 803: ST_TO_ADDR
+ 804: LD_VAR 0 3
+ 808: PUSH
+ 809: FOR_TO
+ 810: IFFALSE 890
+// begin uc_side := 4 ;
+ 812: LD_ADDR_OWVAR 20
+ 816: PUSH
+ 817: LD_INT 4
+ 819: ST_TO_ADDR
+// uc_nation := 1 ;
+ 820: LD_ADDR_OWVAR 21
+ 824: PUSH
+ 825: LD_INT 1
+ 827: ST_TO_ADDR
+// for j = 1 to 2 do
+ 828: LD_ADDR_VAR 0 6
+ 832: PUSH
+ 833: DOUBLE
+ 834: LD_INT 1
+ 836: DEC
+ 837: ST_TO_ADDR
+ 838: LD_INT 2
+ 840: PUSH
+ 841: FOR_TO
+ 842: IFFALSE 886
+// begin PrepareEngineer ( 1 , 2 ) ;
+ 844: LD_INT 1
+ 846: PPUSH
+ 847: LD_INT 2
+ 849: PPUSH
+ 850: CALL_OW 382
+// sol := CreateHuman ;
+ 854: LD_ADDR_VAR 0 7
+ 858: PUSH
+ 859: CALL_OW 44
+ 863: ST_TO_ADDR
+// PlaceHumanInUnit ( sol , depots [ i ] ) ;
+ 864: LD_VAR 0 7
+ 868: PPUSH
+ 869: LD_VAR 0 3
+ 873: PUSH
+ 874: LD_VAR 0 5
+ 878: ARRAY
+ 879: PPUSH
+ 880: CALL_OW 52
+// end ;
+ 884: GO 841
+ 886: POP
+ 887: POP
+// end ;
+ 888: GO 809
+ 890: POP
+ 891: POP
+// for i = 1 to labs do
+ 892: LD_ADDR_VAR 0 5
+ 896: PUSH
+ 897: DOUBLE
+ 898: LD_INT 1
+ 900: DEC
+ 901: ST_TO_ADDR
+ 902: LD_VAR 0 4
+ 906: PUSH
+ 907: FOR_TO
+ 908: IFFALSE 988
+// begin uc_side := 4 ;
+ 910: LD_ADDR_OWVAR 20
+ 914: PUSH
+ 915: LD_INT 4
+ 917: ST_TO_ADDR
+// uc_nation := 1 ;
+ 918: LD_ADDR_OWVAR 21
+ 922: PUSH
+ 923: LD_INT 1
+ 925: ST_TO_ADDR
+// for j = 1 to 4 do
+ 926: LD_ADDR_VAR 0 6
+ 930: PUSH
+ 931: DOUBLE
+ 932: LD_INT 1
+ 934: DEC
+ 935: ST_TO_ADDR
+ 936: LD_INT 4
+ 938: PUSH
+ 939: FOR_TO
+ 940: IFFALSE 984
+// begin PrepareScientist ( 1 , 2 ) ;
+ 942: LD_INT 1
+ 944: PPUSH
+ 945: LD_INT 2
+ 947: PPUSH
+ 948: CALL_OW 384
+// sol := CreateHuman ;
+ 952: LD_ADDR_VAR 0 7
+ 956: PUSH
+ 957: CALL_OW 44
+ 961: ST_TO_ADDR
 // PlaceHumanInUnit ( sol , labs [ i ] ) ;
- 611: LD_VAR 0 7
- 615: PPUSH
- 616: LD_VAR 0 4
- 620: PUSH
- 621: LD_VAR 0 5
- 625: ARRAY
- 626: PPUSH
- 627: CALL_OW 52
+ 962: LD_VAR 0 7
+ 966: PPUSH
+ 967: LD_VAR 0 4
+ 971: PUSH
+ 972: LD_VAR 0 5
+ 976: ARRAY
+ 977: PPUSH
+ 978: CALL_OW 52
 // end ;
- 631: GO 588
- 633: POP
- 634: POP
+ 982: GO 939
+ 984: POP
+ 985: POP
 // end ;
- 635: GO 556
- 637: POP
- 638: POP
+ 986: GO 907
+ 988: POP
+ 989: POP
 // end ;
- 639: LD_VAR 0 1
- 643: RET
+ 990: LD_VAR 0 1
+ 994: RET
+// export function AttackOrder ; var i , enemy , atackers ; begin
+ 995: LD_INT 0
+ 997: PPUSH
+ 998: PPUSH
+ 999: PPUSH
+1000: PPUSH
+// enemy := FilterAllUnits ( [ f_side , 4 ] ) ;
+1001: LD_ADDR_VAR 0 3
+1005: PUSH
+1006: LD_INT 22
+1008: PUSH
+1009: LD_INT 4
+1011: PUSH
+1012: EMPTY
+1013: LIST
+1014: LIST
+1015: PPUSH
+1016: CALL_OW 69
+1020: ST_TO_ADDR
+// atackers := FilterAllUnits ( [ f_side , 5 ] ) ;
+1021: LD_ADDR_VAR 0 4
+1025: PUSH
+1026: LD_INT 22
+1028: PUSH
+1029: LD_INT 5
+1031: PUSH
+1032: EMPTY
+1033: LIST
+1034: LIST
+1035: PPUSH
+1036: CALL_OW 69
+1040: ST_TO_ADDR
+// for i = 1 to atackers do
+1041: LD_ADDR_VAR 0 2
+1045: PUSH
+1046: DOUBLE
+1047: LD_INT 1
+1049: DEC
+1050: ST_TO_ADDR
+1051: LD_VAR 0 4
+1055: PUSH
+1056: FOR_TO
+1057: IFFALSE 1097
+// ComAttackUnit ( atackers [ i ] , NearestUnitToUnit ( enemy , atackers [ i ] ) ) ;
+1059: LD_VAR 0 4
+1063: PUSH
+1064: LD_VAR 0 2
+1068: ARRAY
+1069: PPUSH
+1070: LD_VAR 0 3
+1074: PPUSH
+1075: LD_VAR 0 4
+1079: PUSH
+1080: LD_VAR 0 2
+1084: ARRAY
+1085: PPUSH
+1086: CALL_OW 74
+1090: PPUSH
+1091: CALL_OW 115
+1095: GO 1056
+1097: POP
+1098: POP
+// end ; end_of_file
+1099: LD_VAR 0 1
+1103: RET
+// on UnitDestroyed ( un ) do begin if un = Omar then
+1104: LD_VAR 0 1
+1108: PUSH
+1109: LD_EXP 1
+1113: EQUAL
+1114: IFFALSE 1123
+// YouLost ( Omar ) ;
+1116: LD_STRING Omar
+1118: PPUSH
+1119: CALL_OW 104
+// end ;
+1123: PPOPN 1
+1125: END

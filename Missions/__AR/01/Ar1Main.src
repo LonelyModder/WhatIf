@@ -16,13 +16,31 @@ begin
    SayRadio(Farmer,'M1ArIntro-6');
    SayRadio(Omar,'M1ArIntro-7');
    InGameOff;
+   AttackOrder; //Direct Command?
    ChangeMissionObjectives('Ar_1_1');
    SaveForQuickRestart;
 end;
 
+every 0$1 trigger GetLives(Ar1Sniper1)<1000 or GetLives(Ar1Soldier1)<1000 or GetLives(Ar1Soldier2)<1000 or GetLives(Ar1Soldier3)<1000 or GetLives(Truman)<1000 do
+begin
+    InGameOn;
+        Say(Omar,'M1ArTruman-1');
+		Say(Truman,'M1ArTruman-2');
+		Say(Omar,'M1ArTruman-3');
+    InGameOff;
+end;
+
+every 0$1 trigger GetLives(Joan)<1000 do
+begin
+    InGameOn;
+        Say(Joan,'M1ArJoan-1');
+		comenterunit(Joan,eon);
+    InGameOff;
+end;
+
 on enterbuilding(b,Omar) do
 begin
-    if b=eon then
+    if b=eon and IsOk(Joan) then
 		begin
 			Wait(0$4);
 			savecharacters(Omar,'Omar');

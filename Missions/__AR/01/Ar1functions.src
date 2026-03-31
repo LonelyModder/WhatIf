@@ -1,4 +1,4 @@
-Export Omar, Abdul, Heike, Farmer;
+Export Omar, Abdul, Heike, Farmer, Truman, Joan;
 
 Export Function PrepareHero;
 begin
@@ -8,10 +8,15 @@ begin
 	Abdul := NewCharacter('Abdul');
 	Heike := NewCharacter('Heike');
 	Farmer := NewCharacter('Farmer');
+	uc_side := 4;
+	Truman := NewCharacter('Truman');
+	Joan := NewCharacter('Joan');
 	
-	PlaceUnitXY(Omar,29,52,false);
-	PlaceUnitXY(Heike,46,7,false);
-	PlaceUnitXY(Farmer,94,60,false);
+	PlaceUnitXY(Truman,51,41,false);
+	PlaceUnitXY(Joan,77,35,false);
+	PlaceUnitXY(Omar,30,49,false);
+	PlaceUnitXY(Heike,46,6,false);
+	PlaceUnitXY(Farmer,96,61,false);
 	CenterOnUnits(Omar);
 end;
 
@@ -55,4 +60,15 @@ begin
 				PlaceHumanInUnit(sol,labs[i]);
 			end;
 		end;
+end;
+
+Export Function AttackOrder;
+var i, enemy, atackers;
+begin
+	
+	enemy := FilterAllUnits([f_side,4]);
+	atackers := FilterAllUnits([f_side,5]);
+	
+	for i=1 to atackers do
+		ComAttackUnit(atackers[i], NearestUnitToUnit(enemy, atackers[i]));
 end;
