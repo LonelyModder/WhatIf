@@ -1,0 +1,119 @@
+// starting begin InGameOn ;
+   0: CALL_OW 8
+// PrepareHero1cont ;
+   4: CALL 92 0 0
+// Wait ( 0 0$2 ) ;
+   8: LD_INT 70
+  10: PPUSH
+  11: CALL_OW 67
+// Say ( Omar , M1contArIntro-1 ) ;
+  15: LD_EXP 1
+  19: PPUSH
+  20: LD_STRING M1contArIntro-1
+  22: PPUSH
+  23: CALL_OW 88
+// Say ( Omar , M1contArIntro-2 ) ;
+  27: LD_EXP 1
+  31: PPUSH
+  32: LD_STRING M1contArIntro-2
+  34: PPUSH
+  35: CALL_OW 88
+// Say ( Omar , M1contArIntro-3 ) ;
+  39: LD_EXP 1
+  43: PPUSH
+  44: LD_STRING M1contArIntro-3
+  46: PPUSH
+  47: CALL_OW 88
+// Say ( Omar , M1contArIntro-4 ) ;
+  51: LD_EXP 1
+  55: PPUSH
+  56: LD_STRING M1contArIntro-4
+  58: PPUSH
+  59: CALL_OW 88
+// SayRadio ( Omar , M1contArIntro-5 ) ;
+  63: LD_EXP 1
+  67: PPUSH
+  68: LD_STRING M1contArIntro-5
+  70: PPUSH
+  71: CALL_OW 94
+// SayRadio ( Abdul , M1contArIntro-6 ) ;
+  75: LD_EXP 2
+  79: PPUSH
+  80: LD_STRING M1contArIntro-6
+  82: PPUSH
+  83: CALL_OW 94
+// InGameOff ;
+  87: CALL_OW 9
+// end ; end_of_file
+  91: END
+// export Omar , Abdul ; export function PrepareHero1cont ; begin
+  92: LD_INT 0
+  94: PPUSH
+// InGameOn ;
+  95: CALL_OW 8
+// CenterNowOnXY ( 71 , 103 ) ;
+  99: LD_INT 71
+ 101: PPUSH
+ 102: LD_INT 103
+ 104: PPUSH
+ 105: CALL_OW 86
+// uc_side := 2 ;
+ 109: LD_ADDR_OWVAR 20
+ 113: PUSH
+ 114: LD_INT 2
+ 116: ST_TO_ADDR
+// Omar := NewCharacter ( Omar ) ;
+ 117: LD_ADDR_EXP 1
+ 121: PUSH
+ 122: LD_STRING Omar
+ 124: PPUSH
+ 125: CALL_OW 25
+ 129: ST_TO_ADDR
+// uc_side := 5 ;
+ 130: LD_ADDR_OWVAR 20
+ 134: PUSH
+ 135: LD_INT 5
+ 137: ST_TO_ADDR
+// Abdul := NewCharacter ( Abdul ) ;
+ 138: LD_ADDR_EXP 2
+ 142: PUSH
+ 143: LD_STRING Abdul
+ 145: PPUSH
+ 146: CALL_OW 25
+ 150: ST_TO_ADDR
+// DWait ( 0 0$2 ) ;
+ 151: LD_INT 70
+ 153: PPUSH
+ 154: CALL_OW 68
+// PlaceUnitXY ( Omar , 103 , 97 , true ) ;
+ 158: LD_EXP 1
+ 162: PPUSH
+ 163: LD_INT 103
+ 165: PPUSH
+ 166: LD_INT 97
+ 168: PPUSH
+ 169: LD_INT 1
+ 171: PPUSH
+ 172: CALL_OW 48
+// CenterOnUnits ( Omar ) ;
+ 176: LD_EXP 1
+ 180: PPUSH
+ 181: CALL_OW 85
+// InGameOff ;
+ 185: CALL_OW 9
+// end ; end_of_file
+ 189: LD_VAR 0 1
+ 193: RET
+// on UnitDestroyed ( un ) do begin if un = Omar then
+ 194: LD_VAR 0 1
+ 198: PUSH
+ 199: LD_EXP 1
+ 203: EQUAL
+ 204: IFFALSE 213
+// YouLost ( Omar ) ;
+ 206: LD_STRING Omar
+ 208: PPUSH
+ 209: CALL_OW 104
+// end ;
+ 213: PPOPN 1
+ 215: END

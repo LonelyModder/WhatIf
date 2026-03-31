@@ -1,0 +1,14 @@
+starting
+begin
+	
+	InGameOn;
+	PrepareHero1cont;
+	Wait(0$2);
+	Say(Omar,'M1contArIntro-1');
+	Say(Omar,'M1contArIntro-2');
+	Say(Omar,'M1contArIntro-3');
+	Say(Omar,'M1contArIntro-4');
+	SayRadio(Omar,'M1contArIntro-5');
+	SayRadio(Abdul,'M1contArIntro-6');
+	InGameOff;
+end;

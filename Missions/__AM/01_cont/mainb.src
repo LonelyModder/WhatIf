@@ -72,7 +72,7 @@ begin
 	Say(VanHouten,'M1cRusUnit-2');
 end;
 
-every 0$1 trigger GetDistUnits(Gladstone,Harris)<10 and IsOk(Harris) do
+every 0$1 trigger GetDistUnits(VanHouten,Harris)<10 and IsOk(Harris) do
 begin
     InGameOn;
 		CenterOnUnits(Harris);
@@ -89,7 +89,7 @@ begin
     InGameOff;
 end;
 
-every 0$1 trigger GetDistUnits(Gladstone,Dave)<10 and IsOk(Dave) do
+every 0$1 trigger GetDistUnits(VanHouten,Dave)<10 and IsOk(Dave) do
 begin
     InGameOn;
 	if IsOk(Yamoko) and (GetDistUnits(Yamoko,Dave)>17) then begin
@@ -128,7 +128,7 @@ begin
     InGameOff;
 end;
 
-every 0$1 trigger GetDistUnits(Gladstone,Yamoko)<10 and IsOk(Yamoko) do
+every 0$1 trigger GetDistUnits(VanHouten,Yamoko)<10 and IsOk(Yamoko) do
 begin
     InGameOn;
 		if IsOk(Dave) and (GetDistUnits(Yamoko,Dave)<17) then begin

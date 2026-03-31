@@ -1,0 +1,15 @@
+Export Omar, Abdul;
+
+Export Function PrepareHero1cont;
+begin
+    InGameOn;
+    CenterNowOnXY(71,103);
+    uc_side := 2;
+    Omar := NewCharacter('Omar');
+    uc_side := 5;
+    Abdul := NewCharacter('Abdul');
+    DWait(0$2);
+    PlaceUnitXY(Omar,103,97,true);
+    CenterOnUnits(Omar);
+    InGameOff;
+end;

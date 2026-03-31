@@ -1,4 +1,4 @@
-var budovy, atackers;
+var budovy, atackers, followhk, followgsh;
 starting
 begin
    budovy=[depot1,depot2,depot3,lab1,arm1,arm2,eon];
@@ -63,7 +63,100 @@ every 0$1 trigger FilterAllUnits([[f_side,4],[f_type,unit_human],[f_ok]]) = 0 do
 begin
 	ComStop(atackers);
 	AddComMoveXY([Bergkamp],75,35);
-	SayRadio(Omar,'M1ArAmDead-1');
+	InGameOn;
+	commovexy(Gensher,47,38);
+	commovexy(Heike,47,38);
+	commovexy(Farmer,47,38);
+	Say(Omar,'M1ArAmDead-1');
+	Say(Farmer,'M1ArAmDead-2');
+	Say(Omar,'M1ArAmDead-3');
+	Say(Farmer,'M1ArAmDead-4');
+	Say(Omar,'M1ArAmDead-5');
+	Say(Gensher,'M1ArAmDead-6');
+	Say(Omar,'M1ArAmDead-7');
+	SayRadio(Omar,'M1ArAmDead-8');
+	SayRadio(Bergkamp,'M1ArAmDead-9');
+	SayRadio(Omar,'M1ArAmDead-10');
+	Say(Omar,'M1ArAmDead-11');
+	Say(Gensher,'M1ArAmDead-12');
+	Say(Omar,'M1ArAmDead-13');
+	Say(Farmer,'M1ArAmDead-14');
+	followgsh:=true;
+	followhk:=true;
+	InGameOff;
+end;
+
+every 0$0.5 trigger followhk=true do //heike followuje omara
+var tmp,tmp2,tmp3,x,y,px,py,dir;
+begin
+  tmp=getdistunits(Omar,Heike);
+  x=getx(Omar);
+  y=gety(Omar);
+  tmp2=[];
+  tmp3=[];
+  if tmp>=7 then begin
+    for dir=0 to 5 do begin
+      px=shiftx(x,dir,tmp-2);
+      py=shifty(y,dir,tmp-2);
+      if ValidHex(px,py) then
+        begin
+         tmp2=tmp2^[[px,py]];
+         tmp3=tmp3^[getdistunitxy(Heike,px,py)];
+        end
+    end;
+    tmp=bestfromlistbylist(tmp2,tmp3);
+    commovexy(Heike,tmp[1],tmp[2]);
+  end;
+  enable;
+end;
+
+every 0$0.5 trigger followgsh=true do //gensher followuje omara
+var tmp,tmp2,tmp3,x,y,px,py,dir;
+begin
+  tmp=getdistunits(Omar,Gensher);
+  x=getx(Omar);
+  y=gety(Omar);
+  tmp2=[];
+  tmp3=[];
+  if tmp>=7 then begin
+    for dir=0 to 5 do begin
+      px=shiftx(x,dir,tmp-2);
+      py=shifty(y,dir,tmp-2);
+      if ValidHex(px,py) then
+        begin
+         tmp2=tmp2^[[px,py]];
+         tmp3=tmp3^[getdistunitxy(Gensher,px,py)];
+        end
+    end;
+    tmp=bestfromlistbylist(tmp2,tmp3);
+    commovexy(Gensher,tmp[1],tmp[2]);
+  end;
+  enable;
+end;
+
+every 0$1 trigger GetDistUnits(Omar,Bergkamp) < 10 do
+begin
+	followgsh:=false;
+	followhk:=false;
+	commovexy(Gensher,69,33);
+	commovexy(Heike,69,33);
+    InGameOn;
+	Say(Omar,'M1ArFuckup-1');
+	Say(Bergkamp,'M1ArFuckup-2');
+	Say(Omar,'M1ArFuckup-3');
+	Say(Bergkamp,'M1ArFuckup-4');
+	Say(Omar,'M1ArFuckup-5');
+	Say(Bergkamp,'M1ArFuckup-6');
+	Say(Omar,'M1ArFuckup-7');
+	comenterunit(Bergkamp,eon);
+	Say(Gensher,'M1ArFuckup-8');
+	Say(Omar,'M1ArFuckup-9');
+	comenterunit(Omar,eon);
+	Say(Gensher,'M1ArFuckup-10');
+	Say(Heike,'M1ArFuckup-11');
+	comenterunit(Heike,eon);
+	Say(Gensher,'M1ArFuckup-12');
+	InGameOff;
 end;
 
 on enterbuilding(b,Omar) do
