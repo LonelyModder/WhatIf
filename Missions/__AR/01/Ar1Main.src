@@ -1,10 +1,12 @@
-var budovy;
+var budovy, atackers;
 starting
 begin
    budovy=[depot1,depot2,depot3,lab1,arm1,arm2,eon];
    InGameOn;
    PrepareHero;
    PrepareBuildings;
+   atackers := [];
+   atackers := FilterAllUnits([f_side,5]);
 
    CenterOnUnits(Omar);
    Wait(0$2);
@@ -14,9 +16,15 @@ begin
    SayRadio(Omar,'M1ArIntro-4');
    SayRadio(Heike,'M1ArIntro-5');
    SayRadio(Farmer,'M1ArIntro-6');
-   SayRadio(Omar,'M1ArIntro-7');
+   SayRadio(Gensher,'M1ArIntro-7');
+   SayRadio(Omar,'M1ArIntro-8');
+   SayRadio(Bergkamp,'M1ArIntro-9');
+   SayRadio(Omar,'M1ArIntro-10');
    InGameOff;
-   AttackOrder; //Direct Command?
+   DoNotAttack(2,eon);
+   ComWalk(atackers);
+   AddComAgressiveMove(atackers,47,38);
+   ComAgressiveMove(Bergkamp,75,35);
    ChangeMissionObjectives('Ar_1_1');
    SaveForQuickRestart;
 end;
@@ -27,20 +35,40 @@ begin
         Say(Omar,'M1ArTruman-1');
 		Say(Truman,'M1ArTruman-2');
 		Say(Omar,'M1ArTruman-3');
+		SayRadio(Omar,'M1ArTruman-4');
+		SayRadio(Farmer,'M1ArTruman-5');
+		//Spy's charges
+		MineExplosion(41,43,1);
+		MineExplosion(45,45,1);
+		MineExplosion(49,45,1);
+		MineExplosion(52,44,1);
+		MineExplosion(42,31,1);
+		MineExplosion(42,28,1);
+		MineExplosion(47,34,1);
+		MineExplosion(46,30,1);
+		MineExplosion(54,40,1);
+		MineExplosion(56,37,1);
     InGameOff;
 end;
 
 every 0$1 trigger GetLives(Joan)<1000 do
 begin
     InGameOn;
-        Say(Joan,'M1ArJoan-1');
 		comenterunit(Joan,eon);
+		Say(Joan,'M1ArJoan-1');
     InGameOff;
+end;
+
+every 0$1 trigger FilterAllUnits([[f_side,4],[f_type,unit_human],[f_ok]]) = 0 do
+begin
+	ComStop(atackers);
+	AddComMoveXY([Bergkamp],75,35);
+	SayRadio(Omar,'M1ArAmDead-1');
 end;
 
 on enterbuilding(b,Omar) do
 begin
-    if b=eon and IsOk(Joan) then
+    if b=eon and FilterAllUnits([[f_side,2],[f_type,unit_human],[f_ok]]) = 0 then
 		begin
 			Wait(0$4);
 			savecharacters(Omar,'Omar');
