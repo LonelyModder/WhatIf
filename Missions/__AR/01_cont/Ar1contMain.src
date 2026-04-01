@@ -1,14 +1,63 @@
 starting
 begin
-	
 	InGameOn;
 	PrepareHero1cont;
+	PrepareBuildings1cont;
 	Wait(0$2);
-	Say(Omar,'M1contArIntro-1');
-	Say(Omar,'M1contArIntro-2');
-	Say(Omar,'M1contArIntro-3');
-	Say(Omar,'M1contArIntro-4');
-	SayRadio(Omar,'M1contArIntro-5');
-	SayRadio(Abdul,'M1contArIntro-6');
+	Intro1cont;
 	InGameOff;
+end;
+
+every 0$1 trigger GetLives(Simms)<1000 do
+var who;
+begin
+	who := FilterAllUnits([[f_side,3],[f_type,unit_human]]);
+    InGameOn;
+		SetAttitude(2,1,att_friend,true);
+        ComStop(who);
+		Say(Omar,'M1contSimms-1');
+		Say(Simms,'M1contSimms-2');
+		Say(Omar,'M1contSimms-3');
+		Say(Simms,'M1contSimms-4');
+		Say(Omar,'M1contSimms-5');
+		Say(Simms,'M1contSimms-6');
+		Say(Omar,'M1contSimms-7');
+		Say(Simms,'M1contSimms-8');
+		Say(Omar,'M1contSimms-9');
+		SetSide(Simms,2);
+    InGameOff;
+end;
+
+every 0$1 trigger GetDistUnitXY(Omar,109,73) < 8 do
+begin
+    InGameOn;
+		SayRadio(Abdul,'M1contAbdulKurt-1');
+		Say(Omar,'M1contAbdulKurt-2');
+    InGameOff;
+end;
+
+every 0$1 trigger GetDistUnitXY(Omar,18,30) < 8 do
+begin
+    InGameOn;
+		Say(Omar,'M1contKurt-1');
+		SetAttitude(2,5,att_friend,true);
+		uc_side := 5;
+		PlaceUnitXY(Kurt,17,29,false);
+		PlaceUnitXY(Kaia,16,30,false);
+		Say(Kurt,'M1contKurt-2');
+		Say(Kurt,'M1contKurt-3');
+		Say(Omar,'M1contKurt-4');
+		SetSide(Kurt,2);
+		SetSide(Kaia,2);
+		Say(Kurt,'M1contKurt-5');
+		Say(Kurt,'M1contKurt-6');
+		Say(Kurt,'M1contKurt-7');
+		Say(Kurt,'M1contKurt-8');
+		Say(Omar,'M1contKurt-9');
+		Say(Kaia,'M1contKurt-10');
+		Say(Omar,'M1contKurt-11');
+		Say(Kurt,'M1contKurt-12');
+		Say(Omar,'M1contKurt-13');
+		SetTech(tech_explos, 2, state_researched);
+    InGameOff;
 end;

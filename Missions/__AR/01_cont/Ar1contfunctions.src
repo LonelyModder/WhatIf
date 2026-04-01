@@ -1,15 +1,69 @@
-Export Omar, Abdul;
+Export Omar, Abdul, Simms, Kurt, Kaia, Yakotich;
 
 Export Function PrepareHero1cont;
 begin
     InGameOn;
-    CenterNowOnXY(71,103);
+    CenterNowOnXY(103,97);
+	uc_side := 1;
+	Simms := NewCharacter('Simms');
     uc_side := 2;
     Omar := NewCharacter('Omar');
+	uc_side := 3;
+	Yakotich := NewCharacter('Yakotich');
     uc_side := 5;
     Abdul := NewCharacter('Abdul');
+	Kurt := NewCharacter('Kurt');
+	Kaia := NewCharacter('Kaia');
     DWait(0$2);
     PlaceUnitXY(Omar,103,97,true);
+	PlaceUnitXY(Simms,46,83,false);
+	PlaceUnitXY(Yakotich,96,15,false);
     CenterOnUnits(Omar);
     InGameOff;
+end;
+
+Export Function Intro1cont;
+begin
+    InGameOn;
+	Say(Omar,'M1contArIntro-1');
+	commovexy(Omar,105,95);
+	Say(Omar,'M1contArIntro-2');
+	commovexy(Omar,97,94);
+	Say(Omar,'M1contArIntro-3');
+	commovexy(Omar,94,89);
+	Say(Omar,'M1contArIntro-4');
+	commovexy(Omar,102,96);
+	SayRadio(Omar,'M1contArIntro-5');
+	SayRadio(Abdul,'M1contArIntro-6');
+	InGameOff;
+end;
+
+Export Function PrepareBuildings1cont;
+var bunkers,depot,lab,i,j,sol;
+begin
+    bunkers := FilterAllUnits([ [f_side,3],[f_btype,b_breastwork]]);
+
+    for i=1 to bunkers do
+		begin
+			uc_side := 3;
+			uc_nation := 3;
+
+			PrepareSoldier(1,2);
+			sol := CreateHuman;
+			PlaceUnitInBunker(sol,bunkers[i]);
+		end;
+end;
+
+Export Function PlaceUnitInBunker(un, b);
+var dir;
+begin
+dir := GetDir(b);
+
+if dir<3 then
+	dir := dir + 3
+else
+	dir := dir - 3;
+	
+SetDir(un, dir);
+PlaceHumanInUnit(un, b);
 end;
