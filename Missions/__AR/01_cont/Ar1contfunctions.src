@@ -35,7 +35,10 @@ begin
 	commovexy(Omar,102,96);
 	SayRadio(Omar,'M1contArIntro-5');
 	SayRadio(Abdul,'M1contArIntro-6');
+	Say(Omar,'M1contArIntro-7');
 	InGameOff;
+	ChangeMissionObjectives('Ar_1cont_1');
+	SaveForQuickRestart;
 end;
 
 Export Function PrepareBuildings1cont;

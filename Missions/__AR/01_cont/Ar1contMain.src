@@ -1,3 +1,4 @@
+var metSimmsbeforeKurt, metKurt;
 starting
 begin
 	InGameOn;
@@ -24,7 +25,13 @@ begin
 		Say(Omar,'M1contSimms-7');
 		Say(Simms,'M1contSimms-8');
 		Say(Omar,'M1contSimms-9');
+		Say(Simms,'M1contSimms-10');
+		Say(Omar,'M1contSimms-11');
 		SetSide(Simms,2);
+		if metKurt = false then
+			begin
+			metSimmsbeforeKurt := true
+			end
     InGameOff;
 end;
 
@@ -59,5 +66,13 @@ begin
 		Say(Kurt,'M1contKurt-12');
 		Say(Omar,'M1contKurt-13');
 		SetTech(tech_explos, 2, state_researched);
+		if GetDistUnits(Kurt,Simms) < 7 and metSimmsbeforeKurt = true then
+			begin
+			Say(Kurt,'M1contKurtSimms-1');
+			Say(Simms,'M1contKurtSimms-2');
+			Say(Omar,'M1contKurtSimms-3');
+			Say(Kurt,'M1contKurtSimms-4');
+			end
     InGameOff;
+	metKurt := true;
 end;
