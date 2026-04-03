@@ -1,11 +1,11 @@
-Export Omar, Abdul, Simms, Kurt, Kaia, Yakotich;
+Export Omar, Abdul, Coonie, Kurt, Kaia, Yakotich;
 
 Export Function PrepareHero1cont;
 begin
     InGameOn;
     CenterNowOnXY(103,97);
 	uc_side := 1;
-	Simms := NewCharacter('Simms');
+	Coonie := NewCharacter('Coonie');
     uc_side := 2;
     Omar := NewCharacter('Omar');
 	uc_side := 3;
@@ -16,7 +16,7 @@ begin
 	Kaia := NewCharacter('Kaia');
     DWait(0$2);
     PlaceUnitXY(Omar,103,97,true);
-	PlaceUnitXY(Simms,46,83,false);
+	PlaceUnitXY(Coonie,46,83,false);
 	PlaceUnitXY(Yakotich,96,15,false);
     CenterOnUnits(Omar);
     InGameOff;

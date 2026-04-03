@@ -1,4 +1,4 @@
-var metSimmsbeforeKurt, metKurt;
+var metCooniebeforeKurt, metKurt;
 starting
 begin
 	InGameOn;
@@ -9,30 +9,39 @@ begin
 	InGameOff;
 end;
 
-every 0$1 trigger GetLives(Simms)<1000 do
+every 0$1 trigger GetLives(Coonie)<1000 do
 var who;
 begin
 	who := FilterAllUnits([[f_side,3],[f_type,unit_human]]);
-    InGameOn;
+    DialogueOn;
 		SetAttitude(2,1,att_friend,true);
         ComStop(who);
-		Say(Omar,'M1contSimms-1');
-		Say(Simms,'M1contSimms-2');
-		Say(Omar,'M1contSimms-3');
-		Say(Simms,'M1contSimms-4');
-		Say(Omar,'M1contSimms-5');
-		Say(Simms,'M1contSimms-6');
-		Say(Omar,'M1contSimms-7');
-		Say(Simms,'M1contSimms-8');
-		Say(Omar,'M1contSimms-9');
-		Say(Simms,'M1contSimms-10');
-		Say(Omar,'M1contSimms-11');
-		SetSide(Simms,2);
-		if metKurt = false then
-			begin
-			metSimmsbeforeKurt := true
-			end
-    InGameOff;
+		Say(Omar,'M1contCoonie-1');
+		Say(Coonie,'M1contCoonie-2');
+		Say(Omar,'M1contCoonie-3');
+		Say(Coonie,'M1contCoonie-4');
+		Say(Omar,'M1contCoonie-5');
+		Say(Coonie,'M1contCoonie-6');
+		Case Query('QCoonie') of
+			1:begin
+				Say(Omar,'M1contCoonie-7');
+				Say(Coonie,'M1contCoonie-8');
+				Say(Omar,'M1contCoonie-9');
+				Say(Coonie,'M1contCoonie-10');
+				Say(Omar,'M1contCoonie-11');
+				SetSide(Coonie,2);
+				if metKurt = false then
+					begin
+					metCooniebeforeKurt := true
+					end
+			end;
+			2:begin
+				Say(Omar,'M1contCoonie-alt1');
+				Say(Coonie,'M1contCoonie-alt2');
+				SetAttitude(2,1,att_enemy,true);
+			end;
+		end;
+    DialogueOff;
 end;
 
 every 0$1 trigger GetDistUnitXY(Omar,109,73) < 8 do
@@ -66,13 +75,16 @@ begin
 		Say(Kurt,'M1contKurt-12');
 		Say(Omar,'M1contKurt-13');
 		SetTech(tech_explos, 2, state_researched);
-		if GetDistUnits(Kurt,Simms) < 7 and metSimmsbeforeKurt = true then
-			begin
-			Say(Kurt,'M1contKurtSimms-1');
-			Say(Simms,'M1contKurtSimms-2');
-			Say(Omar,'M1contKurtSimms-3');
-			Say(Kurt,'M1contKurtSimms-4');
-			end
     InGameOff;
 	metKurt := true;
+end;
+
+every 0$1 trigger GetDistUnits(Kurt,Coonie) < 7 and metCooniebeforeKurt = true do
+begin
+    InGameOn;
+	Say(Kurt,'M1contKurtCoonie-1');
+	Say(Coonie,'M1contKurtCoonie-2');
+	Say(Omar,'M1contKurtCoonie-3');
+	Say(Kurt,'M1contKurtCoonie-4');
+	InGameOff;
 end;
