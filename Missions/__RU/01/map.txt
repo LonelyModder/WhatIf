@@ -1,0 +1,1681 @@
+MAIN_DEFINITIONS
+  SIZE 70 70
+  TICK 0
+  PLAYER_NUMBER 2
+  FOG_TYPE 0
+  FOGSIDES 1 2 3 4 2 6 7 8
+  MAP_GBI am01.gbi
+  MUCHY_RECT 0 0 0 0
+  EAGLES 0 50
+  WAVES 20
+  WATER_COLORS 708430 6 FFE0D0 3 FFE0D0
+END_OF_MAIN_DEFINITIONS
+
+HEXES
+  LINE 0 0 69
+    t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vR t4r2vRf4 t4r2vRfK t4vRfK t4vRf4 t4vRfK t4vRfK t4vRf4 t4vRf4 t4vRf4 t4vRfK t4vRfK t4vRfK t4vRf4 t4vRf4 t4vRfK t4vRfK t4vRf4 t4vRf4 t4vRf4 t4vRfK t4vRfK t4vRfK t4vRf4 t4vRf4 t4vRf4 t4vRsPf4 t4vUsHf4 t4vWs9 t4vXsP t4vaf4 t4vaf4 t4vaf4 t4vaf4 t4vaf4 t4vaf4 t4vaf4 t4vaf4 t4va t4va t4r2va t4r2va t4r2va t4r2va t4r2va t4r2va t4r2va t4r2va t4r2va t4r2va t4r2va t4r2va t4r2va
+  LINE 1 1 70
+    t4r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vR t2r2vRfK t2r2vRfG t2r2vRfK t2vRfK t2vRfK t2vRfK t2vRfK t2vRf4 t2vRf4 t2vRf4 t2vRfK t2vRfK t2vRf4 t2vRfK t2vRfK t2vRfK t2vRfK t2vRfK t2vRfK t2vRfK t2vRfK t2vRfK t2vRf4 t2vRfK t2vRf4 t2vRsPf4 t2vUsHf4 t2vWs9f4 t2vXsPf4 t2vaf4 t2vaf4 t2vaf4 t2vaf4 t2vaf4 t2vaf4 t2vaf4 t2vaf4 t2va t2va t2r2va t2r2va t2r2va t2r2va t2r2va t2r2va t2r2va t2r2va t2r2va t2r2va t2r2va t2r2va t2r2va t4r2va
+  LINE 2 1 70
+    t4r2vR t2r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vRfK r2vRfK r2vRfK r2vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRfK vRfK vRfK vRf4 vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRsPf4 vUsHf4 vWsHf4 vYsHf4 vaf4 vaf4 vaf4 vaf4 vaf4 va va vaf4 vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 3 2 71
+    t4r2vR t2r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRfK r2vRfK r2vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRfK vRsPf4 vUsHf4 vWsHf4 vYsHf4 vaf4 vaf4 vaf4 vaf4 vaf4 vaf4 vaf4 vaf4 vaf4 r2vaf4 r2vaf4 r2va r2vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 4 2 71
+    t4r2vR t2r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRfK r2vRfK r2vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRsPf4 vUsHf4 vWsHf4 vYsHf4 vaf4 vaf4 vaf4 vaf4 vaf4 vaf4 vaf4 vaf4 r2vaf4 r2vaf4 r2vaf4 r2vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 5 3 72
+    t4r2vR t2r2vR r2vR r2vR r2vR r2vR r2vRf4 r2vR r2vR r2vR r2vR r2vRf4 r2vRf4 r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRf4 vRsPf4 vUsHf4 vWsHf4 vYsGf4 vZs8f4 vaf4 vaf4 vaf4 vaf4 vaf4 vaf4 r2vaf4 r2vaf4 r2vaf4 r2vaf4 r2vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 6 3 72
+    t4r2vR t2r2vR r2vRf4 r2vR r2vRf4 r2vR r2vR r2vRf4 r2vR r2vR r2vR r2vR r2vRf4 r2vRsQ r2vRsYf4 r2vRsZf4 r2vRsRf4 r2vRsR r2vRf4 vRf4 vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRf4 vRf4 vRsPf4 vUsHf4 vWsHf4 vYs9f4 vZs9f4 vaf4 vaf4 vaf4 vaf4 vaf4 r2vaf4 r2vaf4 r2vaf4 r2vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 7 4 73
+    t4r2vR t2r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vR r2vRf4 r2vR r2vR r2vR r2vR r2vRsQf4 r6vRsgf4 r6vUsof4 r6vVshf4 r6vUsh r2vUsB r2vRsRfK vRsRfK vRf4 vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRf4 vRf4 vRsPf4 vUf4 vUsHf4 vWsHf4 vYsHf4 vaf4 vaf4 vaf4 vaf4 vaf4 vaf4 r2vaf4 r2vaf4 r2vaf4 r2vaf4 r2vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 8 4 73
+    t4r2vR t2r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vR r2vRf4 r2vRf4 r2vR r2vR r2vR r2vRsPf4 r2vUsHf4 r2vWsX r2vaf4 r2vZsB vVsZ r6vUshf4 r6vUshf4 vRsRfG vRsRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRf4 vRf4 vRsOf4 vSsGf4 vUsHf4 vWsHf4 vYsHf4 vaf4 vaf4 vaf4 vaf4 vaf4 r2vaf4 r2vaf4 r2vaf4 r2vaf4 r2vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 9 5 74
+    t4r2vR t2r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vR r2vR r2vR r2vR r2vRsXf4 r2vVsX r2vZs9f4 r2vaf4 vZsB vZsBf4 vZsBfG r6vUshfG r6vUshf4 vRsZfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRfK vRfK vRfK vRs8fK vSsGf4 vUsHf4 vWsHf4 vYsGf4 vYsGf4 vaf4 vaf4 vaf4 vaf4 r2vaf4 r2va r2vaf4 r2vaf4 r2vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 10 5 74
+    t4r2vRf4 t2r2vR r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vR r2vR r2vR r2vR r2vRsXf4 r2vVsX r2vZs9f4 r2vaf4 va vafK vafG vZsBfG vZsBfG vVsZfK vRsZfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRf4 vRs8f4 vSsGf4 vUsGf4 vWsGf4 vYf4 vYsHf4 vasAf4 vasBf4 vaf4 vaf4 r2vaf4 r2vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 11 6 75
+    t4r2vRf4 t2r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vR r2vR r2vR r2vRf4 r2vRsX r2vVsWf4 r2vZs8fK vZs8fG vafG vafG vafG vafG vZsBfK vVsZfK vRsafK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRf4 vRf4 vRf4 vRs8f4 vSsGf4 vUsGf4 vUsWf4 r6vYsH r6vas9 vbf4 vXsZf4 vXsOf4 vXsO r2vXsOf4 r2vaf4 r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 12 6 75
+    t4r2vRf4 t2r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vR r2vR r2vRf4 r2vRf4 r2vRsWf4 r6vUse r6vUsefG vZs8fG vZs8fG vZs8fG vZs8fG vafK vZsCfK r6vUsifK vRsSfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRfK vRfK vRfK vRs8f4 vRsOf4 vRsOf4 r6vTsef4 r6vUsm r6vWse r6vWsj vWs8f4 vWs8 vWs8 r2vXsO r2vXsO r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 13 7 76
+    t4r2vRf4 t2r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vR r2vR r2vRf4 r2vRf4 r2vRf4 r2vRsO vRsO r6vUsefG vVsWfG vVsWfG vVsWfG vZs8fK vZsDfK r6vUsifG vRsSfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vQsDfK vQs8fK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 vRf4 vPsWf4 r6vPsef4 r6vRse r6vSsW vSsW vSsW vTsO vWs8 r2vWs8 r2vXsO r2va r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 14 7 76
+    t4r2vR t2r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 vRf4 vRsOf4 vRsWf4 vRsW vUs8 r6vUsefK vZfK r6vUsjfG vRsSfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vQsCfK vQfK vQs8fK vQs8fK vQs8fK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 rBvPsKhQf4 r5vPhQf4 vPsGhLf4 vQsG vQsG vQsG vQsO vSsW vUsG r2vWs8 r2vXsO r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 15 8 77
+    t4r2vR t2r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 vRf4 vRf4 vR vR vRsOfG vUfG r6vUsefK r6vUsjfG vRsT vRf4 vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vPsLfK vPsDfK vPs8fK vPs8fK vPsGfK vPsGfK vPsGfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 vRf4 rBvQsChQf4 r5vPsChQf4 r5vPhQf4 vPsGf4 vQs8 vQs8 vQs8 vQsG vSsG vUsH vWs9 r2vXsP r2va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 16 8 77
+    t4r2vRf4 t2r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 vRf4 vRf4 vRf4 vR vR vRsP vU vRsT r6vPsj vPsLf4 vPsLf4 vPsLf4 vPsLfK vPsLfK vPsLfK vPsLfK vPsLfK vPsLfK vPsLfK vMsTfK vLsbfK vLsWfK vLsWfK vLsWfK vMsOfK vPsGfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK vRf4 rBvQsChQf4 r5vPsChQf4 r5vPhQf4 rBvPsGf4 vRf4 vRf4 vR vQs8 vQsG vSsX vWs9 vXsP va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 17 9 78
+    t4r2vRf4 t2r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRsPf4 vU r6vPsj vPsL vMsTf4 vMsT vMsTfG vMsTfK vMsTfK vMsTf4 vMsTfG vMsTfG vMsTfK vMsTfK vLsbfK vJsTfK vHsbfK vHsWfK vHsWfK vKsGfK vLsWfK r6vLsmfK vRfK vRfK vRfK vRfK vRfK vRfK vRfK rBvRf4 rBvQsDhQf4 r5vPsChQf4 r5vPhQf4 rBvPsGf4 vRf4 vRf4 vRf4 vR vQs8 vQsP vTsP vWsP vZs9 va r2va r2va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 18 9 78
+    t4r2vR t2r2vR r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRsOf4 r6vPsjf4 vMsTfG vMsTfG r6vGsrfG r6vGsrfK r6vGsrfG r6vGsrfG r6vGsrfG r6vGsrfG r6vGsrfG r6vGsrfG r6vGsrfK r6vGsrfK vHsbfK vFsbfG vEsTfG vEsOfK vGsWfK vHsWfK vKs8fK r6vLsmfK vPsGfK vPsGfK vPsGfK vPsGfK vPsGfK vRfK rBvQsDfK r5vPsLhQf4 r5vPsDhQf4 r5vPhQf4 rBvPsHf4 vRf4 vRf4 vRf4 vRf4 vQs8 vQs9 vRsf vWsP vZs9 va va va r2va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 19 10 79
+    t4vRf4 t2r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 r2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vPsLfK vMsTfK r6vGsrfG r6vGsrfK r6vAsrfG r6vAsrfG r6vAsrfG r6vAsrfG r6vAsrfG r6vAsrfG r6vAsrfG r6vAsrfG r6vAsmfG vFsGfK vDsbfG vBsbfG vBsOfG vCsWfG vDsWfG vGsWfK r6vHsefK vMsOfK vMsOfK vMsOfK vMsOfK vMsOfK vPsGfK rBvPsLfK r5vPsDhQf4 r5vOsDhQf4 r5vOs8hQf4 rBvPsHf4 vRf4 vRf4 vRf4 vRf4 vRf4 vQs9 vQsP vTsX vXsH vZs8 va va va va r2va r2va r2va r2va r2va t2r2va t4r2va
+  LINE 20 10 79
+    t4vRf4 t2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK vPsLfK vMsTfK r6vGsrfG r6vAsrfG r6vAsrfG r6v5sjfG r6v5sjfG r6v5sjfG r6v5sjfG r6v5sjfG r6v5sjfG r6v5sjfG r6v5sefG r6vAsefG r6v9srfG v9sbfG v8sTfG v8sWfG v9sWfG vCsWfG vDsWfG r6vGsmfK r6vGsmfK r6vGsmfK r6vGsmfK r6vGsmfK vLsWfK vLsWfK r5vOs8hQfK r5vOsDhQf4 r5vOhQf4 rBvOsPf4 vRf4 vR vRf4 vRf4 vRf4 vQsCf4 vQ vQsX vUsP vXsG vXsO vXsO vXsO vXsO r2vXsO r2va r2va r2va r2va t2r2va t4r2va
+  LINE 21 11 80
+    t4vRf4 t2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK vPsKfK vMsTfK r6vGsrfG r6vAsrfG r6v5sjfG r6v5sjfG v2sTfG v2sTfG v2sTfG v2sTfG v2sTfG v2sTfG v2sOfG r6v5sefG r6v5sefG v6sOfG v7sLfG v7s8fG v7sGfG v8sWfG v9sWfG r6vAsmfG r6vAsmfG r6vAsmfG r6vAsmfG r6vAsm r6vFsmfK vJsGfK rBvLsOfK r5vMsGhQfK r5vNs8hVf4 rBvOsHf4 vQs9f4 vR vR vRf4 vRf4 vR vQsB vQsP vTsP vWs8 vX vX vWsD vWs8 vWs8 r2vXsO r2va r2va r2va r2va t2r2va t4r2va
+  LINE 22 11 80
+    t4vRf4 t2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK vRfK vPsKfK vMsSfK r6vGsqfG r6vAsqfG r6v5sifG r7v5fG r7v2sTfG v2fG v2fG v2fG v2fG v2fG v2fG v2sOfG v2sOfG v5s8fG v6s8fG v6s8fG v6s8fG v5sOfG v5sWfG r6v5sefG r6v5sefG r6v5sefG r6v5sefG v7sOfG r6vAsffG vFsXfK rBvJsGfK r5vKsGhNfK r5vLsGhNf4 rBvNsHf4 vPsH vRf4 vR vR vR vR vR vRs9 vSsH vUsG vWs8 vWs8 vWsD vUsL vUsG r2vWs8 r2vXsO r2va r2va r2va t2r2va t4r2va
+  LINE 23 12 81
+    t4vRf4 t2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK vRfK vRfK r6vMsifK r6vGsqfG r6vBsifG r7v8sSfG r7v4safG r7v2sTfG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2sPfG v5s8fG v5s8fG v5s8fG v4sLfG v4sDfG v2sTfG v2sOfG v5fG v5fG v5sHfG r6v7snfG vDsXfK rBvHsGfK r5vIsGhKfK r5vJsGhMfK rBvLsGf4 vNsGf4 vPsG vR vR vR vR vR vR vRs8 vRsO vUsG vUsG vW vUsL vU vUsG r2vWs8 r2vXsO r2vXsO r2va r2va t2r2va t4r2va
+  LINE 24 12 81
+    t4vRf4 t2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK vRfK vRfK r6vMsifK r6vGsqfG r6vBsifG r7v8sSfG r7v4safG r7v2sKfG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2sHfG v4s8fG v5fG v5fG v4sDfG v3sD v2sL v2fG v2sOfG v3sGfG v5sHfG r6v7snfG vDsHfK rBvFsGfK r5vGsGhIfK r5vHsGhKfK rBvIsOf4 r6vIsef4 vMsOf4 vPsH vR vR vR vR vR vR vR vRsO vRsO vUsG vUsL vRsT vRsO r2vUsG r2vWs8 r2vWs8 r2vXsO r2va t2r2va t4r2va
+  LINE 25 13 82
+    t4vRf4 t2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK vRfK vRfK vOsSfK r6vIsqfK r7vEsafG r7vBsSfG r6v5sqfG r7v2sSfG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2sGfG v3sGfG v4s8fG v4sDfG v3sDfG v2sD v2 v2fG v2s8fG v3sHfG r6v5snfG vBsHfK rBvDsGfK r5vEsGhHfK r5vFsGhIfK rBvFsOfK vFsOf4 r6vGsmf4 r6vMsf vR vR vR vR vR vR vR vR vR vRsO vRsO vRsT vR vRsO r2vUsG r2vUsG r2vWs8 r2vXsO r2vXsO t2r2vXsO t4r2va
+  LINE 26 13 82
+    t4vRf4 t2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK vRfK vRfK r7vQsCfK r7vMsafK r7vIsafK r6vEsafG r6v8sqfG r7v4safG v2sKfG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2s8fG v3s8fG v3s8fG v3sDfG v2sDfG v2 v2fG v2fG v2sPfG v5fG v5snfG rBvBsGfK r5vCsGhFfK r5vDsGhFfK rBvCsTfK r6vAsjf4 r6vAsmfG r6vGsnf4 r6vMsf vR vR vR vR vR vR vR vR vR vR vR vR vR r2vRsO r2vRsO r2vUsG r2vWs8 r2vWs8 t2r2vWs8 t4r2vXsO
+  LINE 27 14 83
+    t4vRf4 t2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK vRfK r7vPsLfK r7vNsSfK r7vLsKfK r6vGsifG r6vAsqfG r6v5sifG r6v2sSfG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2s8fG v2s8fG v2s8fG v2sDfG v2fG v2fG v2fG v2sPfG v5fG v5sPfG rBv8sOfK r5vAsGhEfK r5vBsGhEfK rBvCsDfK r6vAsLfK r6vAfK r6vAsn r6vGsn r6vMsf vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vRsO r2vUsG r2vUsG r2vUsG t2r2vWs8 t4r2vX
+  LINE 28 14 83
+    t4vRf4 t2vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK r7vQsDfK r7vPsLfK r7vOsCfK r7vNsCfK r7vLsKfK r6vGsifK r6vAsqfG r6v5sifG r6v2sSfG v2fG v2fG v2fG v2fI v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG r6v2sgfG v5sJfG v5s8fG rBv6sGfG r5v8sGhBfK r5v9sGhBfK rBvAsGfK v8sbfK v8sGfK r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vRsO r2vRsO r2vRsO t2r2vUsG t4r2vWs8
+  LINE 29 15 84
+    t4vRf4 t2vRf4 vRf4 vR vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK r7vQsCfK r7vPsCfK r7vOsCfK r7vOfK r7vMsKfK r6vGsqfK r6vAsqfG r6v5sifG r6v2sSfG v2fG v2fG v2fG v2fG v2fG v2f2 v2fG v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG r6v2sffG v7fG v4sOfG rBv4sGfG r5v6sGh9fK r5v8s8h9fG rBv8sGfK v8sLfK v8fG v8sHfK r6vAsn r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR r2vR r2vRsO t2r2vUsG t4r2vUsL
+  LINE 30 15 84
+    t4vRsYf4 t2vRsZf4 vRf4 vR vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK r7vQsBfK r6vPsJfK r7vOsBfK r6vMsSfK r6vGsqfK r6vAsqfG r6v5sifG r6v2sSfG v2fG v2fG v2fG v2fG v2fG v2fG v2 v2 v2 v2 v2fG v2fG v2fI v2fG v2fG v2fG r6v2sffG v7fG v4sSfG v4fG rBv4sGfG r5v6sGh7fG r5v6sGh7fG rBv5sTfG v5sTh4fG r6v5sffG r6vAsnfG r6vGsn r6vMsP vPsH vR vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR r2vR t2r2vRsO t4r2vRsO
+  LINE 31 16 85
+    t4vVf4 t2vRsZf4 vRsY vRsZf4 vRsZf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRf4 vRfK vRfK vRfK r6vPsKfK r7vPfK r6vMsSfK r6vGsqfK r6vAsqfG r6v5sifG r6v2sSfG v2fG v2fG v2fG v2fG v2 v2fA v2f8 v2fG v2fG v2 v2 v2fI v2fG v2fG v2fG v2fG r6v2sffG v7fG v4sSfG v4fG r5v4sGh6fG r5v4sGh6fG rBv4sLfG v3sLfG v3sGfG r6v5sf r6vAsn r6vGsn r6vMsP vPsH vRfG vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR r2vR t2r2vR t4r2vR
+  LINE 32 16 85
+    t4vRsXf4 t2vVf4 r6vVsg r6vVsg r6vVsh vRsZf4 vRsZf4 vRf4 vRf4 vRf4 vRf4 vRf4 r6vPsLfK r6vPsLfK r6vPsLfK r6vMsTfK r6vMsTfG r6vGsqfK r6vAsqfG r6v5sifG r6v2sSfG v2fG v2fI v2fG v2fG v2fG v2 v2f8 v2 v2fG v2 v2 v2 v2 v2fG v2fG v2fG v2fG r6v2sefG v7fG v2sjfG rBv2sLfG r5v2sGh4fG r5v2sGh4fG rBv2sLfG v2s8fG v3sHfG r6v5sf r6vAsnfG r6vGsnfG r6vMsP vPsHfG vR vR vR vR vR vR vR vR vR vR vR vR vR vR r2vR r2vR t2r2vR t4r2vR
+  LINE 33 17 86
+    t4vRsXf4 t2r6vVsf va va r6vVsif4 vVf4 vRsaf4 vRf4 vRf4 r6vPsLf4 r6vPsLf4 r6vPsLfK r6vMsTfK r6vMsTfK r6vMsTfK r6vGsrfK r6vGsrfK r6vAsqfG r6v5sifG r6v2sSfG v2fG v2fG v2fG v2fG v2fG v2fG v2 v2 v2 v2 v2f8 v2 v2 v2fG v2fG v2fG v2fG v2fG r6v2sefG v2sjfG rBv1sDfG r5sLh2fG r5sGh2fG rBsGfG v1s8fG v2sPfG r6v5sffG r6vAsnfG r6vGsnfG r6vMsP vPsH vRfG vRfG vRfG vR vR vR vRfG vR vRfJ vR vR vR vR vR vR vR r2vR t2r2vR t4r2vR
+  LINE 34 17 86
+    t4vRf4 t2vRsWf4 r6vVsef4 r6vVse r6vVsjf4 r6vPsrf4 r6vPsr r6vPsLf4 r6vPsLf4 r6vPsLf4 r6vMsTf4 r6vMsTf4 r6vMsTfK r6vGsrfG r6vGsrfG r6vGsrfK r6vAsrfG r6vAsrfG r6vAfG r6v5sifG r6v2sSfG v2fG v2fG v2fG v2fG v2fG v2fG v2 v2 v2 v2f8 v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v1sCfG r5sCh2fG r5h2fG r5h2fG rBs9fG v1sXh2fG v5s9 r6v6sXfG r6vAsnfG r6vGsnfG r6vMsPfG vPsHfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vR vR vR vR vR vR vR vR t2r2vR t4vR
+  LINE 35 18 87
+    t4r6vPsGf4 t2r6vPsmf4 r6vPsmf4 r6vPsm r6vPsrf4 r6vMsTf4 r6vMsTf4 r6vMsTf4 r6vMsTf4 r6vMsT r6vGsr r6vGsr r6vGsrfG r6vAsrfG r6vAsrfG r6vAsrfG r6v5sjfG r6v5sjfG r6v5sjfG r6v2sSfG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2 v2 v2 v2f8 v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fG v1sCfG r5sCh2fG r5h2 r5h2fG rBs9fG v1sXh2fG v5s9fG v6fG r6v6sWfG r6vAsm r6vGsnfG r6vMsP vPsHfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vR vR vR vR vR vR vR vR vR t2vR t4vR
+  LINE 36 18 87
+    t4r6vMsOf4 t2r6vMsOf4 r6vMsOf4 r6vMsOf4 r6vMsOf4 r6vMsTf4 r6vGsrf4 r6vGsr r6vGsr r6vGsr r6vGsr r6vAsrf4 r6vAsrfK r6vAsrfG r6v5sjfG r6v5sjfG r6v5sjfG r6v2sTfG r6v2sTfG r6v2sTfG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fO v2fQ v2fI v2fG v2fG v2fG rBv1sCfG r5sCh2 r5h2fG rBs9fG v1s9fG v2sOfG v2sWfG v2sWfG r6v5sefG r6vAsn r6vGsnfG r6vMsPfG vPsHfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vR vR vR vR vR t2vR t4vR
+  LINE 37 19 88
+    t4r6vGsm t2r6vGsmf4 r6vGsmf4 r6vGsm r6vGsmf4 r6vGsrf4 r6vAsrf4 r6vAsr r6vAsr r6vAsr r6vAsr r6v5sjf4 r6v5sjfG r6v5sjfG r6v2sTfG r6v2sTfG r6v2sTfG v2fG v2fG v2fG v2fG v2fI v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fO v2fI v2fI v2 v2fG v2fG rBv1sCfG r5sCh2fG r5h2fG r5s9h2fG rBv1s9fG v2fG v2fG v2fG r6v2sPfG r6v5sffG r6vAsnfG r6vGsnfG r6vMsPfG vPsGfG vPsGfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vRfG vR vR vR vR vR t2vR t4vR
+  LINE 38 19 88
+    t4r6vAsmf4 t2r6vAsmf4 r6vAsmf4 r6vAsmf4 r6vAsmf4 r6vAsmf4 r6vAsrf4 r6v5sj r6v5sj r6v5sj r6v5sj r6v5sjf4 r6v2sT r6v2sTfG r6v2sTfG v2fG v2fG v2fG v2fG v2fG v2fG v2fI v2fI v2fG v2fI v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2 v2fG r5v1sCh2 r5sCh2fG r5s9h2fG rBv1s9fG v2fG v2fG v2fG r6v2sPfG r6v5sffG r6vAsnfG r6vGfG r6vGsmfG r7vMsOfG r7vMsOfG r7vPsGfG vPsGfG vPsGfG vRfO vRfG vRfG vRfG vRfG vRfG vRfG vR vR vR vR t2vR t4vR
+  LINE 39 20 89
+    t4r6v5sef4 t2r6v5sef4 r6v5sef4 r6v5sef4 r6v5sef4 r6v5sef4 r6v5sj r6v2sT r6v2sT r6v2sTf4 r6v2sTf4 r6v2sTf4 v2 v2 v2fK v2fK v2fG v2fG v2fG v2fG v2fI v2fG v2fG v2fG v2fI v2fG v2fG v2fI v2fG v2fG v2fG v2fG v2fG v2fG v2 v2fG v2 v2 v2fG rBv1sC r5sCh2fG r5h2fG r5s9h2fG v1s9fG v2fG v2fG v2fG r6v2sPfG r6v5sffG r6vAsmfG r6vAsmfG r6vGsmfG r7vIsWfG r7vMsOfG r7vMsOfG r6vMsOfG vPsGfG vPsGfG vPsGfG vRfG vRfG vRfG vRfG vRfG vR vR vR vR t2vR t4vR
+  LINE 40 20 89
+    t4r6v2sOf4 t2r6v2sOf4 r6v2sOf4 r6v2sOf4 r6v2sOf4 r6v2sOf4 r6v2sOf4 r6v2sT v2f4 v2 v2f4 v2f4 v2 v2 v2fK v2fK v2fG v2fG v2fG v2fG v2fG v2 v2fG v2fG v2fI v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2 v2 v2 v2 v2fG v2fG r5v1sCh2fG r5sCh2fG r5s9h2fG v1s9fG v2fG v2fG v2fG v2fG r6v2sOfG r6v5sefG r6v5sefG r6vAsmfG r7vEsWfG r7vIsWfG r6vGsrfG r6vGsmfG r6vMsOfG r6vMsOfG r6vMsOfG vPsGfG vPsGfG vPsGfG vRfG vRfG vRfG vR vR vR t2vR t4vR
+  LINE 41 21 90
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2 v2f4 v2f4 v2fG v2fG v2fG v2fG v2fG v2fG v2 v2fO v2fI v2fG v2fG v2fI v2fI v2fG v2fI v2fG v2fG v2fI v2fG v2fG v2fG v2fG v2fG v2fG rBv1sCfG r5sCh2fG r5h2fG rBs9fG v1s9fG v2fG v2fG v2fG v2fG r6v2sOfG r6v2sOfG r6v5sefG r7vAsWfG r7vEsWfG r6vCsrfG r6vCsWfG r6vGsmfG r6vGsmfG r6vGsmfG r6vMsOfG r6vMsOfG r6vMsOfG vPsGfG r7vPsGfG vRfG vR vR vR vR t2vR t4vR
+  LINE 42 21 90
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2fG v2fG v2fG v2fG v2 v2f8 v2f8 v2fO v2 v2 v2fG v2fI v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG r5v1sCh2fG r5sBh2fG r5sAh2fG v1s9fG v2fG v2fG v2fG v2fG v2fG v2fG r6v2sOfG r6v5sffG r7vAsWfG r6v8srfG r6v8sWfG r6vAsmfG r6vAsmfG r6vAsmfG r6vGsmfG r6vGsmfG r6vGsmfG r7vMsOfG r7vMsOfG vPsGfG vRfG vR vR vR t2vR t4vR
+  LINE 43 22 91
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2f4 v2fK v2fK v2 v2 v2f8 v2 v2 v2 v2 v2fI v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG rBv1sCfG r5v1h2fG r5v1h2fG rBv1s9fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG r7v2sXfG r7v6sWfG r6v4srfG r6v4sWfG r6v5sefG r6v5sefG r6v5sefG r6vAsmfG r6vAsmfG r6vAsmfG r6vGsmfG r7vIsWfG r7vMsOfG vPsGfG vPsGfG vPsG vR vR t2vR t4vR
+  LINE 44 22 91
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2 v2 v2fI v2 v2fG v2fI v2 v2f8 v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG r4v1sCh2fG r5v1h2fG r5v1h2fG v1s9fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG r7v2sWfG r7v2sbfG v2sGfG r6v2sOfG r6v2sOfG r6v2sOfG r6v5sefG r6v5sefG r6v5sefG r6vAsmfG r7vEsWfG r6vGsmfG r6vMsOfG r6vMsOfG r6vMsO vPsG vR t2vR t4vR
+  LINE 45 23 92
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2 v2 v2 v2 v2 v2fG v2 v2f8 v2fG v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG rBv1sCfG r4v1h2fG r5v1h2fG rBv1s9fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG r6v2sOfG r6v2sOfG r6v2sOfG r6v5sffG r7vAsWfG r6vAsmfG r6vGsmfG r6vGsmfG r6vGsmfK r6vMsOf4 vPsGf4 vPsG t2vPsG t4vR
+  LINE 46 23 92
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG rAv2fG r4v1sBfG r4v1sBh2fG r4v1h2fG v1s9fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2sXfG v6sXfG r7v6sWfK r6vAsmfK r6vAsmfK r6vAsmfK r6vGsmf4 r6vMsOf4 r6vMsOf4 t2r6vMsOf4 t4vPsGf4
+  LINE 47 24 93
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 v2f4 v2f4 v2f4 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG rAv2fG v2fG r4v1sBfG v1sAfG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2sXfK v6sIfK v6sGfK r7v6sWfK r6v5sjfK r6v5sefK r6vAsmfK r6vGsmf4 r6vGsmf4 r6vGsmf4 t2r6vMsOf4 t4r6vMsTf4
+  LINE 48 24 93
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2 v2 v2 v2 v2 v2f4 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG rAv2fG rAv2fG rAv2fG rAv2fG rAv2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fK v2sXfK v6sHfK v8fK v6sKfK r7v2sbfK r6v2sOfK r6v5sefK r6vAsmf4 r6vAsmf4 r6vAsmf4 t2r6vGsmf4 t4r6vGsmf4
+  LINE 49 25 94
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2 v2 v2 v2 r2v2 r2v2fG r2v2fG r2v2 r2v2fG r2v2fG r2v2fG v2fG v2fG v2fG rBv1sDfG rBv1sDfG r4v1s8h2fG r4v1s8fG rAv2fG rAv2fG rAv2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fK v2fK v2fK v2sWfK v6sGfK v6sLfK v2sbfK v2fK r6v2sOfK r6v5sef4 r6v5sef4 r6v5sef4 r6vAsmf4 t2r6vAsmf4 t4r6vAsrf4
+  LINE 50 25 94
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 v2f4 v2f4 v2f4 v2 v2 v2 v2 v2 r2v2 r2v2 r2v2fG r2v2 r2v2 r2v2fG r2v2fG r2v2fG r2v2fG v2fG v2fG rBv1sDfG r5sDh2fG r5s8h2fG r4s8h2fG r4v1s8h2fG v1s8fG rAv2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fK v2fK v2fK v2fK v2sWfK v2sWfK v2sbfK v2fK v2fK r6v2sOfK r6v2sOf4 r6v2sOf4 r6v5sef4 t2r6v5sef4 t4r6v5sef4
+  LINE 51 26 95
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2 v2 r2v2 r2v2 r2v2 r2v2 r2v2fG r2v2fG r2v2 r2v2 r2v2fG r2v2fG v2fG rBv1sDfG r5sDh2fG r5h2fG r5h2fG rBs9fG rBv1fG v1s9fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2f4 v2f4 r6v2sOf4 r6v2sOf4 t2r6v2sOf4 t4r6v2sTf4
+  LINE 52 26 95
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 v2 v2 v2 r2v2 r2v2 r2v2 r2v2 r2v2fG r2v2 r2v2 r2v2fG r2v2fG r2v2 r2v2fG rBv1sCfG r5sCh2fG r5h2fG rBsAfG rBsAfG v1sAfG v1sAfG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 53 27 96
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2 v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2fG r2v2fG r2v2 r2v2fG rBv1sCfG r5sCh2fG r5h2fG rBsAfG v1sAfG v1sAfG v2fG v2fG v2fG v2fO v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 54 27 96
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2fG r2v2fG r2v2 r2v2 rBv2fG r5v1sCh2fG r5sCh2fG rBsAfG v1sAfG v2fG v2 v2 v2fG v2fG v2fO v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 55 28 97
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2fG r5v1sCh2fG r5sCh2fG rBsCfG v1sAfG v2 v2 v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fG v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 56 28 97
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2fG rBv1sCfG r5sCh2fG rBsCfG v1s9fG v2 v2 v2 v2 v2fG v2fG v2fG v2 v2fG v2fG v2fG v2fG v2fG v2fG v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 57 29 98
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 rBv1sCfG r5sCh2fG r5sCh2fG rBv1s9fG v2 v2 v2 v2 v2 v2fG v2 v2 v2 v2 v2fG v2fG v2fG v2fG v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 58 29 98
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2 r2v2f4 r2v2f4 r2v2 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r5v1sCh2 r5sCh2fG rBs9fG v1s9fG r2v2 r2v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2fG v2fG v2fG v2fK v2fK v2fK v2fK v2fK v2fK v2fK v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 59 30 99
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2 r2v2 r2v2f4 r2v2f4 r2v2 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 rBv1sC r5sDh2 r5s9h2 rBv1s9 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 v2 v2 v2 v2 v2 v2 v2 v2f4 v2fK v2fK v2fK v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 60 30 99
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 rBv1sC r5sCh2 r5h2 rBs9 v1s9 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 v2 v2 v2 v2 v2 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 61 31 100
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r5v1sCh2 r5sCh2 r5s9h2 rBv1s9 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 v2 v2 v2 v2 v2 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 62 31 100
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 rBv1sC r5sCh2 r5h2 rBs9 v1s9 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 v2 v2 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 63 32 101
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r5v1sCh2 r5sCh2 r5s9h2 rBv1s9 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 v2 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 64 32 101
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 rBv1sC r5sCh2 r5h2 rBs9 v1s9 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 65 33 102
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 r2v2f4 r2v2f4 r2v2 r2v2 r2v2f4 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 rBv1sC r5sCh2 rBs9 v1s9 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2f4 r2v2f4 r2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 66 33 102
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2 v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2f4 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 rBv1sC r5sCh2 r5h2 rBs9 v1s9 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 67 34 103
+    t4v2f4 t2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 rBv1sC r5sCh2 r5h2 rB s9 v1s9 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2 r2v2f4 r2v2f4 r2v2f4 r2v2f4 r2v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 v2f4 t2v2f4 t4v2f4
+  LINE 68 34 103
+    t4v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2rBv1sC t2r5sCh2 t2r5h2 t2rBs9 t2v1s9 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2 t2r2v2f4 t2r2v2f4 t2r2v2f4 t2r2v2 t2r2v2f4 t2r2v2f4 t2r2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t2v2f4 t4v2f4
+  LINE 69 35 104
+    t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4rBv1sC t4r5sCh2 t4r5h2 t4rBs9 t4v1s9 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2 t4r2v2f4 t4r2v2f4 t4r2v2f4 t4r2v2f4 t4r2v2f4 t4r2v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4 t4v2f4
+END_OF_HEXES
+
+EXTERNAL_NODES nodes.bin
+ENVIROMENT
+  SET 1 dummy
+  SET 2 list-akatojerab
+  SET 3 list-jerab-spal
+  SET 4 list-platan
+  SET 5 list-platan-spal
+  SET 6 list-mocal-koreny
+  SET 7 list-vrba
+  SET 8 list-vrba-zluta
+  SET 9 jehl-borovice
+  SET 10 jehl-borov-vysoka
+  SET 11 jehl-borovice-mala
+  SET 12 stone_set_01
+  SET 13 stone_set_02
+  SET 14 stone_set_03
+  SET 15 stone_set_04
+  SET 16 stone_set_05
+  SET 17 stone_set_06
+  SET 18 stone_set_07
+  SET 19 houby
+  SET 20 mrcha
+  SET 21 jehl-smrk-silny
+  SET 22 jehl-smrk-stredni
+  SET 23 jehl-smrk-uzky-spal
+  SET 24 jehl-smrk-stredni
+  SET 25 jehl-smrk-stredni-spal
+  SET 26 jehl-smrk-stredni-suchy
+  SET 27 list-dvoupatr
+  SET 28 list-briza
+  SET 29 list-paskvil
+  SET 30 ker
+  SET 31 jehl-borov-vysoka-spal
+  SET 32 list-akat-vysoky-spal
+  SET 33 plavun
+  SET 34 cykas
+  SET 35 list-kastan
+  SET 36 mech
+  SET 37 jehl-smrk-maly
+  SET 38 ker-husty
+  SET 39 ker-rosti
+  SET 40 list-akat-rosti
+  SET 41 list-briza-vyssi
+  SET 42 list-sahara
+  SET 43 list-akat-maly
+  SET 44 list-dvoupatr-maly
+  SET 45 parez
+  SET 46 polosuche
+  SET 47 list-dub
+  SET 48 list-kastan-vanek
+  SET 49 parezoid
+  SET 50 branka
+  SET 51 leknin
+  SET 52 monolit
+  SET 53 snowman
+  SET 54 snowman_small
+  ON_HEX 22 0
+    sci1
+  ON_HEX 24 0
+    sci2
+  ON_HEX 25 0
+    sci7
+  ON_HEX 28 0
+    sci7
+  ON_HEX 33 0
+    sci6
+  ON_HEX 45 0
+    sci9
+  ON_HEX 49 0
+    sci2
+  ON_HEX 50 0
+    sci4
+  ON_HEX 51 0
+    sciA
+  ON_HEX 52 0
+    sci5
+  ON_HEX 54 0
+    sci1
+  ON_HEX 1 1
+    sci1
+  ON_HEX 2 1
+    sci7
+  ON_HEX 6 1
+    sci9
+  ON_HEX 11 1
+    sci6
+  ON_HEX 13 1
+    sci1
+  ON_HEX 18 1
+    sciA
+  ON_HEX 20 1
+    sci3
+  ON_HEX 22 1
+    sci7
+  ON_HEX 27 1
+    sci6
+  ON_HEX 30 1
+    sci8
+  ON_HEX 31 1
+    sci4
+  ON_HEX 32 1
+    sci3
+  ON_HEX 34 1
+    sci6
+  ON_HEX 35 1
+    sci8
+  ON_HEX 36 1
+    sci7
+  ON_HEX 39 1
+    sci9
+  ON_HEX 40 1
+    sci6
+  ON_HEX 41 1
+    sci8
+  ON_HEX 42 1
+    sci3
+  ON_HEX 44 1
+    sci1
+  ON_HEX 45 1
+    sci9
+  ON_HEX 46 1
+    sci2
+  ON_HEX 47 1
+    sci6
+  ON_HEX 9 2
+    sci8
+  ON_HEX 11 2
+    sci5
+  ON_HEX 12 2
+    sci3
+  ON_HEX 18 2
+    sci1
+  ON_HEX 40 2
+    sci6
+  ON_HEX 52 2
+    sci4
+  ON_HEX 56 2
+    sci3
+  ON_HEX 57 2
+    sci7
+  ON_HEX 58 2
+    sci9
+  ON_HEX 2 3
+    sci4
+  ON_HEX 4 3
+    sZi5
+  ON_HEX 5 3
+    sZi8
+  ON_HEX 9 3
+    sci9
+  ON_HEX 27 3
+    sci5
+  ON_HEX 28 3
+    sci2
+  ON_HEX 31 3
+    sci2
+  ON_HEX 51 3
+    sci8
+  ON_HEX 53 3
+    sci7
+  ON_HEX 58 3
+    sci2
+  ON_HEX 70 3
+    sci9
+  ON_HEX 4 4
+    sZi3
+  ON_HEX 9 4
+    sciA
+  ON_HEX 41 4
+    sci9
+  ON_HEX 61 4
+    sZi7
+  ON_HEX 64 4
+    sZi7
+  ON_HEX 66 4
+    sZi4
+  ON_HEX 68 4
+    sci7
+  ON_HEX 3 5
+    sZi1
+  ON_HEX 4 5
+    sci1
+  ON_HEX 6 5
+    sZi6
+  ON_HEX 8 5
+    sZi1
+  ON_HEX 9 5
+    sci7
+  ON_HEX 17 5
+    sZi5
+  ON_HEX 18 5
+    sZi7
+  ON_HEX 21 5
+    sZi6
+  ON_HEX 32 5
+    sci6
+  ON_HEX 51 5
+    sci2
+  ON_HEX 58 5
+    sci3
+  ON_HEX 68 5
+    sZi8
+  ON_HEX 6 6
+    sciA
+  ON_HEX 8 6
+    sZi2
+  ON_HEX 52 6
+    sciA
+  ON_HEX 60 6
+    sciA
+  ON_HEX 66 6
+    sci6
+  ON_HEX 70 6
+    sci5
+  ON_HEX 71 6
+    sci8
+  ON_HEX 4 7
+    sZi7
+  ON_HEX 7 7
+    sci9
+  ON_HEX 21 7
+    sZi3
+  ON_HEX 23 7
+    sci8
+  ON_HEX 24 7
+    sci4
+  ON_HEX 42 7
+    sci8
+  ON_HEX 58 7
+    sci8
+  ON_HEX 64 7
+    sZi8
+  ON_HEX 68 7
+    sZi6
+  ON_HEX 72 7
+    sci2
+  ON_HEX 10 8
+    sci7
+  ON_HEX 20 8
+    sci3
+  ON_HEX 43 8
+    sciA
+  ON_HEX 68 8
+    sZi2
+  ON_HEX 70 8
+    sci1
+  ON_HEX 71 8
+    sci1
+  ON_HEX 14 9
+    sZi6
+  ON_HEX 22 9
+    sci9
+  ON_HEX 59 9
+    sci8
+  ON_HEX 68 9
+    sciA
+  ON_HEX 6 10
+    sZi2
+  ON_HEX 14 10
+    sZi8
+  ON_HEX 19 10
+    sci3
+  ON_HEX 21 10
+    sci9
+  ON_HEX 26 10
+    sci8
+  ON_HEX 43 10
+    sci2
+  ON_HEX 53 10
+    sci4
+  ON_HEX 54 10
+    sci3
+  ON_HEX 55 10
+    sci2
+  ON_HEX 58 10
+    sci7
+  ON_HEX 70 10
+    sci1
+  ON_HEX 8 11
+    sciA
+  ON_HEX 11 11
+    sci9
+  ON_HEX 45 11
+    sci6
+  ON_HEX 57 11
+    sci7
+  ON_HEX 59 11
+    sci2
+  ON_HEX 61 11
+    sci4
+  ON_HEX 62 11
+    sZi9
+  ON_HEX 64 11
+    sZi6
+  ON_HEX 75 11
+    sZi3
+  ON_HEX 8 12
+    sciA
+  ON_HEX 13 12
+    sci5
+  ON_HEX 15 12
+    sZi9
+  ON_HEX 17 12
+    sci6
+  ON_HEX 46 12
+    sci2
+  ON_HEX 53 12
+    sci2
+  ON_HEX 59 12
+    sci6
+  ON_HEX 60 12
+    sci4
+  ON_HEX 62 12
+    sci8
+  ON_HEX 64 12
+    sZi1
+  ON_HEX 65 12
+    sci2
+  ON_HEX 75 12
+    sci3
+  ON_HEX 9 13
+    sZi9
+  ON_HEX 11 13
+    sci4
+  ON_HEX 16 13
+    sZi4
+  ON_HEX 21 13
+    sci9
+  ON_HEX 60 13
+    sci1
+  ON_HEX 75 13
+    sci1
+  ON_HEX 14 14
+    sci8
+  ON_HEX 19 14
+    sci6
+  ON_HEX 20 14
+    sci8
+  ON_HEX 22 14
+    sci1
+  ON_HEX 25 14
+    sciA
+  ON_HEX 67 14
+    sci1
+  ON_HEX 9 15
+    sZi7
+  ON_HEX 15 15
+    sci4
+  ON_HEX 16 15
+    sZi9
+  ON_HEX 18 15
+    sciA
+  ON_HEX 24 15
+    sci2
+  ON_HEX 30 15
+    sci3
+  ON_HEX 62 15
+    sci6
+  ON_HEX 77 15
+    sci5
+  ON_HEX 9 16
+    sciA
+  ON_HEX 10 16
+    sZi9
+  ON_HEX 11 16
+    sci7
+  ON_HEX 16 16
+    sci3
+  ON_HEX 21 16
+    sci7
+  ON_HEX 22 16
+    sci6
+  ON_HEX 26 16
+    sci9
+  ON_HEX 30 16
+    sci5
+  ON_HEX 32 16
+    sci7
+  ON_HEX 34 16
+    sci4
+  ON_HEX 35 16
+    sci9
+  ON_HEX 36 16
+    sci1
+  ON_HEX 70 16
+    sciA
+  ON_HEX 77 16
+    sci1
+  ON_HEX 13 17
+    sci4
+  ON_HEX 14 17
+    sci1
+  ON_HEX 15 17
+    sci9
+  ON_HEX 16 17
+    sZi6
+  ON_HEX 19 17
+    sci7
+  ON_HEX 23 17
+    sci2
+  ON_HEX 25 17
+    sci2
+  ON_HEX 33 17
+    sci3
+  ON_HEX 11 18
+    sci4
+  ON_HEX 25 18
+    sci7
+  ON_HEX 66 18
+    sZi7
+  ON_HEX 70 18
+    sci7
+  ON_HEX 11 19
+    sci8
+  ON_HEX 68 19
+    sZi7
+  ON_HEX 69 19
+    sZi2
+  ON_HEX 70 19
+    sZi6
+  ON_HEX 13 20
+    sciA
+  ON_HEX 67 20
+    sZi9
+  ON_HEX 68 20
+    sci3
+  ON_HEX 71 20
+    sciA
+  ON_HEX 73 20
+    sci1
+  ON_HEX 67 21
+    sZi9
+  ON_HEX 68 21
+    sci9
+  ON_HEX 69 21
+    sci7
+  ON_HEX 14 22
+    sciA
+  ON_HEX 66 22
+    sci5
+  ON_HEX 67 22
+    sci7
+  ON_HEX 72 22
+    sci3
+  ON_HEX 73 22
+    sci9
+  ON_HEX 74 22
+    sZi5
+  ON_HEX 46 23
+    sci2
+  ON_HEX 47 23
+    sci6
+  ON_HEX 50 23
+    sci5
+  ON_HEX 67 23
+    sci9
+  ON_HEX 68 23
+    sci3
+  ON_HEX 71 23
+    sciA
+  ON_HEX 72 23
+    sci3
+  ON_HEX 50 24
+    sci8
+  ON_HEX 59 24
+    sci7
+  ON_HEX 72 24
+    sci8
+  ON_HEX 79 24
+    sZi9
+  ON_HEX 75 25
+    sci3
+  ON_HEX 81 25
+    sZi6
+  ON_HEX 62 26
+    sci3
+  ON_HEX 80 26
+    sci6
+  ON_HEX 17 27
+    sci5
+  ON_HEX 82 27
+    sci1
+  ON_HEX 17 28
+    sci2
+  ON_HEX 18 28
+    sci6
+  ON_HEX 22 28
+    sci4
+  ON_HEX 81 28
+    sci3
+  ON_HEX 83 28
+    sci7
+  ON_HEX 64 29
+    sciA
+  ON_HEX 82 29
+    sci7
+  ON_HEX 84 29
+    sci2
+  ON_HEX 81 30
+    sci9
+  ON_HEX 83 30
+    sci5
+  ON_HEX 19 31
+    sci4
+  ON_HEX 20 31
+    sci3
+  ON_HEX 84 31
+    sZi7
+  ON_HEX 16 32
+    sci6
+  ON_HEX 18 32
+    sci8
+  ON_HEX 22 32
+    sci7
+  ON_HEX 24 32
+    sci2
+  ON_HEX 60 32
+    sciA
+  ON_HEX 62 32
+    sci6
+  ON_HEX 63 32
+    sci6
+  ON_HEX 66 32
+    sci7
+  ON_HEX 82 32
+    sci4
+  ON_HEX 83 32
+    sci2
+  ON_HEX 26 33
+    sci2
+  ON_HEX 86 33
+    sZi5
+  ON_HEX 67 34
+    sci8
+  ON_HEX 85 34
+    sci2
+  ON_HEX 63 35
+    sci4
+  ON_HEX 64 35
+    sci1
+  ON_HEX 86 35
+    sZi4
+  ON_HEX 63 36
+    sci6
+  ON_HEX 64 36
+    sUi#C4
+  ON_HEX 69 36
+    sci2
+  ON_HEX 64 37
+    sci3
+  ON_HEX 34 38
+    sci4
+  ON_HEX 58 38
+    sci4
+  ON_HEX 29 39
+    sci7
+  ON_HEX 31 39
+    sci7
+  ON_HEX 32 39
+    sci2
+  ON_HEX 66 39
+    sci3
+  ON_HEX 21 40
+    sci5
+  ON_HEX 23 40
+    sci7
+  ON_HEX 26 40
+    sci4
+  ON_HEX 27 40
+    sci5
+  ON_HEX 59 40
+    sci2
+  ON_HEX 29 41
+    sci5
+  ON_HEX 58 41
+    sci1
+  ON_HEX 65 41
+    sci7
+  ON_HEX 26 42
+    sci6
+  ON_HEX 27 42
+    sci3
+  ON_HEX 32 42
+    sci6
+  ON_HEX 33 42
+    sci4
+  ON_HEX 68 42
+    sci4
+  ON_HEX 30 43
+    sci8
+  ON_HEX 67 43
+    sci8
+  ON_HEX 27 44
+    sci8
+  ON_HEX 28 44
+    sci6
+  ON_HEX 70 44
+    sci3
+  ON_HEX 28 45
+    sci8
+  ON_HEX 30 45
+    sciA
+  ON_HEX 34 45
+    sci3
+  ON_HEX 35 46
+    sci9
+  ON_HEX 54 46
+    sci5
+  ON_HEX 68 46
+    sci2
+  ON_HEX 37 48
+    sZi3
+  ON_HEX 38 49
+    sZi3
+  ON_HEX 54 49
+    sci5
+  ON_HEX 56 49
+    sci5
+  ON_HEX 43 50
+    sci4
+  ON_HEX 56 50
+    sci5
+  ON_HEX 58 51
+    sci6
+  ON_HEX 51 52
+    sci9
+  ON_HEX 58 52
+    sZi7
+  ON_HEX 40 53
+    sMi2
+  ON_HEX 46 53
+    sci8
+  ON_HEX 50 53
+    sciA
+  ON_HEX 59 53
+    sci6
+  ON_HEX 65 53
+    sci7
+  ON_HEX 66 53
+    sci1
+  ON_HEX 54 54
+    sZi2
+  ON_HEX 56 54
+    sZi8
+  ON_HEX 64 54
+    sci8
+  ON_HEX 65 54
+    sci6
+  ON_HEX 49 55
+    sci4
+  ON_HEX 58 55
+    sZi3
+  ON_HEX 59 55
+    sci8
+  ON_HEX 37 56
+    sci6
+  ON_HEX 38 56
+    sZi1
+  ON_HEX 57 56
+    sci8
+  ON_HEX 59 56
+    sci3
+  ON_HEX 38 57
+    sci5
+  ON_HEX 41 57
+    sZi6
+  ON_HEX 42 57
+    sZi7
+  ON_HEX 48 57
+    sZi8
+  ON_HEX 51 57
+    sZi1
+  ON_HEX 53 57
+    sZi6
+  ON_HEX 57 57
+    sZi9
+  ON_HEX 60 57
+    sci6
+  ON_HEX 61 57
+    sci9
+  ON_HEX 39 58
+    sZi5
+  ON_HEX 47 58
+    sZi5
+  ON_HEX 51 58
+    sci3
+  ON_HEX 53 58
+    sZi1
+  ON_HEX 54 58
+    sZi3
+  ON_HEX 56 58
+    sZi4
+  ON_HEX 60 58
+    sci4
+  ON_HEX 39 59
+    sci8
+  ON_HEX 48 59
+    sZi9
+  ON_HEX 49 59
+    sci1
+  ON_HEX 50 59
+    sci1
+  ON_HEX 54 59
+    sZi6
+  ON_HEX 57 59
+    sci6
+  ON_HEX 59 59
+    sci6
+  ON_HEX 70 59
+    sci5
+  ON_HEX 40 60
+    sci3
+  ON_HEX 41 60
+    sZi5
+  ON_HEX 52 60
+    sci8
+  ON_HEX 53 60
+    sciA
+  ON_HEX 56 60
+    sZi4
+  ON_HEX 57 60
+    sci9
+  ON_HEX 71 60
+    sci5
+  ON_HEX 50 61
+    sZi8
+  ON_HEX 51 61
+    sci8
+  ON_HEX 61 61
+    sci5
+  ON_HEX 67 61
+    sci3
+  ON_HEX 68 61
+    sZi5
+  ON_HEX 69 61
+    sZi4
+  ON_HEX 74 61
+    sci7
+  ON_HEX 49 62
+    sZi1
+  ON_HEX 55 62
+    sci1
+  ON_HEX 56 62
+    sZi9
+  ON_HEX 57 62
+    sci4
+  ON_HEX 60 62
+    sci5
+  ON_HEX 61 62
+    sci3
+  ON_HEX 76 62
+    sci2
+  ON_HEX 39 63
+    sci6
+  ON_HEX 41 63
+    sci1
+  ON_HEX 50 63
+    sci4
+  ON_HEX 57 63
+    sci4
+  ON_HEX 69 63
+    sZi8
+  ON_HEX 74 63
+    sZi7
+  ON_HEX 78 63
+    sZi7
+  ON_HEX 44 64
+    sZi6
+  ON_HEX 45 64
+    sZi6
+  ON_HEX 48 64
+    sZi9
+  ON_HEX 54 64
+    sci4
+  ON_HEX 57 64
+    sci8
+  ON_HEX 62 64
+    sdi7
+  ON_HEX 69 64
+    sciA
+  ON_HEX 75 64
+    sci4
+  ON_HEX 78 64
+    sci1
+  ON_HEX 79 64
+    sciA
+  ON_HEX 38 65
+    sci8
+  ON_HEX 40 65
+    sci9
+  ON_HEX 42 65
+    sci8
+  ON_HEX 44 65
+    sZi2
+  ON_HEX 45 65
+    sZi3
+  ON_HEX 50 65
+    sci2
+  ON_HEX 51 65
+    sci3
+  ON_HEX 56 65
+    sci1
+  ON_HEX 58 65
+    sci4
+  ON_HEX 60 65
+    sci1
+  ON_HEX 63 65
+    sci4
+  ON_HEX 70 65
+    sZi7
+  ON_HEX 80 65
+    sci8
+  ON_HEX 83 65
+    sZi2
+  ON_HEX 42 66
+    sci4
+  ON_HEX 46 66
+    sZi4
+  ON_HEX 50 66
+    sZi7
+  ON_HEX 53 66
+    sZi4
+  ON_HEX 62 66
+    sZi4
+  ON_HEX 63 66
+    sci5
+  ON_HEX 73 66
+    sZi2
+  ON_HEX 75 66
+    sZi6
+  ON_HEX 82 66
+    sZi4
+  ON_HEX 44 67
+    sci8
+  ON_HEX 47 67
+    sci4
+  ON_HEX 59 67
+    sci6
+  ON_HEX 61 67
+    sciA
+  ON_HEX 71 67
+    sci4
+  ON_HEX 72 67
+    sZi9
+  ON_HEX 76 67
+    sci7
+  ON_HEX 82 67
+    sZi8
+  ON_HEX 83 67
+    sci4
+  ON_HEX 84 67
+    sZi5
+  ON_HEX 85 67
+    sZi8
+  ON_HEX 89 67
+    sZi2
+  ON_HEX 42 68
+    sci7
+  ON_HEX 58 68
+    sci2
+  ON_HEX 61 68
+    sci3
+  ON_HEX 74 68
+    sci1
+  ON_HEX 75 68
+    sZi3
+  ON_HEX 76 68
+    sci8
+  ON_HEX 84 68
+    sZi6
+  ON_HEX 85 68
+    sci9
+  ON_HEX 87 68
+    sZi8
+  ON_HEX 88 68
+    sZi2
+  ON_HEX 89 68
+    sciA
+  ON_HEX 61 69
+    sci4
+  ON_HEX 62 69
+    sci8
+  ON_HEX 63 69
+    sci3
+  ON_HEX 64 69
+    sciA
+  ON_HEX 73 69
+    sZi2
+  ON_HEX 87 69
+    sZi8
+  ON_HEX 88 69
+    sci1
+  ON_HEX 90 69
+    sci7
+  ON_HEX 91 69
+    sZi6
+  ON_HEX 92 69
+    sci7
+  ON_HEX 93 69
+    sZi9
+  ON_HEX 94 69
+    sZi5
+  ON_HEX 95 69
+    sZi8
+  ON_HEX 96 69
+    sci7
+  ON_HEX 98 69
+    sci2
+  ON_HEX 99 69
+    sci8
+END_OF_ENVIROMENT
+
+EXTERNAL_SECTORS sectors.bin
+ATTITUDES
+  PARAMS 8
+  1 0 0 0 0 0 0 0 0
+  0 1 2 2 1 2 2 2 2
+  0 2 1 2 2 1 2 2 2
+  0 2 2 1 2 2 2 2 2
+  0 1 2 2 1 2 2 2 2
+  0 2 1 2 2 1 2 2 2
+  0 2 2 2 2 2 1 2 2
+  0 2 2 2 2 2 2 1 2
+  0 2 2 2 2 2 2 2 1
+  FLAG 8
+  T T T T T T T T T
+END_OF_ATTITUDES
+
+TECHS
+  PARAMS 72 8
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F T F T T F F T F T T F T T F T T F T T F T T F T T F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F F F T F F T F F T F F T F F T F F T F F T F F T F F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+END_OF_TECHS
+
+RESTRICTS
+  PARAMS 0 90 8
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+  F F F F F F F F F
+END_OF_RESTRICTS
+
+MISSION_OBJECTIVES 0
+
+SPECS
+  PARAMS 0 9
+  FLAG 0 0
+END_OF_SPECS
+
+BASES
+  PARAMS T T
+
+  POOL 1
+
+  BASE 1
+    POOL_NUM 1
+    SIDE 3
+    UNIT 86
+END_OF_BASES
+
+
+
+RANDOMS
+  MICROLOGIC 2 0 1
+  RANDOM_SEED 1 -1453182342
+  RANDOM_SEED 2 1898034189
+  RANDOM_SEED 3 -1848475683
+  RANDOM_SEED 4 898151057
+  RANDOM_SEED 5 -18222789
+  RANDOM_SEED 6 1882865670
+  RANDOM_SEED 7 -1131715803
+  RANDOM_SEED 8 1751026996
+  RANDOM_SEED 9 -1051396069
+  RANDOM_SEED 10 -2005237764
+  RANDOM_SEED 11 -443074555
+  RANDOM_SEED 12 911650
+  RANDOM_SEED 13 364498371
+  RANDOM_SEED 14 378023
+  RANDOM_SEED 15 1681052295
+  RANDOM_SEED 16 907772
+  RANDOM_SEED 17 -652005513
+  RANDOM_SEED 18 1234038047
+  RANDOM_SEED 19 797399756
+  RANDOM_SEED 20 1221242998
+  RANDOM_SEED 21 2111182707
+  RANDOM_SEED 22 1828787413
+  WIND_TIME 782845 782873 782934
+  WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
+  WIND_SCATTER 24.1066377870272
+END_OF_RANDOMS
+
+NEW_UNITS
+  UNIT 14 BUILDING
+    DEFINITION
+      IDENT eon
+      POS 76 33 0
+      SIDE 8
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 95 LEVEL 10 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 76 33 0 6 F
+      UNITMODE F 76 33
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1666 540 0
+      FROM_TO_POS 76 33 0 76 33 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 86 BUILDING
+    DEFINITION
+      POS 42 31 2
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 64 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 42 31 2 6 F
+      UNITMODE F 42 31
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 742 554 0
+      FROM_TO_POS 42 31 0 42 31 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 91 BUILDING
+    DEFINITION
+      POS 53 36 4
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 68 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 53 36 4 6 F
+      UNITMODE F 53 36
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 980 644 0
+      FROM_TO_POS 53 36 0 53 36 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 94 BUILDING
+    DEFINITION
+      POS 70 54 5
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 89 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 70 54 5 6 F
+      UNITMODE F 70 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1204 968 0
+      FROM_TO_POS 70 54 0 70 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 98 BUILDING
+    DEFINITION
+      POS 50 45 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 77 LEVEL 1 BASE 1 PARAMS 80 80
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 50 45 0 6 F
+      UNITMODE F 50 45
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 770 806 0
+      FROM_TO_POS 50 45 0 50 45 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 101 BUILDING
+    DEFINITION
+      POS 43 42 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 77 LEVEL 1 BASE 1 PARAMS 80 80
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 43 42 0 6 F
+      UNITMODE F 43 42
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 616 752 0
+      FROM_TO_POS 43 42 0 43 42 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+END_OF_NEW_UNITS
+
+COLDMEAT
+END_OF_COLDMEAT
+
+FOGOBJ
+END_OF_FOGOBJ
+
+MISSILES
+END_OF_MISSILES
+
+EXPLOSIONS
+END_OF_EXPLOSIONS
+
+CRATERS_NEW
+END_OF_CRATERS_NEW
+
+LAPSER_EFECTS
+END_OF_LAPSER_EFECTS
+
+LASER_EFECTS
+END_OF_LASER_EFECTS
+
+USER_INTERFACE
+  VIEW 216 264 1540 780 1
+  MASHA_FLAG 2 F F
+END_OF_USER_INTERFACE
+
+MC_COMMANDS
+END_OF_MC_COMMANDS
+
+DEBRIEFING
+SIDE 0 10
+  LINES
+SIDE 1 10
+  LINES
+SIDE 2 10
+  LINES
+SIDE 3 10
+  LINES
+SIDE 4 10
+  LINES
+SIDE 5 10
+  LINES
+SIDE 6 10
+  LINES
+SIDE 7 10
+  LINES
+SIDE 8 10
+  LINES
+END_OF_DEBRIEFING
+
+AREAS
+  ACTIVE 1
+  LAST 13
+  AREA 1
+    NAME #SND#potok\potucek.wav
+    COLOR FF4013
+    VISIBLE
+    SHORTCUT 2
+    LINES 56 16 9 46
+    +--------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    +--------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    -+-------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    -----+---
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ------+--
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    --------+
+END_OF_AREAS
+
+SEXTRA
+  1
+    14
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    86
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    91
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    94
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    98
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    101
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  30
+  0 254
+END_OF_SEXTRA
+
