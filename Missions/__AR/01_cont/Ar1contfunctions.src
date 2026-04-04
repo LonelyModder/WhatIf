@@ -1,4 +1,4 @@
-Export Omar, Abdul, Coonie, Kurt, Kaia, Yakotich;
+Export Omar, Abdul, Coonie, Vervecken, Gali, Tokarczuk, Nahla, Kaia, Yakotich;
 
 Export Function PrepareHero1cont;
 begin
@@ -10,14 +10,18 @@ begin
     Omar := NewCharacter('Omar');
 	uc_side := 3;
 	Yakotich := NewCharacter('Yakotich');
+	Tokarczuk := NewCharacter('Tokarczuk');
     uc_side := 5;
     Abdul := NewCharacter('Abdul');
-	Kurt := NewCharacter('Kurt');
+	Vervecken := NewCharacter('Vervecken');
+	Gali := NewCharacter('Gali');
 	Kaia := NewCharacter('Kaia');
+	Nahla := NewCharacter('Nahla');
     DWait(0$2);
     PlaceUnitXY(Omar,103,97,true);
 	PlaceUnitXY(Coonie,46,83,false);
 	PlaceUnitXY(Yakotich,96,15,false);
+	PlaceUnitXY(Tokarczuk,62,46,false);
     CenterOnUnits(Omar);
     InGameOff;
 end;
@@ -45,6 +49,8 @@ Export Function PrepareBuildings1cont;
 var bunkers,depot,lab,i,j,sol;
 begin
     bunkers := FilterAllUnits([ [f_side,3],[f_btype,b_breastwork]]);
+	depots := FilterAllUnits([ [f_side,3],[f_btype,b_depot]]);
+	labs := FilterAllUnits([ [f_side,3],[f_btype,b_lab]]);
 
     for i=1 to bunkers do
 		begin
@@ -54,6 +60,24 @@ begin
 			PrepareSoldier(1,2);
 			sol := CreateHuman;
 			PlaceUnitInBunker(sol,bunkers[i]);
+		end;
+	for i=1 to depots do
+		begin
+			uc_side := 3;
+			uc_nation := 3;
+
+			PrepareEngineer(1,2);
+			sol := CreateHuman;
+			PlaceUnitInBunker(sol,depots[i]);
+		end;
+	for i=1 to labs do
+		begin
+			uc_side := 3;
+			uc_nation := 3;
+
+			PrepareScientist(1,2);
+			sol := CreateHuman;
+			PlaceUnitInBunker(sol,labs[i]);
 		end;
 end;
 

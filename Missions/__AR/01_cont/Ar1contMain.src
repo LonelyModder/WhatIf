@@ -1,4 +1,4 @@
-var metCooniebeforeKurt, metKurt;
+var metCooniebeforeVervecken, metVervecken;
 starting
 begin
 	InGameOn;
@@ -10,12 +10,12 @@ begin
 end;
 
 every 0$1 trigger GetLives(Coonie)<1000 do
-var who;
+//var who;
 begin
-	who := FilterAllUnits([[f_side,3],[f_type,unit_human]]);
+	//who := FilterAllUnits([[f_side,3],[f_type,unit_human]]);
     DialogueOn;
 		SetAttitude(2,1,att_friend,true);
-        ComStop(who);
+        //ComStop(who);
 		Say(Omar,'M1contCoonie-1');
 		Say(Coonie,'M1contCoonie-2');
 		Say(Omar,'M1contCoonie-3');
@@ -30,9 +30,9 @@ begin
 				Say(Coonie,'M1contCoonie-10');
 				Say(Omar,'M1contCoonie-11');
 				SetSide(Coonie,2);
-				if metKurt = false then
+				if metVervecken = false then
 					begin
-					metCooniebeforeKurt := true
+					metCooniebeforeVervecken := true
 					end
 			end;
 			2:begin
@@ -47,44 +47,56 @@ end;
 every 0$1 trigger GetDistUnitXY(Omar,109,73) < 8 do
 begin
     InGameOn;
-		SayRadio(Abdul,'M1contAbdulKurt-1');
-		Say(Omar,'M1contAbdulKurt-2');
+		SayRadio(Abdul,'M1contAbdulVervecken-1');
+		Say(Omar,'M1contAbdulVervecken-2');
     InGameOff;
 end;
 
 every 0$1 trigger GetDistUnitXY(Omar,18,30) < 8 do
 begin
     InGameOn;
-		Say(Omar,'M1contKurt-1');
+		Say(Omar,'M1contVervecken-1');
 		SetAttitude(2,5,att_friend,true);
 		uc_side := 5;
-		PlaceUnitXY(Kurt,17,29,false);
+		PlaceUnitXY(Vervecken,17,29,false);
+		PlaceUnitXY(Gali,16,29,false);
 		PlaceUnitXY(Kaia,16,30,false);
-		Say(Kurt,'M1contKurt-2');
-		Say(Kurt,'M1contKurt-3');
-		Say(Omar,'M1contKurt-4');
-		SetSide(Kurt,2);
+		PlaceUnitXY(Nahla,18,29,false);
+		Say(Vervecken,'M1contVervecken-2');
+		Say(Vervecken,'M1contVervecken-3');
+		Say(Omar,'M1contVervecken-4');
+		SetSide(Vervecken,2);
 		SetSide(Kaia,2);
-		Say(Kurt,'M1contKurt-5');
-		Say(Kurt,'M1contKurt-6');
-		Say(Kurt,'M1contKurt-7');
-		Say(Kurt,'M1contKurt-8');
-		Say(Omar,'M1contKurt-9');
-		Say(Kaia,'M1contKurt-10');
-		Say(Omar,'M1contKurt-11');
-		Say(Kurt,'M1contKurt-12');
-		Say(Omar,'M1contKurt-13');
+		SetSide(Gali,2);
+		SetSide(Nahla,2);
+		Say(Vervecken,'M1contVervecken-5');
+		Say(Vervecken,'M1contVervecken-6');
+		Say(Vervecken,'M1contVervecken-7');
+		Say(Vervecken,'M1contVervecken-8');
+		Say(Omar,'M1contVervecken-9');
+		Say(Kaia,'M1contVervecken-10');
+		Say(Omar,'M1contVervecken-11');
+		Say(Vervecken,'M1contVervecken-12');
+		Say(Gali,'M1contVervecken-13');
 		SetTech(tech_explos, 2, state_researched);
     InGameOff;
-	metKurt := true;
+	metVervecken := true;
 end;
 
-every 0$1 trigger GetDistUnits(Kurt,Coonie) < 7 and metCooniebeforeKurt = true do
+every 0$1 trigger GetDistUnits(Vervecken,Coonie) < 7 and metCooniebeforeVervecken = true do
 begin
     InGameOn;
-	Say(Kurt,'M1contKurtCoonie-1');
-	Say(Coonie,'M1contKurtCoonie-2');
-	Say(Omar,'M1contKurtCoonie-3');
-	Say(Kurt,'M1contKurtCoonie-4');
+	Say(Vervecken,'M1contVerveckenCoonie-1');
+	Say(Coonie,'M1contVerveckenCoonie-2');
+	Say(Omar,'M1contVerveckenCoonie-3');
+	Say(Vervecken,'M1contVerveckenCoonie-4');
 	InGameOff;
+end;
+
+every 0$1 trigger GetLives(Tokarczuk)<1000 do
+begin
+    DialogueOn;
+	Say(Tokarczuk,'M1contTokarczuk-1');
+	Say(Omar,'M1contTokarczuk-2');
+	DialogueOff;
 end;

@@ -1,4 +1,4 @@
-// var metCooniebeforeKurt , metKurt ; starting begin InGameOn ;
+// var metCooniebeforeVervecken , metVervecken ; starting begin InGameOn ;
    0: CALL_OW 8
 // PrepareHero1cont ;
    4: CALL 795 0 0
@@ -150,13 +150,13 @@
  266: LD_INT 2
  268: PPUSH
  269: CALL_OW 235
-// if metKurt = false then
+// if metVervecken = false then
  273: LD_LOC 2
  277: PUSH
  278: LD_INT 0
  280: EQUAL
  281: IFFALSE 291
-// begin metCooniebeforeKurt := true end end ; 2 :
+// begin metCooniebeforeVervecken := true end end ; 2 :
  283: LD_ADDR_LOC 1
  287: PUSH
  288: LD_INT 1
@@ -214,16 +214,16 @@
  375: DISABLE
 // begin InGameOn ;
  376: CALL_OW 8
-// SayRadio ( Abdul , M1contAbdulKurt-1 ) ;
+// SayRadio ( Abdul , M1contAbdulVervecken-1 ) ;
  380: LD_EXP 2
  384: PPUSH
- 385: LD_STRING M1contAbdulKurt-1
+ 385: LD_STRING M1contAbdulVervecken-1
  387: PPUSH
  388: CALL_OW 94
-// Say ( Omar , M1contAbdulKurt-2 ) ;
+// Say ( Omar , M1contAbdulVervecken-2 ) ;
  392: LD_EXP 1
  396: PPUSH
- 397: LD_STRING M1contAbdulKurt-2
+ 397: LD_STRING M1contAbdulVervecken-2
  399: PPUSH
  400: CALL_OW 88
 // InGameOff ;
@@ -246,10 +246,10 @@
  432: DISABLE
 // begin InGameOn ;
  433: CALL_OW 8
-// Say ( Omar , M1contKurt-1 ) ;
+// Say ( Omar , M1contVervecken-1 ) ;
  437: LD_EXP 1
  441: PPUSH
- 442: LD_STRING M1contKurt-1
+ 442: LD_STRING M1contVervecken-1
  444: PPUSH
  445: CALL_OW 88
 // SetAttitude ( 2 , 5 , att_friend , true ) ;
@@ -267,7 +267,7 @@
  469: PUSH
  470: LD_INT 5
  472: ST_TO_ADDR
-// PlaceUnitXY ( Kurt , 17 , 29 , false ) ;
+// PlaceUnitXY ( Vervecken , 17 , 29 , false ) ;
  473: LD_EXP 4
  477: PPUSH
  478: LD_INT 17
@@ -287,25 +287,25 @@
  502: LD_INT 0
  504: PPUSH
  505: CALL_OW 48
-// Say ( Kurt , M1contKurt-2 ) ;
+// Say ( Vervecken , M1contVervecken-2 ) ;
  509: LD_EXP 4
  513: PPUSH
- 514: LD_STRING M1contKurt-2
+ 514: LD_STRING M1contVervecken-2
  516: PPUSH
  517: CALL_OW 88
-// Say ( Kurt , M1contKurt-3 ) ;
+// Say ( Vervecken , M1contVervecken-3 ) ;
  521: LD_EXP 4
  525: PPUSH
- 526: LD_STRING M1contKurt-3
+ 526: LD_STRING M1contVervecken-3
  528: PPUSH
  529: CALL_OW 88
-// Say ( Omar , M1contKurt-4 ) ;
+// Say ( Omar , M1contVervecken-4 ) ;
  533: LD_EXP 1
  537: PPUSH
- 538: LD_STRING M1contKurt-4
+ 538: LD_STRING M1contVervecken-4
  540: PPUSH
  541: CALL_OW 88
-// SetSide ( Kurt , 2 ) ;
+// SetSide ( Vervecken , 2 ) ;
  545: LD_EXP 4
  549: PPUSH
  550: LD_INT 2
@@ -317,58 +317,58 @@
  562: LD_INT 2
  564: PPUSH
  565: CALL_OW 235
-// Say ( Kurt , M1contKurt-5 ) ;
+// Say ( Vervecken , M1contVervecken-5 ) ;
  569: LD_EXP 4
  573: PPUSH
- 574: LD_STRING M1contKurt-5
+ 574: LD_STRING M1contVervecken-5
  576: PPUSH
  577: CALL_OW 88
-// Say ( Kurt , M1contKurt-6 ) ;
+// Say ( Vervecken , M1contVervecken-6 ) ;
  581: LD_EXP 4
  585: PPUSH
- 586: LD_STRING M1contKurt-6
+ 586: LD_STRING M1contVervecken-6
  588: PPUSH
  589: CALL_OW 88
-// Say ( Kurt , M1contKurt-7 ) ;
+// Say ( Vervecken , M1contVervecken-7 ) ;
  593: LD_EXP 4
  597: PPUSH
- 598: LD_STRING M1contKurt-7
+ 598: LD_STRING M1contVervecken-7
  600: PPUSH
  601: CALL_OW 88
-// Say ( Kurt , M1contKurt-8 ) ;
+// Say ( Vervecken , M1contVervecken-8 ) ;
  605: LD_EXP 4
  609: PPUSH
- 610: LD_STRING M1contKurt-8
+ 610: LD_STRING M1contVervecken-8
  612: PPUSH
  613: CALL_OW 88
-// Say ( Omar , M1contKurt-9 ) ;
+// Say ( Omar , M1contVervecken-9 ) ;
  617: LD_EXP 1
  621: PPUSH
- 622: LD_STRING M1contKurt-9
+ 622: LD_STRING M1contVervecken-9
  624: PPUSH
  625: CALL_OW 88
-// Say ( Kaia , M1contKurt-10 ) ;
+// Say ( Kaia , M1contVervecken-10 ) ;
  629: LD_EXP 5
  633: PPUSH
- 634: LD_STRING M1contKurt-10
+ 634: LD_STRING M1contVervecken-10
  636: PPUSH
  637: CALL_OW 88
-// Say ( Omar , M1contKurt-11 ) ;
+// Say ( Omar , M1contVervecken-11 ) ;
  641: LD_EXP 1
  645: PPUSH
- 646: LD_STRING M1contKurt-11
+ 646: LD_STRING M1contVervecken-11
  648: PPUSH
  649: CALL_OW 88
-// Say ( Kurt , M1contKurt-12 ) ;
+// Say ( Vervecken , M1contVervecken-12 ) ;
  653: LD_EXP 4
  657: PPUSH
- 658: LD_STRING M1contKurt-12
+ 658: LD_STRING M1contVervecken-12
  660: PPUSH
  661: CALL_OW 88
-// Say ( Omar , M1contKurt-13 ) ;
+// Say ( Omar , M1contVervecken-13 ) ;
  665: LD_EXP 1
  669: PPUSH
- 670: LD_STRING M1contKurt-13
+ 670: LD_STRING M1contVervecken-13
  672: PPUSH
  673: CALL_OW 88
 // SetTech ( tech_explos , 2 , state_researched ) ;
@@ -381,14 +381,14 @@
  686: CALL_OW 322
 // InGameOff ;
  690: CALL_OW 9
-// metKurt := true ;
+// metVervecken := true ;
  694: LD_ADDR_LOC 2
  698: PUSH
  699: LD_INT 1
  701: ST_TO_ADDR
 // end ;
  702: END
-// every 0 0$1 trigger GetDistUnits ( Kurt , Coonie ) < 7 and metCooniebeforeKurt = true do
+// every 0 0$1 trigger GetDistUnits ( Vervecken , Coonie ) < 7 and metCooniebeforeVervecken = true do
  703: LD_EXP 4
  707: PPUSH
  708: LD_EXP 3
@@ -409,35 +409,35 @@
  737: DISABLE
 // begin InGameOn ;
  738: CALL_OW 8
-// Say ( Kurt , M1contKurtCoonie-1 ) ;
+// Say ( Vervecken , M1contVerveckenCoonie-1 ) ;
  742: LD_EXP 4
  746: PPUSH
- 747: LD_STRING M1contKurtCoonie-1
+ 747: LD_STRING M1contVerveckenCoonie-1
  749: PPUSH
  750: CALL_OW 88
-// Say ( Coonie , M1contKurtCoonie-2 ) ;
+// Say ( Coonie , M1contVerveckenCoonie-2 ) ;
  754: LD_EXP 3
  758: PPUSH
- 759: LD_STRING M1contKurtCoonie-2
+ 759: LD_STRING M1contVerveckenCoonie-2
  761: PPUSH
  762: CALL_OW 88
-// Say ( Omar , M1contKurtCoonie-3 ) ;
+// Say ( Omar , M1contVerveckenCoonie-3 ) ;
  766: LD_EXP 1
  770: PPUSH
- 771: LD_STRING M1contKurtCoonie-3
+ 771: LD_STRING M1contVerveckenCoonie-3
  773: PPUSH
  774: CALL_OW 88
-// Say ( Kurt , M1contKurtCoonie-4 ) ;
+// Say ( Vervecken , M1contVerveckenCoonie-4 ) ;
  778: LD_EXP 4
  782: PPUSH
- 783: LD_STRING M1contKurtCoonie-4
+ 783: LD_STRING M1contVerveckenCoonie-4
  785: PPUSH
  786: CALL_OW 88
 // InGameOff ;
  790: CALL_OW 9
 // end ; end_of_file
  794: END
-// export Omar , Abdul , Coonie , Kurt , Kaia , Yakotich ; export function PrepareHero1cont ; begin
+// export Omar , Abdul , Coonie , Vervecken , Kaia , Yakotich ; export function PrepareHero1cont ; begin
  795: LD_INT 0
  797: PPUSH
 // InGameOn ;
@@ -496,10 +496,10 @@
  890: PPUSH
  891: CALL_OW 25
  895: ST_TO_ADDR
-// Kurt := NewCharacter ( Kurt ) ;
+// Vervecken := NewCharacter ( Vervecken ) ;
  896: LD_ADDR_EXP 4
  900: PUSH
- 901: LD_STRING Kurt
+ 901: LD_STRING Vervecken
  903: PPUSH
  904: CALL_OW 25
  908: ST_TO_ADDR
